@@ -1,0 +1,47 @@
+{
+    "editor.wordWrap": "on",
+    "editor.rulers": [79, 120],
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "markdown.validate.enabled": true,
+    "[markdown]": {
+        "editor.defaultFormatter": "DavidAnson.vscode-markdownlint",
+        "editor.wordWrap": "on",
+        "editor.quickSuggestions": {
+            "other": "on",
+            "comments": "off",
+            "strings": "off"
+        }
+    },
+    "[python]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": true,
+        "editor.rulers": [79]
+    },
+    "cSpell.words": [
+        "DataFrame",
+        "JupyterLab",
+        "NumPy",
+        "pandas",
+        "matplotlib",
+        "seaborn",
+        "scikit",
+        "sklearn",
+        "Plotly",
+        "SQLite",
+        "SQLAlchemy",
+        "Miniconda",
+        "Anaconda",
+        "ipynb",
+        "docstring",
+        "docstrings",
+        "iloc",
+        "dropna",
+        "fillna",
+        "groupby",
+        "resample",
+        "agg",
+        "concat",
+        "Parquet"
+    ]
+}

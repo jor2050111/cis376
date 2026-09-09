@@ -1,0 +1,1202 @@
+student_name,grade_level,course_name,term,teacher_name,term_grade
+Tanya Young,5,Grade 5 Reading,Fall 2025,TOMAS JIMENEZ,B
+Tanya Young,5,Grade 5 Reading,Spring 2026,Felix Yazzie,B
+Tanya Young,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Tanya Young,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,A
+Tanya Young,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,A
+Tanya Young,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,C
+Tanya Young,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Tanya Young,5,Grade 5 Science,Spring 2026,Aaliyah Chen,C
+Tanya Young,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,A
+Tanya Young,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,A
+Tanya Young,5,Grade 5 Social Studies,Spring 2026,Javier Patel,C
+Tanya Young,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,A
+Tanya Young,5,Grade 5 Art,Fall 2025,Hector Vasquez,A
+Tanya Young,5,Grade 5 Art,Spring 2026,Rosa Cruz,C
+Tanya Young,5,Grade 5 Art,Fall 2026,Jasmine Silva,A
+Alma Chavez,6,Grade 6 Reading,Fall 2025,Hector Dominguez,B
+Alma Chavez,6,Grade 6 Reading,Spring 2026,Rosa Cruz,B
+Alma Chavez,6,Grade 6 Reading,Fall 2026,Marisol Padilla,F
+Alma Chavez,6,Grade 6 Mathematics,Fall 2025,Renata Chen,A
+Alma Chavez,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,B
+Alma Chavez,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,E
+Alma Chavez,6,Grade 6 Science,Fall 2025,Renata Delgado,A
+Alma Chavez,6,Grade 6 Science,Spring 2026,Nadia Yazzie,B
+Alma Chavez,6,Grade 6 Science,Fall 2026,Xavier Torres,A
+Alma Chavez,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,B
+Alma Chavez,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,C
+Alma Chavez,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,B
+Alma Chavez,6,Grade 6 Art,Fall 2025,Tomas Bennett,A
+Alma Chavez,6,Grade 6 Art,Spring 2026,Aaliyah Chen,A
+Alma Chavez,6,Grade 6 Art,Fall 2026,Omar Ibarra,B
+Sebastian Espinoza,0,Grade 0 Reading,Fall 2025,Marisol Perez,D
+Sebastian Espinoza,0,Grade 0 Reading,Spring 2026,Miguel Kim,B
+Sebastian Espinoza,0,Grade 0 Reading,Fall 2026,Felix Yazzie,A
+Sebastian Espinoza,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,B
+Sebastian Espinoza,0,Grade 0 Mathematics,Spring 2026,Javier Silva,B
+Sebastian Espinoza,0,Grade 0 Mathematics,Fall 2026,Ana Silva,F
+Sebastian Espinoza,0,Grade 0 Science,Fall 2025,Adrian Velasquez,C
+Sebastian Espinoza,0,Grade 0 Science,Spring 2026,Valeria Cruz,D
+Sebastian Espinoza,0,Grade 0 Science,Fall 2026,Keisha Bell,A
+Sebastian Espinoza,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,A
+Sebastian Espinoza,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,C
+Sebastian Espinoza,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Kaya Romero,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,C
+Kaya Romero,3,Grade 3 Reading,Spring 2026,Tomas Bennett,B
+Kaya Romero,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,B
+Kaya Romero,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,B
+Kaya Romero,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,C
+Kaya Romero,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,A
+Kaya Romero,3,Grade 3 Science,Fall 2025,Kenji Gomez,C
+Kaya Romero,3,Grade 3 Science,Spring 2026,Uriel Yazzie,D
+Kaya Romero,3,Grade 3 Science,Fall 2026,Rosa Cruz,C
+Kaya Romero,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,C
+Kaya Romero,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,C
+Kaya Romero,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,B
+Kaya Romero,3,Grade 3 Art,Fall 2025,Felix Yazzie,A
+Kaya Romero,3,Grade 3 Art,Spring 2026,Xavier Torres,A
+Kaya Romero,3,Grade 3 Art,Fall 2026,Beatriz Romero,A
+Tomas Chavez,8,Grade 8 Reading,Fall 2025,Uriel Chavez,B
+Tomas Chavez,8,Grade 8 Reading,Spring 2026,Renata Valdez,A
+Tomas Chavez,8,Grade 8 Reading,Fall 2026,Nadia Yazzie,F
+Tomas Chavez,8,Grade 8 Mathematics,Fall 2025,Beatriz Chavez,B
+Tomas Chavez,8,Grade 8 Mathematics,Spring 2026,Paloma Jimenez,A
+Tomas Chavez,8,Grade 8 Mathematics,Fall 2026,Javier Silva,C
+Tomas Chavez,8,Grade 8 Science,Fall 2025,Javier Patel,A
+Tomas Chavez,8,Grade 8 Science,Spring 2026,Omar Ibarra,B
+Tomas Chavez,8,Grade 8 Science,Fall 2026,Hana Ortiz,A
+Celeste Tsosie,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Celeste Tsosie,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Celeste Tsosie,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Celeste Tsosie,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,C
+Celeste Tsosie,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Celeste Tsosie,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Celeste Tsosie,4,Grade 4 Science,Fall 2025,Hana Valdez,C
+Celeste Tsosie,4,Grade 4 Science,Spring 2026,Marisol Padilla,D
+Celeste Tsosie,4,Grade 4 Science,Fall 2026,Kenji Mendoza,F
+Celeste Tsosie,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,B
+Celeste Tsosie,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,A
+Celeste Tsosie,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Celeste Tsosie,4,Grade 4 Art,Fall 2025,Ana Tsosie,B
+Celeste Tsosie,4,Grade 4 Art,Spring 2026,Uriel Chavez,B
+Celeste Tsosie,4,Grade 4 Art,Fall 2026,Kaya Gomez,D
+Diego Young,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,A
+Diego Young,4,Grade 4 Reading,Spring 2026,Renata Chen,C
+Diego Young,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,A
+Diego Young,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,A
+Diego Young,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Diego Young,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,C
+Diego Young,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Diego Young,4,Grade 4 Science,Spring 2026,Marisol Padilla,A
+Diego Young,4,Grade 4 Science,Fall 2026,Kenji Mendoza,B
+Diego Young,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Diego Young,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,C
+Diego Young,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Diego Young,4,Grade 4 Art,Fall 2025,Ana Tsosie,A
+Diego Young,4,Grade 4 Art,Spring 2026,Uriel Chavez,B
+Diego Young,4,Grade 4 Art,Fall 2026,Kaya Gomez,B
+Samuel Jackson,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,C
+Samuel Jackson,3,Grade 3 Reading,Spring 2026,Tomas Bennett,C
+Samuel Jackson,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,B
+Samuel Jackson,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,D
+Samuel Jackson,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,D
+Samuel Jackson,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,D
+Samuel Jackson,3,Grade 3 Science,Fall 2025,Kenji Gomez,A
+Samuel Jackson,3,Grade 3 Science,Spring 2026,Uriel Yazzie,C
+Samuel Jackson,3,Grade 3 Science,Fall 2026,Rosa Cruz,B
+Samuel Jackson,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,A
+Samuel Jackson,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,B
+Samuel Jackson,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,A
+Samuel Jackson,3,Grade 3 Art,Fall 2025,Felix Yazzie,B
+Samuel Jackson,3,Grade 3 Art,Spring 2026,Xavier Torres,A
+Samuel Jackson,3,Grade 3 Art,Fall 2026,Beatriz Romero,C
+Mateo Robinson,7,Grade 7 Reading,Fall 2025,Renata Delgado,C
+Mateo Robinson,7,Grade 7 Reading,Spring 2026,Rosa Mendoza,A
+Mateo Robinson,7,Grade 7 Reading,Fall 2026,Hana Valdez,A
+Mateo Robinson,7,Grade 7 Mathematics,Fall 2025,Beatriz Padilla,A
+Mateo Robinson,7,Grade 7 Mathematics,Spring 2026,Wren Sanchez,A
+Mateo Robinson,7,Grade 7 Mathematics,Fall 2026,Nathan Foster,F
+Mateo Robinson,7,Grade 7 Science,Fall 2025,Miguel Kim,C
+Mateo Robinson,7,Grade 7 Science,Spring 2026,Aaliyah Chen,B
+Mateo Robinson,7,Grade 7 Science,Fall 2026,Keisha Bell,A
+Mateo Robinson,7,Grade 7 Social Studies,Fall 2025,Tomas  Jimenez,B
+Mateo Robinson,7,Grade 7 Social Studies,Spring 2026,Beatriz Romero,B
+Mateo Robinson,7,Grade 7 Social Studies,Fall 2026,Renata Valdez,D
+Mateo Robinson,7,Grade 7 Art,Fall 2025,Kenji Gomez,B
+Mateo Robinson,7,Grade 7 Art,Spring 2026,Rosa Mendoza,C
+Mateo Robinson,7,Grade 7 Art,Fall 2026,Sebastian Gomez,A
+Leon Santos,1,Grade 1 Reading,Fall 2025,Paloma Jimenez,D
+Leon Santos,1,Grade 1 Reading,Spring 2026,Javier Silva,D
+Leon Santos,1,Grade 1 Reading,Fall 2026,Jasmine Silva,D
+Leon Santos,1,Grade 1 Mathematics,Fall 2025,Quentin Singh,B
+Leon Santos,1,Grade 1 Mathematics,Spring 2026,Samuel Williams,C
+Leon Santos,1,Grade 1 Mathematics,Fall 2026,Hector Santos,D
+Leon Santos,1,Grade 1 Science,Fall 2025,Hana Valdez,A
+Leon Santos,1,Grade 1 Science,Spring 2026,Nadia Yazzie,C
+Leon Santos,1,Grade 1 Science,Fall 2026,Rosa Mendoza,B
+Leon Santos,1,Grade 1 Social Studies,Fall 2025,Kenji Mendoza,C
+Leon Santos,1,Grade 1 Social Studies,Spring 2026,Tomas J.,B
+Leon Santos,1,Grade 1 Social Studies,Fall 2026,Keisha Bell,A
+Gabriela Lopez,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Gabriela Lopez,4,Grade 4 Reading,Spring 2026,Renata Chen,D
+Gabriela Lopez,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,B
+Gabriela Lopez,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,A
+Gabriela Lopez,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Gabriela Lopez,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Gabriela Lopez,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Gabriela Lopez,4,Grade 4 Science,Spring 2026,Marisol Padilla,C
+Gabriela Lopez,4,Grade 4 Science,Fall 2026,Kenji Mendoza,C
+Gabriela Lopez,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Gabriela Lopez,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,C
+Gabriela Lopez,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,C
+Gabriela Lopez,4,Grade 4 Art,Fall 2025,Ana Tsosie,B
+Gabriela Lopez,4,Grade 4 Art,Spring 2026,Uriel Chavez,C
+Gabriela Lopez,4,Grade 4 Art,Fall 2026,Kaya Gomez,B
+Aaliyah Silva,8,Grade 8 Reading,Fall 2025,Uriel Chavez,B
+Aaliyah Silva,8,Grade 8 Reading,Spring 2026,Renata Valdez,C
+Aaliyah Silva,8,Grade 8 Reading,Fall 2026,Nadia Yazzie,A
+Aaliyah Silva,8,Grade 8 Mathematics,Fall 2025,Beatriz Chavez,B
+Aaliyah Silva,8,Grade 8 Mathematics,Spring 2026,Paloma Jimenez,D
+Aaliyah Silva,8,Grade 8 Mathematics,Fall 2026,Javier Silva,D
+Aaliyah Silva,8,Grade 8 Science,Fall 2025,Javier Patel,C
+Aaliyah Silva,8,Grade 8 Science,Spring 2026,Omar Ibarra,B
+Aaliyah Silva,8,Grade 8 Science,Fall 2026,Hana Ortiz,B
+Yara Martinez,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,B
+Yara Martinez,5,Grade 5 Reading,Spring 2026,Felix Yazzie,B
+Yara Martinez,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Yara Martinez,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,A
+Yara Martinez,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,C
+Yara Martinez,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,A
+Yara Martinez,5,Grade 5 Science,Fall 2025,Beatriz Padilla,D
+Yara Martinez,5,Grade 5 Science,Spring 2026,Aaliyah Chen,A
+Yara Martinez,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,C
+Yara Martinez,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,A
+Yara Martinez,5,Grade 5 Social Studies,Spring 2026,Javier Patel,B
+Yara Martinez,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,B
+Yara Martinez,5,Grade 5 Art,Fall 2025,Hector Vasquez,C
+Yara Martinez,5,Grade 5 Art,Spring 2026,Rosa Cruz,C
+Yara Martinez,5,Grade 5 Art,Fall 2026,Jasmine Silva,A
+Miguel Espinoza,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,C
+Miguel Espinoza,4,Grade 4 Reading,Spring 2026,Renata Chen,B
+Miguel Espinoza,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,A
+Miguel Espinoza,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,C
+Miguel Espinoza,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Miguel Espinoza,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,A
+Miguel Espinoza,4,Grade 4 Science,Fall 2025,Hana Valdez,B
+Miguel Espinoza,4,Grade 4 Science,Spring 2026,Marisol Padilla,B
+Miguel Espinoza,4,Grade 4 Science,Fall 2026,Kenji Mendoza,A
+Miguel Espinoza,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,A
+Miguel Espinoza,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,B
+Miguel Espinoza,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Miguel Espinoza,4,Grade 4 Art,Fall 2025,Ana Tsosie,D
+Miguel Espinoza,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Miguel Espinoza,4,Grade 4 Art,Fall 2026,Kaya Gomez,B
+Talia Ramirez,6,Grade 6 Reading,Fall 2025,Hector Dominguez,D
+Talia Ramirez,6,Grade 6 Reading,Spring 2026,Rosa Cruz,A
+Talia Ramirez,6,Grade 6 Reading,Fall 2026,Marisol Padilla,B
+Talia Ramirez,6,Grade 6 Mathematics,Fall 2025,Renata Chen,C
+Talia Ramirez,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,A
+Talia Ramirez,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,C
+Talia Ramirez,6,Grade 6 Science,Fall 2025,Renata Delgado,C
+Talia Ramirez,6,Grade 6 Science,Spring 2026,Nadia Yazzie,A
+Talia Ramirez,6,Grade 6 Science,Fall 2026,Xavier Torres,B
+Talia Ramirez,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,C
+Talia Ramirez,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,A
+Talia Ramirez,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,A
+Talia Ramirez,6,Grade 6 Art,Fall 2025,Tomas Bennett,B
+Talia Ramirez,6,Grade 6 Art,Spring 2026,Aaliyah Chen,B
+Talia Ramirez,6,Grade 6 Art,Fall 2026,Omar Ibarra,C
+Marcus Reyes,0,Grade 0 Reading,Fall 2025,Marisol Perez,C
+Marcus Reyes,0,Grade 0 Reading,Spring 2026,Miguel Kim,B
+Marcus Reyes,0,Grade 0 Reading,Fall 2026,Felix Yazzie,A
+Marcus Reyes,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,B
+Marcus Reyes,0,Grade 0 Mathematics,Spring 2026,Javier Silva,A
+Marcus Reyes,0,Grade 0 Mathematics,Fall 2026,Ana Silva,C
+Marcus Reyes,0,Grade 0 Science,Fall 2025,Adrian Velasquez,D
+Marcus Reyes,0,Grade 0 Science,Spring 2026,Valeria Cruz,A
+Marcus Reyes,0,Grade 0 Science,Fall 2026,Keisha Bell,B
+Marcus Reyes,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,B
+Marcus Reyes,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,B
+Marcus Reyes,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Nia Ibarra,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Nia Ibarra,4,Grade 4 Reading,Spring 2026,Renata Chen,F
+Nia Ibarra,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Nia Ibarra,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,B
+Nia Ibarra,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,F
+Nia Ibarra,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Nia Ibarra,4,Grade 4 Science,Fall 2025,Hana Valdez,D
+Nia Ibarra,4,Grade 4 Science,Spring 2026,Marisol Padilla,C
+Nia Ibarra,4,Grade 4 Science,Fall 2026,Kenji Mendoza,C
+Nia Ibarra,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Nia Ibarra,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,B
+Nia Ibarra,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,F
+Nia Ibarra,4,Grade 4 Art,Fall 2025,Ana Tsosie,A
+Nia Ibarra,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Nia Ibarra,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Leon Tsosie,0,Grade 0 Reading,Fall 2025,Marisol Perez,A
+Leon Tsosie,0,Grade 0 Reading,Spring 2026,Miguel Kim,C
+Leon Tsosie,0,Grade 0 Reading,Fall 2026,Felix Yazzie,B
+Leon Tsosie,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,B
+Leon Tsosie,0,Grade 0 Mathematics,Spring 2026,Javier Silva,D
+Leon Tsosie,0,Grade 0 Mathematics,Fall 2026,Ana Silva,C
+Leon Tsosie,0,Grade 0 Science,Fall 2025,Adrian Velasquez,B
+Leon Tsosie,0,Grade 0 Science,Spring 2026,Valeria Cruz,D
+Leon Tsosie,0,Grade 0 Science,Fall 2026,Keisha Bell,A
+Leon Tsosie,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,A
+Leon Tsosie,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,C
+Leon Tsosie,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Gabriela Gomez,8,Grade 8 Reading,Fall 2025,Uriel Chavez,A
+Gabriela Gomez,8,Grade 8 Reading,Spring 2026,Renata Valdez,F
+Gabriela Gomez,8,Grade 8 Reading,Fall 2026,Nadia Yazzie,C
+Gabriela Gomez,8,Grade 8 Mathematics,Fall 2025,Beatriz Chavez,D
+Gabriela Gomez,8,Grade 8 Mathematics,Spring 2026,Paloma Jimenez,A
+Gabriela Gomez,8,Grade 8 Mathematics,Fall 2026,Javier Silva,B
+Gabriela Gomez,8,Grade 8 Science,Fall 2025,Javier Patel,B
+Gabriela Gomez,8,Grade 8 Science,Spring 2026,Omar Ibarra,B
+Gabriela Gomez,8,Grade 8 Science,Fall 2026,Hana Ortiz,A
+Benjamin Tsosie,7,Grade 7 Reading,Fall 2025,Renata Delgado,B
+Benjamin Tsosie,7,Grade 7 Reading,Spring 2026,Rosa Mendoza,B
+Benjamin Tsosie,7,Grade 7 Reading,Fall 2026,Hana Valdez,B
+Benjamin Tsosie,7,Grade 7 Mathematics,Fall 2025,Beatriz Padilla,C
+Benjamin Tsosie,7,Grade 7 Mathematics,Spring 2026,Wren Sanchez,A
+Benjamin Tsosie,7,Grade 7 Mathematics,Fall 2026,Nathan Foster,A
+Benjamin Tsosie,7,Grade 7 Science,Fall 2025,Miguel Kim,A
+Benjamin Tsosie,7,Grade 7 Science,Spring 2026,Aaliyah Chen,B
+Benjamin Tsosie,7,Grade 7 Science,Fall 2026,Keisha Bell,A
+Benjamin Tsosie,7,Grade 7 Social Studies,Fall 2025,Tomas Jimenez,C
+Benjamin Tsosie,7,Grade 7 Social Studies,Spring 2026,Beatriz Romero,B
+Benjamin Tsosie,7,Grade 7 Social Studies,Fall 2026,Renata Valdez,D
+Benjamin Tsosie,7,Grade 7 Art,Fall 2025,Kenji Gomez,B
+Benjamin Tsosie,7,Grade 7 Art,Spring 2026,Rosa Mendoza,C
+Benjamin Tsosie,7,Grade 7 Art,Fall 2026,Sebastian Gomez,B
+Tanya Flores,1,Grade 1 Reading,Fall 2025,Paloma Jimenez,C
+Tanya Flores,1,Grade 1 Reading,Spring 2026,Javier Silva,B
+Tanya Flores,1,Grade 1 Reading,Fall 2026,Jasmine Silva,C
+Tanya Flores,1,Grade 1 Mathematics,Fall 2025,Quentin Singh,B
+Tanya Flores,1,Grade 1 Mathematics,Spring 2026,Samuel Williams,B
+Tanya Flores,1,Grade 1 Mathematics,Fall 2026,Hector Santos,A
+Tanya Flores,1,Grade 1 Science,Fall 2025,Hana Valdez,F
+Tanya Flores,1,Grade 1 Science,Spring 2026,Nadia Yazzie,B
+Tanya Flores,1,Grade 1 Science,Fall 2026,Rosa Mendoza,B
+Tanya Flores,1,Grade 1 Social Studies,Fall 2025,Kenji Mendoza,C
+Tanya Flores,1,Grade 1 Social Studies,Spring 2026,Tomas Jimenez,B
+Tanya Flores,1,Grade 1 Social Studies,Fall 2026,Keisha Bell,A
+Xavier Rivera,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,A
+Xavier Rivera,3,Grade 3 Reading,Spring 2026,Tomas Bennett,C
+Xavier Rivera,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,B
+Xavier Rivera,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,D
+Xavier Rivera,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,C
+Xavier Rivera,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,D
+Xavier Rivera,3,Grade 3 Science,Fall 2025,Kenji Gomez,C
+Xavier Rivera,3,Grade 3 Science,Spring 2026,Uriel Yazzie,B
+Xavier Rivera,3,Grade 3 Science,Fall 2026,Rosa Cruz,A
+Xavier Rivera,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,B
+Xavier Rivera,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,B
+Xavier Rivera,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,A
+Xavier Rivera,3,Grade 3 Art,Fall 2025,Felix Yazzie,A
+Xavier Rivera,3,Grade 3 Art,Spring 2026,Xavier Torres,B
+Xavier Rivera,3,Grade 3 Art,Fall 2026,Beatriz Romero,B
+Carlos Robinson,0,Grade 0 Reading,Fall 2025,Marisol Perez,C
+Carlos Robinson,0,Grade 0 Reading,Spring 2026,Miguel Kim,C
+Carlos Robinson,0,Grade 0 Reading,Fall 2026,Felix Yazzie,B
+Carlos Robinson,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,B
+Carlos Robinson,0,Grade 0 Mathematics,Spring 2026,Javier Silva,B
+Carlos Robinson,0,Grade 0 Mathematics,Fall 2026,Ana Silva,B
+Carlos Robinson,0,Grade 0 Science,Fall 2025,Adrian Velasquez,B
+Carlos Robinson,0,Grade 0 Science,Spring 2026,Valeria Cruz,D
+Carlos Robinson,0,Grade 0 Science,Fall 2026,Keisha Bell,B
+Carlos Robinson,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,B
+Carlos Robinson,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,C
+Carlos Robinson,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Aaliyah Garcia,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,A
+Aaliyah Garcia,4,Grade 4 Reading,Spring 2026,Renata Chen,C
+Aaliyah Garcia,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,A
+Aaliyah Garcia,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,C
+Aaliyah Garcia,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Aaliyah Garcia,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,A
+Aaliyah Garcia,4,Grade 4 Science,Fall 2025,Hana Valdez,D
+Aaliyah Garcia,4,Grade 4 Science,Spring 2026,Marisol Padilla,D
+Aaliyah Garcia,4,Grade 4 Science,Fall 2026,Kenji Mendoza,A
+Aaliyah Garcia,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,B
+Aaliyah Garcia,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,D
+Aaliyah Garcia,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,C
+Aaliyah Garcia,4,Grade 4 Art,Fall 2025,Ana Tsosie,A
+Aaliyah Garcia,4,Grade 4 Art,Spring 2026,Uriel Chavez,B
+Aaliyah Garcia,4,Grade 4 Art,Fall 2026,Kaya Gomez,B
+Valeria Vasquez,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,C
+Valeria Vasquez,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,D
+Valeria Vasquez,2,Grade 2 Reading,Fall 2026,Ana Tsosie,C
+Valeria Vasquez,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,A
+Valeria Vasquez,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,B
+Valeria Vasquez,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,B
+Valeria Vasquez,2,Grade 2 Science,Fall 2025,Ana Tsosie,B
+Valeria Vasquez,2,Grade 2 Science,Spring 2026,Valeria Cruz,A
+Valeria Vasquez,2,Grade 2 Science,Fall 2026,Nadia Yazzie,B
+Valeria Vasquez,2,Grade 2 Social Studies,Fall 2025,Renata Chen,D
+Valeria Vasquez,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,F
+Valeria Vasquez,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,C
+Noor Rivera,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,A
+Noor Rivera,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,A
+Noor Rivera,2,Grade 2 Reading,Fall 2026,Ana Tsosie,C
+Noor Rivera,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,C
+Noor Rivera,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,B
+Noor Rivera,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,C
+Noor Rivera,2,Grade 2 Science,Fall 2025,Ana Tsosie,B
+Noor Rivera,2,Grade 2 Science,Spring 2026,Valeria Cruz,A
+Noor Rivera,2,Grade 2 Science,Fall 2026,Nadia Yazzie,A
+Noor Rivera,2,Grade 2 Social Studies,Fall 2025,Renata Chen,C
+Noor Rivera,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,A
+Noor Rivera,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,C
+Uriel Dominguez,0,Grade 0 Reading,Fall 2025,Marisol Perez,A
+Uriel Dominguez,0,Grade 0 Reading,Spring 2026,Miguel Kim,C
+Uriel Dominguez,0,Grade 0 Reading,Fall 2026,Felix Yazzie,A
+Uriel Dominguez,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,C
+Uriel Dominguez,0,Grade 0 Mathematics,Spring 2026,Javier Silva,A
+Uriel Dominguez,0,Grade 0 Mathematics,Fall 2026,Ana Silva,D
+Uriel Dominguez,0,Grade 0 Science,Fall 2025,Adrian Velasquez,D
+Uriel Dominguez,0,Grade 0 Science,Spring 2026,Valeria Cruz,F
+Uriel Dominguez,0,Grade 0 Science,Fall 2026,Keisha Bell,B
+Uriel Dominguez,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,B
+Uriel Dominguez,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,F
+Uriel Dominguez,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,C
+Adrian Espinoza,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,A
+Adrian Espinoza,5,Grade 5 Reading,Spring 2026,Felix Yazzie,C
+Adrian Espinoza,5,Grade 5 Reading,Fall 2026,Xavier Torres,A
+Adrian Espinoza,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,C
+Adrian Espinoza,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,A
+Adrian Espinoza,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,C
+Adrian Espinoza,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Adrian Espinoza,5,Grade 5 Science,Spring 2026,Aaliyah Chen,A
+Adrian Espinoza,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,F
+Adrian Espinoza,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,A
+Adrian Espinoza,5,Grade 5 Social Studies,Spring 2026,Javier Patel,B
+Adrian Espinoza,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,C
+Adrian Espinoza,5,Grade 5 Art,Fall 2025,Hector Vasquez,A
+Adrian Espinoza,5,Grade 5 Art,Spring 2026,Rosa Cruz,C
+Adrian Espinoza,5,Grade 5 Art,Fall 2026,Jasmine Silva,C
+Jonah Gutierrez,8,Grade 8 Reading,Fall 2025,Uriel Chavez,B
+Jonah Gutierrez,8,Grade 8 Reading,Spring 2026,Renata Valdez,B
+Jonah Gutierrez,8,Grade 8 Reading,Fall 2026,Nadia Yazzie,C
+Jonah Gutierrez,8,Grade 8 Mathematics,Fall 2025,Beatriz Chavez,A
+Jonah Gutierrez,8,Grade 8 Mathematics,Spring 2026,Paloma Jimenez,A
+Jonah Gutierrez,8,Grade 8 Mathematics,Fall 2026,Javier Silva,B
+Jonah Gutierrez,8,Grade 8 Science,Fall 2025,Javier Patel,A
+Jonah Gutierrez,8,Grade 8 Science,Spring 2026,Omar Ibarra,D
+Jonah Gutierrez,8,Grade 8 Science,Fall 2026,Hana Ortiz,B
+Omar Singh,7,Grade 7 Reading,Fall 2025,Renata Delgado,B
+Omar Singh,7,Grade 7 Reading,Spring 2026,Rosa Mendoza,A
+Omar Singh,7,Grade 7 Reading,Fall 2026,Hana Valdez,C
+Omar Singh,7,Grade 7 Mathematics,Fall 2025,Beatriz Padilla,D
+Omar Singh,7,Grade 7 Mathematics,Spring 2026,Wren Sanchez,F
+Omar Singh,7,Grade 7 Mathematics,Fall 2026,Nathan Foster,B
+Omar Singh,7,Grade 7 Science,Fall 2025,Miguel Kim,C
+Omar Singh,7,Grade 7 Science,Spring 2026,Aaliyah Chen,B
+Omar Singh,7,Grade 7 Science,Fall 2026,Keisha Bell,C
+Omar Singh,7,Grade 7 Social Studies,Fall 2025,Tomas Jimenez,A
+Omar Singh,7,Grade 7 Social Studies,Spring 2026,Beatriz Romero,B
+Omar Singh,7,Grade 7 Social Studies,Fall 2026,Renata Valdez,C
+Omar Singh,7,Grade 7 Art,Fall 2025,Kenji Gomez,A
+Omar Singh,7,Grade 7 Art,Spring 2026,Rosa Mendoza,C
+Omar Singh,7,Grade 7 Art,Fall 2026,Sebastian Gomez,B
+Esperanza Kim,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,A
+Esperanza Kim,5,Grade 5 Reading,Spring 2026,Felix Yazzie,C
+Esperanza Kim,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Esperanza Kim,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,A
+Esperanza Kim,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,C
+Esperanza Kim,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,C
+Esperanza Kim,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Esperanza Kim,5,Grade 5 Science,Spring 2026,Aaliyah Chen,C
+Esperanza Kim,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,C
+Esperanza Kim,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,C
+Esperanza Kim,5,Grade 5 Social Studies,Spring 2026,Javier Patel,B
+Esperanza Kim,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,C
+Esperanza Kim,5,Grade 5 Art,Fall 2025,Hector Vasquez,B
+Esperanza Kim,5,Grade 5 Art,Spring 2026,Rosa Cruz,A
+Esperanza Kim,5,Grade 5 Art,Fall 2026,Jasmine Silva,B
+Lucia Salazar,1,Grade 1 Reading,Fall 2025,Paloma Jimenez,A
+Lucia Salazar,1,Grade 1 Reading,Spring 2026,Javier Silva,D
+Lucia Salazar,1,Grade 1 Reading,Fall 2026,Jasmine Silva,B
+Lucia Salazar,1,Grade 1 Mathematics,Fall 2025,Quentin Singh,A
+Lucia Salazar,1,Grade 1 Mathematics,Spring 2026,Samuel Williams,C
+Lucia Salazar,1,Grade 1 Mathematics,Fall 2026,Hector Santos,B
+Lucia Salazar,1,Grade 1 Science,Fall 2025,Hana Valdez,B
+Lucia Salazar,1,Grade 1 Science,Spring 2026,Nadia Yazzie,C
+Lucia Salazar,1,Grade 1 Science,Fall 2026,Rosa Mendoza,D
+Lucia Salazar,1,Grade 1 Social Studies,Fall 2025,Kenji Mendoza,B
+Lucia Salazar,1,Grade 1 Social Studies,Spring 2026,Tomas Jimenez,A
+Lucia Salazar,1,Grade 1 Social Studies,Fall 2026,Keisha Bell,C
+Hector Ortiz,0,Grade 0 Reading,Fall 2025,Marisol Perez,B
+Hector Ortiz,0,Grade 0 Reading,Spring 2026,Miguel Kim,A
+Hector Ortiz,0,Grade 0 Reading,Fall 2026,Felix Yazzie,C
+Hector Ortiz,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,A
+Hector Ortiz,0,Grade 0 Mathematics,Spring 2026,Javier Silva,A
+Hector Ortiz,0,Grade 0 Mathematics,Fall 2026,Ana Silva,D
+Hector Ortiz,0,Grade 0 Science,Fall 2025,Adrian Velasquez,C
+Hector Ortiz,0,Grade 0 Science,Spring 2026,Valeria Cruz,B
+Hector Ortiz,0,Grade 0 Science,Fall 2026,Keisha Bell,B
+Hector Ortiz,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,C
+Hector Ortiz,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,B
+Hector Ortiz,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Daniel Sanchez,0,Grade 0 Reading,Fall 2025,Marisol Perez,A
+Daniel Sanchez,0,Grade 0 Reading,Spring 2026,Miguel Kim,A
+Daniel Sanchez,0,Grade 0 Reading,Fall 2026,Felix Yazzie,B
+Daniel Sanchez,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,A
+Daniel Sanchez,0,Grade 0 Mathematics,Spring 2026,Javier Silva,B
+Daniel Sanchez,0,Grade 0 Mathematics,Fall 2026,Ana Silva,A
+Daniel Sanchez,0,Grade 0 Science,Fall 2025,Adrian Velasquez,B
+Daniel Sanchez,0,Grade 0 Science,Spring 2026,Valeria Cruz,C
+Daniel Sanchez,0,Grade 0 Science,Fall 2026,Keisha Bell,A
+Daniel Sanchez,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,B
+Daniel Sanchez,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,D
+Daniel Sanchez,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Serena Young,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,C
+Serena Young,5,Grade 5 Reading,Spring 2026,Felix Yazzie,F
+Serena Young,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Serena Young,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,B
+Serena Young,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,B
+Serena Young,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,A
+Serena Young,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Serena Young,5,Grade 5 Science,Spring 2026,Aaliyah Chen,B
+Serena Young,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,B
+Serena Young,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,B
+Serena Young,5,Grade 5 Social Studies,Spring 2026,Javier Patel,C
+Serena Young,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,A
+Serena Young,5,Grade 5 Art,Fall 2025,Hector Vasquez,B
+Serena Young,5,Grade 5 Art,Spring 2026,Rosa Cruz,A
+Serena Young,5,Grade 5 Art,Fall 2026,Jasmine Silva,B
+Lucia Valdez,1,Grade 1 Reading,Fall 2025,Paloma Jimenez,B
+Lucia Valdez,1,Grade 1 Reading,Spring 2026,Javier Silva,D
+Lucia Valdez,1,Grade 1 Reading,Fall 2026,Jasmine Silva,B
+Lucia Valdez,1,Grade 1 Mathematics,Fall 2025,Quentin Singh,B
+Lucia Valdez,1,Grade 1 Mathematics,Spring 2026,Samuel Williams,A
+Lucia Valdez,1,Grade 1 Mathematics,Fall 2026,Hector Santos,B
+Lucia Valdez,1,Grade 1 Science,Fall 2025,Hana Valdez,B
+Lucia Valdez,1,Grade 1 Science,Spring 2026,Nadia Yazzie,B
+Lucia Valdez,1,Grade 1 Science,Fall 2026,Rosa Mendoza,A
+Lucia Valdez,1,Grade 1 Social Studies,Fall 2025,Kenji Mendoza,B
+Lucia Valdez,1,Grade 1 Social Studies,Spring 2026,Tomas Jimenez,B
+Lucia Valdez,1,Grade 1 Social Studies,Fall 2026,Keisha Bell,B
+Noor Cruz,6,Grade 6 Reading,Fall 2025,Hector Dominguez,B
+Noor Cruz,6,Grade 6 Reading,Spring 2026,Rosa Cruz,B
+Noor Cruz,6,Grade 6 Reading,Fall 2026,Marisol Padilla,C
+Noor Cruz,6,Grade 6 Mathematics,Fall 2025,Renata Chen,D
+Noor Cruz,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,C
+Noor Cruz,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,A
+Noor Cruz,6,Grade 6 Science,Fall 2025,Renata Delgado,B
+Noor Cruz,6,Grade 6 Science,Spring 2026,Nadia Yazzie,A
+Noor Cruz,6,Grade 6 Science,Fall 2026,Xavier Torres,D
+Noor Cruz,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,D
+Noor Cruz,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,F
+Noor Cruz,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,A
+Noor Cruz,6,Grade 6 Art,Fall 2025,Tomas Bennett,B
+Noor Cruz,6,Grade 6 Art,Spring 2026,Aaliyah Chen,B
+Noor Cruz,6,Grade 6 Art,Fall 2026,Omar Ibarra,C
+Esperanza Velasquez,6,Grade 6 Reading,Fall 2025,Hector Dominguez,D
+Esperanza Velasquez,6,Grade 6 Reading,Spring 2026,Rosa Cruz,A
+Esperanza Velasquez,6,Grade 6 Reading,Fall 2026,Marisol Padilla,A
+Esperanza Velasquez,6,Grade 6 Mathematics,Fall 2025,Renata Chen,A
+Esperanza Velasquez,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,A
+Esperanza Velasquez,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,C
+Esperanza Velasquez,6,Grade 6 Science,Fall 2025,Renata Delgado,A
+Esperanza Velasquez,6,Grade 6 Science,Spring 2026,Nadia Yazzie,B
+Esperanza Velasquez,6,Grade 6 Science,Fall 2026,Xavier Torres,B
+Esperanza Velasquez,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,F
+Esperanza Velasquez,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,A
+Esperanza Velasquez,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,C
+Esperanza Velasquez,6,Grade 6 Art,Fall 2025,Tomas Bennett,A
+Esperanza Velasquez,6,Grade 6 Art,Spring 2026,Aaliyah Chen,A
+Esperanza Velasquez,6,Grade 6 Art,Fall 2026,Omar Ibarra,C
+Uriel Yazzie,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,D
+Uriel Yazzie,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Uriel Yazzie,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,B
+Uriel Yazzie,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,D
+Uriel Yazzie,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,B
+Uriel Yazzie,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,C
+Uriel Yazzie,4,Grade 4 Science,Fall 2025,Hana Valdez,B
+Uriel Yazzie,4,Grade 4 Science,Spring 2026,Marisol Padilla,C
+Uriel Yazzie,4,Grade 4 Science,Fall 2026,Kenji Mendoza,C
+Uriel Yazzie,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,D
+Uriel Yazzie,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,B
+Uriel Yazzie,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,B
+Uriel Yazzie,4,Grade 4 Art,Fall 2025,Ana Tsosie,B
+Uriel Yazzie,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Uriel Yazzie,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Nathan Chen,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,B
+Nathan Chen,5,Grade 5 Reading,Spring 2026,Felix Yazzie,C
+Nathan Chen,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Nathan Chen,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,D
+Nathan Chen,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,A
+Nathan Chen,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,B
+Nathan Chen,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Nathan Chen,5,Grade 5 Science,Spring 2026,Aaliyah Chen,A
+Nathan Chen,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,B
+Nathan Chen,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,A
+Nathan Chen,5,Grade 5 Social Studies,Spring 2026,Javier Patel,B
+Nathan Chen,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,D
+Nathan Chen,5,Grade 5 Art,Fall 2025,Hector Vasquez,C
+Nathan Chen,5,Grade 5 Art,Spring 2026,Rosa Cruz,C
+Nathan Chen,5,Grade 5 Art,Fall 2026,Jasmine Silva,A
+Kenji Jackson,0,Grade 0 Reading,Fall 2025,Marisol Perez,C
+Kenji Jackson,0,Grade 0 Reading,Spring 2026,Miguel Kim,B
+Kenji Jackson,0,Grade 0 Reading,Fall 2026,Felix Yazzie,B
+Kenji Jackson,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,D
+Kenji Jackson,0,Grade 0 Mathematics,Spring 2026,Javier Silva,B
+Kenji Jackson,0,Grade 0 Mathematics,Fall 2026,Ana Silva,A
+Kenji Jackson,0,Grade 0 Science,Fall 2025,Adrian Velasquez,A
+Kenji Jackson,0,Grade 0 Science,Spring 2026,Valeria Cruz,F
+Kenji Jackson,0,Grade 0 Science,Fall 2026,Keisha Bell,B
+Kenji Jackson,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,D
+Kenji Jackson,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,B
+Kenji Jackson,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Yara Medina,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,B
+Yara Medina,3,Grade 3 Reading,Spring 2026,Tomas Bennett,B
+Yara Medina,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,A
+Yara Medina,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,C
+Yara Medina,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,A
+Yara Medina,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,B
+Yara Medina,3,Grade 3 Science,Fall 2025,Kenji Gomez,A
+Yara Medina,3,Grade 3 Science,Spring 2026,Uriel Yazzie,B
+Yara Medina,3,Grade 3 Science,Fall 2026,Rosa Cruz,A
+Yara Medina,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,A
+Yara Medina,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,B
+Yara Medina,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,C
+Yara Medina,3,Grade 3 Art,Fall 2025,Felix Yazzie,B
+Yara Medina,3,Grade 3 Art,Spring 2026,Xavier Torres,B
+Yara Medina,3,Grade 3 Art,Fall 2026,Beatriz Romero,D
+Daniel Acosta,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,A
+Daniel Acosta,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,A
+Daniel Acosta,2,Grade 2 Reading,Fall 2026,Ana Tsosie,D
+Daniel Acosta,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,D
+Daniel Acosta,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,A
+Daniel Acosta,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,B
+Daniel Acosta,2,Grade 2 Science,Fall 2025,Ana Tsosie,A
+Daniel Acosta,2,Grade 2 Science,Spring 2026,Valeria Cruz,D
+Daniel Acosta,2,Grade 2 Science,Fall 2026,Nadia Yazzie,C
+Daniel Acosta,2,Grade 2 Social Studies,Fall 2025,Renata Chen,F
+Daniel Acosta,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,C
+Daniel Acosta,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,A
+Uriel Chavez,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,B
+Uriel Chavez,3,Grade 3 Reading,Spring 2026,Tomas Bennett,B
+Uriel Chavez,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,B
+Uriel Chavez,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,A
+Uriel Chavez,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,B
+Uriel Chavez,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,C
+Uriel Chavez,3,Grade 3 Science,Fall 2025,Kenji Gomez,C
+Uriel Chavez,3,Grade 3 Science,Spring 2026,Uriel Yazzie,D
+Uriel Chavez,3,Grade 3 Science,Fall 2026,Rosa Cruz,B
+Uriel Chavez,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,B
+Uriel Chavez,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,B
+Uriel Chavez,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,B
+Uriel Chavez,3,Grade 3 Art,Fall 2025,Felix Yazzie,B
+Uriel Chavez,3,Grade 3 Art,Spring 2026,Xavier Torres,C
+Uriel Chavez,3,Grade 3 Art,Fall 2026,Beatriz Romero,B
+Marcus Kim,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,A
+Marcus Kim,3,Grade 3 Reading,Spring 2026,Tomas Bennett,D
+Marcus Kim,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,B
+Marcus Kim,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,A
+Marcus Kim,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,A
+Marcus Kim,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,D
+Marcus Kim,3,Grade 3 Science,Fall 2025,Kenji Gomez,B
+Marcus Kim,3,Grade 3 Science,Spring 2026,Uriel Yazzie,D
+Marcus Kim,3,Grade 3 Science,Fall 2026,Rosa Cruz,B
+Marcus Kim,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,B
+Marcus Kim,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,D
+Marcus Kim,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,A
+Marcus Kim,3,Grade 3 Art,Fall 2025,Felix Yazzie,B
+Marcus Kim,3,Grade 3 Art,Spring 2026,Xavier Torres,C
+Marcus Kim,3,Grade 3 Art,Fall 2026,Beatriz Romero,C
+Diego Singh,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,C
+Diego Singh,4,Grade 4 Reading,Spring 2026,Renata Chen,F
+Diego Singh,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Diego Singh,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,B
+Diego Singh,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,B
+Diego Singh,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Diego Singh,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Diego Singh,4,Grade 4 Science,Spring 2026,Marisol Padilla,A
+Diego Singh,4,Grade 4 Science,Fall 2026,Kenji Mendoza,B
+Diego Singh,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Diego Singh,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,A
+Diego Singh,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,D
+Diego Singh,4,Grade 4 Art,Fall 2025,Ana Tsosie,B
+Diego Singh,4,Grade 4 Art,Spring 2026,Uriel Chavez,B
+Diego Singh,4,Grade 4 Art,Fall 2026,Kaya Gomez,B
+Kenji Singh,6,Grade 6 Reading,Fall 2025,Hector Dominguez,B
+Kenji Singh,6,Grade 6 Reading,Spring 2026,Rosa Cruz,C
+Kenji Singh,6,Grade 6 Reading,Fall 2026,Marisol Padilla,A
+Kenji Singh,6,Grade 6 Mathematics,Fall 2025,Renata Chen,A
+Kenji Singh,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,A
+Kenji Singh,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,C
+Kenji Singh,6,Grade 6 Science,Fall 2025,Renata Delgado,B
+Kenji Singh,6,Grade 6 Science,Spring 2026,Nadia Yazzie,C
+Kenji Singh,6,Grade 6 Science,Fall 2026,Xavier Torres,C
+Kenji Singh,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,B
+Kenji Singh,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,C
+Kenji Singh,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,B
+Kenji Singh,6,Grade 6 Art,Fall 2025,Tomas Bennett,F
+Kenji Singh,6,Grade 6 Art,Spring 2026,Aaliyah Chen,A
+Kenji Singh,6,Grade 6 Art,Fall 2026,Omar Ibarra,F
+Adrian Padilla,6,Grade 6 Reading,Fall 2025,Hector Dominguez,C
+Adrian Padilla,6,Grade 6 Reading,Spring 2026,Rosa Cruz,C
+Adrian Padilla,6,Grade 6 Reading,Fall 2026,Marisol Padilla,B
+Adrian Padilla,6,Grade 6 Mathematics,Fall 2025,Renata Chen,A
+Adrian Padilla,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,A
+Adrian Padilla,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,B
+Adrian Padilla,6,Grade 6 Science,Fall 2025,Renata Delgado,C
+Adrian Padilla,6,Grade 6 Science,Spring 2026,Nadia Yazzie,B
+Adrian Padilla,6,Grade 6 Science,Fall 2026,Xavier Torres,C
+Adrian Padilla,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,B
+Adrian Padilla,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,A
+Adrian Padilla,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,C
+Adrian Padilla,6,Grade 6 Art,Fall 2025,Tomas Bennett,D
+Adrian Padilla,6,Grade 6 Art,Spring 2026,Aaliyah Chen,B
+Adrian Padilla,6,Grade 6 Art,Fall 2026,Omar Ibarra,B
+Jasmine Perez,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,A
+Jasmine Perez,3,Grade 3 Reading,Spring 2026,Tomas Bennett,B
+Jasmine Perez,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,A
+Jasmine Perez,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,B
+Jasmine Perez,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,B
+Jasmine Perez,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,A
+Jasmine Perez,3,Grade 3 Science,Fall 2025,Kenji Gomez,A
+Jasmine Perez,3,Grade 3 Science,Spring 2026,Uriel Yazzie,B
+Jasmine Perez,3,Grade 3 Science,Fall 2026,Rosa Cruz,A
+Jasmine Perez,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,B
+Jasmine Perez,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,D
+Jasmine Perez,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,C
+Jasmine Perez,3,Grade 3 Art,Fall 2025,Felix Yazzie,A
+Jasmine Perez,3,Grade 3 Art,Spring 2026,Xavier Torres,A
+Jasmine Perez,3,Grade 3 Art,Fall 2026,Beatriz Romero,B
+Nathan Williams,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,A
+Nathan Williams,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,B
+Nathan Williams,2,Grade 2 Reading,Fall 2026,Ana Tsosie,C
+Nathan Williams,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,C
+Nathan Williams,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,B
+Nathan Williams,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,B
+Nathan Williams,2,Grade 2 Science,Fall 2025,Ana Tsosie,A
+Nathan Williams,2,Grade 2 Science,Spring 2026,Valeria Cruz,C
+Nathan Williams,2,Grade 2 Science,Fall 2026,Nadia Yazzie,B
+Nathan Williams,2,Grade 2 Social Studies,Fall 2025,Renata Chen,D
+Nathan Williams,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,C
+Nathan Williams,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,C
+Diego Delgado,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,D
+Diego Delgado,5,Grade 5 Reading,Spring 2026,Felix Yazzie,B
+Diego Delgado,5,Grade 5 Reading,Fall 2026,Xavier Torres,A
+Diego Delgado,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,A
+Diego Delgado,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,B
+Diego Delgado,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,C
+Diego Delgado,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Diego Delgado,5,Grade 5 Science,Spring 2026,Aaliyah Chen,C
+Diego Delgado,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,B
+Diego Delgado,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,B
+Diego Delgado,5,Grade 5 Social Studies,Spring 2026,Javier Patel,A
+Diego Delgado,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,B
+Diego Delgado,5,Grade 5 Art,Fall 2025,Hector Vasquez,B
+Diego Delgado,5,Grade 5 Art,Spring 2026,Rosa Cruz,A
+Diego Delgado,5,Grade 5 Art,Fall 2026,Jasmine Silva,C
+Nadia Perez,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,B
+Nadia Perez,5,Grade 5 Reading,Spring 2026,Felix Yazzie,C
+Nadia Perez,5,Grade 5 Reading,Fall 2026,Xavier Torres,C
+Nadia Perez,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,A
+Nadia Perez,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,B
+Nadia Perez,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,A
+Nadia Perez,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Nadia Perez,5,Grade 5 Science,Spring 2026,Aaliyah Chen,D
+Nadia Perez,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,A
+Nadia Perez,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,A
+Nadia Perez,5,Grade 5 Social Studies,Spring 2026,Javier Patel,B
+Nadia Perez,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,B
+Nadia Perez,5,Grade 5 Art,Fall 2025,Hector Vasquez,D
+Nadia Perez,5,Grade 5 Art,Spring 2026,Rosa Cruz,A
+Nadia Perez,5,Grade 5 Art,Fall 2026,Jasmine Silva,A
+Yara Williams,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Yara Williams,4,Grade 4 Reading,Spring 2026,Renata Chen,B
+Yara Williams,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Yara Williams,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,B
+Yara Williams,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Yara Williams,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,D
+Yara Williams,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Yara Williams,4,Grade 4 Science,Spring 2026,Marisol Padilla,C
+Yara Williams,4,Grade 4 Science,Fall 2026,Kenji Mendoza,A
+Yara Williams,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,B
+Yara Williams,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,B
+Yara Williams,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,C
+Yara Williams,4,Grade 4 Art,Fall 2025,Ana Tsosie,A
+Yara Williams,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Yara Williams,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Daniel Velasquez,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Daniel Velasquez,4,Grade 4 Reading,Spring 2026,Renata Chen,C
+Daniel Velasquez,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Daniel Velasquez,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,B
+Daniel Velasquez,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,B
+Daniel Velasquez,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,C
+Daniel Velasquez,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Daniel Velasquez,4,Grade 4 Science,Spring 2026,Marisol Padilla,B
+Daniel Velasquez,4,Grade 4 Science,Fall 2026,Kenji Mendoza,A
+Daniel Velasquez,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,D
+Daniel Velasquez,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,A
+Daniel Velasquez,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,B
+Daniel Velasquez,4,Grade 4 Art,Fall 2025,Ana Tsosie,C
+Daniel Velasquez,4,Grade 4 Art,Spring 2026,Uriel Chavez,B
+Daniel Velasquez,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Samuel Castillo,6,Grade 6 Reading,Fall 2025,Hector Dominguez,A
+Samuel Castillo,6,Grade 6 Reading,Spring 2026,Rosa Cruz,A
+Samuel Castillo,6,Grade 6 Reading,Fall 2026,Marisol Padilla,D
+Samuel Castillo,6,Grade 6 Mathematics,Fall 2025,Renata Chen,A
+Samuel Castillo,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,A
+Samuel Castillo,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,D
+Samuel Castillo,6,Grade 6 Science,Fall 2025,Renata Delgado,B
+Samuel Castillo,6,Grade 6 Science,Spring 2026,Nadia Yazzie,C
+Samuel Castillo,6,Grade 6 Science,Fall 2026,Xavier Torres,C
+Samuel Castillo,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,B
+Samuel Castillo,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,A
+Samuel Castillo,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,B
+Samuel Castillo,6,Grade 6 Art,Fall 2025,Tomas Bennett,D
+Samuel Castillo,6,Grade 6 Art,Spring 2026,Aaliyah Chen,A
+Samuel Castillo,6,Grade 6 Art,Fall 2026,Omar Ibarra,C
+Carlos Rivera,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Carlos Rivera,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Carlos Rivera,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,B
+Carlos Rivera,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,D
+Carlos Rivera,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,B
+Carlos Rivera,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Carlos Rivera,4,Grade 4 Science,Fall 2025,Hana Valdez,D
+Carlos Rivera,4,Grade 4 Science,Spring 2026,Marisol Padilla,A
+Carlos Rivera,4,Grade 4 Science,Fall 2026,Kenji Mendoza,A
+Carlos Rivera,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,A
+Carlos Rivera,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,D
+Carlos Rivera,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Carlos Rivera,4,Grade 4 Art,Fall 2025,Ana Tsosie,B
+Carlos Rivera,4,Grade 4 Art,Spring 2026,Uriel Chavez,D
+Carlos Rivera,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Dolores Espinoza,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,D
+Dolores Espinoza,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Dolores Espinoza,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Dolores Espinoza,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,D
+Dolores Espinoza,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,B
+Dolores Espinoza,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,C
+Dolores Espinoza,4,Grade 4 Science,Fall 2025,Hana Valdez,B
+Dolores Espinoza,4,Grade 4 Science,Spring 2026,Marisol Padilla,A
+Dolores Espinoza,4,Grade 4 Science,Fall 2026,Kenji Mendoza,B
+Dolores Espinoza,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,B
+Dolores Espinoza,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,A
+Dolores Espinoza,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Dolores Espinoza,4,Grade 4 Art,Fall 2025,Ana Tsosie,C
+Dolores Espinoza,4,Grade 4 Art,Spring 2026,Uriel Chavez,B
+Dolores Espinoza,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Lucia Ramirez,0,Grade 0 Reading,Fall 2025,Marisol Perez,A
+Lucia Ramirez,0,Grade 0 Reading,Spring 2026,Miguel Kim,B
+Lucia Ramirez,0,Grade 0 Reading,Fall 2026,Felix Yazzie,A
+Lucia Ramirez,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,A
+Lucia Ramirez,0,Grade 0 Mathematics,Spring 2026,Javier Silva,A
+Lucia Ramirez,0,Grade 0 Mathematics,Fall 2026,Ana Silva,B
+Lucia Ramirez,0,Grade 0 Science,Fall 2025,Adrian Velasquez,D
+Lucia Ramirez,0,Grade 0 Science,Spring 2026,Valeria Cruz,C
+Lucia Ramirez,0,Grade 0 Science,Fall 2026,Keisha Bell,B
+Lucia Ramirez,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,A
+Lucia Ramirez,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,B
+Lucia Ramirez,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Rafael Bennett,0,Grade 0 Reading,Fall 2025,Marisol Perez,C
+Rafael Bennett,0,Grade 0 Reading,Spring 2026,Miguel Kim,B
+Rafael Bennett,0,Grade 0 Reading,Fall 2026,Felix Yazzie,B
+Rafael Bennett,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,A
+Rafael Bennett,0,Grade 0 Mathematics,Spring 2026,Javier Silva,C
+Rafael Bennett,0,Grade 0 Mathematics,Fall 2026,Ana Silva,C
+Rafael Bennett,0,Grade 0 Science,Fall 2025,Adrian Velasquez,A
+Rafael Bennett,0,Grade 0 Science,Spring 2026,Valeria Cruz,D
+Rafael Bennett,0,Grade 0 Science,Fall 2026,Keisha Bell,C
+Rafael Bennett,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,A
+Rafael Bennett,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,C
+Rafael Bennett,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,A
+Renata Delgado,7,Grade 7 Reading,Fall 2025,Renata Delgado,B
+Renata Delgado,7,Grade 7 Reading,Spring 2026,Rosa Mendoza,B
+Renata Delgado,7,Grade 7 Reading,Fall 2026,Hana Valdez,D
+Renata Delgado,7,Grade 7 Mathematics,Fall 2025,Beatriz Padilla,B
+Renata Delgado,7,Grade 7 Mathematics,Spring 2026,Wren Sanchez,B
+Renata Delgado,7,Grade 7 Mathematics,Fall 2026,Nathan Foster,A
+Renata Delgado,7,Grade 7 Science,Fall 2025,Miguel Kim,A
+Renata Delgado,7,Grade 7 Science,Spring 2026,Aaliyah Chen,A
+Renata Delgado,7,Grade 7 Science,Fall 2026,Keisha Bell,C
+Renata Delgado,7,Grade 7 Social Studies,Fall 2025,Tomas Jimenez,B
+Renata Delgado,7,Grade 7 Social Studies,Spring 2026,Beatriz Romero,A
+Renata Delgado,7,Grade 7 Social Studies,Fall 2026,Renata Valdez,A
+Renata Delgado,7,Grade 7 Art,Fall 2025,Kenji Gomez,A
+Renata Delgado,7,Grade 7 Art,Spring 2026,Rosa Mendoza,A
+Renata Delgado,7,Grade 7 Art,Fall 2026,Sebastian Gomez,A
+Jasmine Acosta,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,F
+Jasmine Acosta,4,Grade 4 Reading,Spring 2026,Renata Chen,B
+Jasmine Acosta,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,B
+Jasmine Acosta,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,B
+Jasmine Acosta,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,D
+Jasmine Acosta,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Jasmine Acosta,4,Grade 4 Science,Fall 2025,Hana Valdez,C
+Jasmine Acosta,4,Grade 4 Science,Spring 2026,Marisol Padilla,B
+Jasmine Acosta,4,Grade 4 Science,Fall 2026,Kenji Mendoza,D
+Jasmine Acosta,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,B
+Jasmine Acosta,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,D
+Jasmine Acosta,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Jasmine Acosta,4,Grade 4 Art,Fall 2025,Ana Tsosie,A
+Jasmine Acosta,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Jasmine Acosta,4,Grade 4 Art,Fall 2026,Kaya Gomez,C
+Yusuf Kim,6,Grade 6 Reading,Fall 2025,Hector Dominguez,F
+Yusuf Kim,6,Grade 6 Reading,Spring 2026,Rosa Cruz,B
+Yusuf Kim,6,Grade 6 Reading,Fall 2026,Marisol Padilla,F
+Yusuf Kim,6,Grade 6 Mathematics,Fall 2025,Renata Chen,B
+Yusuf Kim,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,B
+Yusuf Kim,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,B
+Yusuf Kim,6,Grade 6 Science,Fall 2025,Renata Delgado,A
+Yusuf Kim,6,Grade 6 Science,Spring 2026,Nadia Yazzie,B
+Yusuf Kim,6,Grade 6 Science,Fall 2026,Xavier Torres,A
+Yusuf Kim,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,A
+Yusuf Kim,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,B
+Yusuf Kim,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,A
+Yusuf Kim,6,Grade 6 Art,Fall 2025,Tomas Bennett,A
+Yusuf Kim,6,Grade 6 Art,Spring 2026,Aaliyah Chen,B
+Yusuf Kim,6,Grade 6 Art,Fall 2026,Omar Ibarra,B
+Javier Salazar,7,Grade 7 Reading,Fall 2025,Renata Delgado,B
+Javier Salazar,7,Grade 7 Reading,Spring 2026,Rosa Mendoza,A
+Javier Salazar,7,Grade 7 Reading,Fall 2026,Hana Valdez,A
+Javier Salazar,7,Grade 7 Mathematics,Fall 2025,Beatriz Padilla,D
+Javier Salazar,7,Grade 7 Mathematics,Spring 2026,Wren Sanchez,B
+Javier Salazar,7,Grade 7 Mathematics,Fall 2026,Nathan Foster,F
+Javier Salazar,7,Grade 7 Science,Fall 2025,Miguel Kim,B
+Javier Salazar,7,Grade 7 Science,Spring 2026,Aaliyah Chen,D
+Javier Salazar,7,Grade 7 Science,Fall 2026,Keisha Bell,A
+Javier Salazar,7,Grade 7 Social Studies,Fall 2025,Tomas Jimenez,C
+Javier Salazar,7,Grade 7 Social Studies,Spring 2026,Beatriz Romero,B
+Javier Salazar,7,Grade 7 Social Studies,Fall 2026,Renata Valdez,D
+Javier Salazar,7,Grade 7 Art,Fall 2025,Kenji Gomez,B
+Javier Salazar,7,Grade 7 Art,Spring 2026,Rosa Mendoza,B
+Javier Salazar,7,Grade 7 Art,Fall 2026,Sebastian Gomez,A
+Aaliyah Jimenez,1,Grade 1 Reading,Fall 2025,Paloma Jimenez,A
+Aaliyah Jimenez,1,Grade 1 Reading,Spring 2026,Javier Silva,B
+Aaliyah Jimenez,1,Grade 1 Reading,Fall 2026,Jasmine Silva,D
+Aaliyah Jimenez,1,Grade 1 Mathematics,Fall 2025,Quentin Singh,D
+Aaliyah Jimenez,1,Grade 1 Mathematics,Spring 2026,Samuel Williams,F
+Aaliyah Jimenez,1,Grade 1 Mathematics,Fall 2026,Hector Santos,B
+Aaliyah Jimenez,1,Grade 1 Science,Fall 2025,Hana Valdez,D
+Aaliyah Jimenez,1,Grade 1 Science,Spring 2026,Nadia Yazzie,C
+Aaliyah Jimenez,1,Grade 1 Science,Fall 2026,Rosa Mendoza,B
+Aaliyah Jimenez,1,Grade 1 Social Studies,Fall 2025,Kenji Mendoza,C
+Aaliyah Jimenez,1,Grade 1 Social Studies,Spring 2026,Tomas Jimenez,B
+Aaliyah Jimenez,1,Grade 1 Social Studies,Fall 2026,Keisha Bell,B
+Xavier Perez,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,A
+Xavier Perez,3,Grade 3 Reading,Spring 2026,Tomas Bennett,B
+Xavier Perez,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,C
+Xavier Perez,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,A
+Xavier Perez,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,A
+Xavier Perez,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,A
+Xavier Perez,3,Grade 3 Science,Fall 2025,Kenji Gomez,A
+Xavier Perez,3,Grade 3 Science,Spring 2026,Uriel Yazzie,B
+Xavier Perez,3,Grade 3 Science,Fall 2026,Rosa Cruz,C
+Xavier Perez,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,B
+Xavier Perez,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,C
+Xavier Perez,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,A
+Xavier Perez,3,Grade 3 Art,Fall 2025,Felix Yazzie,B
+Xavier Perez,3,Grade 3 Art,Spring 2026,Xavier Torres,C
+Xavier Perez,3,Grade 3 Art,Fall 2026,Beatriz Romero,B
+Wren Silva,7,Grade 7 Reading,Fall 2025,Renata Delgado,A
+Wren Silva,7,Grade 7 Reading,Spring 2026,Rosa Mendoza,B
+Wren Silva,7,Grade 7 Reading,Fall 2026,Hana Valdez,B
+Wren Silva,7,Grade 7 Mathematics,Fall 2025,Beatriz Padilla,C
+Wren Silva,7,Grade 7 Mathematics,Spring 2026,Wren Sanchez,B
+Wren Silva,7,Grade 7 Mathematics,Fall 2026,Nathan Foster,A
+Wren Silva,7,Grade 7 Science,Fall 2025,Miguel Kim,C
+Wren Silva,7,Grade 7 Science,Spring 2026,Aaliyah Chen,B
+Wren Silva,7,Grade 7 Science,Fall 2026,Keisha Bell,C
+Wren Silva,7,Grade 7 Social Studies,Fall 2025,Tomas Jimenez,B
+Wren Silva,7,Grade 7 Social Studies,Spring 2026,Beatriz Romero,A
+Wren Silva,7,Grade 7 Social Studies,Fall 2026,Renata Valdez,A
+Wren Silva,7,Grade 7 Art,Fall 2025,Kenji Gomez,B
+Wren Silva,7,Grade 7 Art,Spring 2026,Rosa Mendoza,B
+Wren Silva,7,Grade 7 Art,Fall 2026,Sebastian Gomez,D
+Lena Vasquez,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Lena Vasquez,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Lena Vasquez,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Lena Vasquez,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,B
+Lena Vasquez,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,B
+Lena Vasquez,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,A
+Lena Vasquez,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Lena Vasquez,4,Grade 4 Science,Spring 2026,Marisol Padilla,A
+Lena Vasquez,4,Grade 4 Science,Fall 2026,Kenji Mendoza,F
+Lena Vasquez,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,A
+Lena Vasquez,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,B
+Lena Vasquez,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Lena Vasquez,4,Grade 4 Art,Fall 2025,Ana Tsosie,D
+Lena Vasquez,4,Grade 4 Art,Spring 2026,Uriel Chavez,F
+Lena Vasquez,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Adrian Morales,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,A
+Adrian Morales,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Adrian Morales,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,A
+Adrian Morales,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,D
+Adrian Morales,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Adrian Morales,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,D
+Adrian Morales,4,Grade 4 Science,Fall 2025,Hana Valdez,B
+Adrian Morales,4,Grade 4 Science,Spring 2026,Marisol Padilla,B
+Adrian Morales,4,Grade 4 Science,Fall 2026,Kenji Mendoza,B
+Adrian Morales,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,D
+Adrian Morales,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,B
+Adrian Morales,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,C
+Adrian Morales,4,Grade 4 Art,Fall 2025,Ana Tsosie,C
+Adrian Morales,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Adrian Morales,4,Grade 4 Art,Fall 2026,Kaya Gomez,D
+Omar Ibarra,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,F
+Omar Ibarra,4,Grade 4 Reading,Spring 2026,Renata Chen,D
+Omar Ibarra,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,A
+Omar Ibarra,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,A
+Omar Ibarra,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Omar Ibarra,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,A
+Omar Ibarra,4,Grade 4 Science,Fall 2025,Hana Valdez,D
+Omar Ibarra,4,Grade 4 Science,Spring 2026,Marisol Padilla,B
+Omar Ibarra,4,Grade 4 Science,Fall 2026,Kenji Mendoza,D
+Omar Ibarra,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Omar Ibarra,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,C
+Omar Ibarra,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Omar Ibarra,4,Grade 4 Art,Fall 2025,Ana Tsosie,A
+Omar Ibarra,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Omar Ibarra,4,Grade 4 Art,Fall 2026,Kaya Gomez,B
+Yara Delgado,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,C
+Yara Delgado,5,Grade 5 Reading,Spring 2026,Felix Yazzie,B
+Yara Delgado,5,Grade 5 Reading,Fall 2026,Xavier Torres,C
+Yara Delgado,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,B
+Yara Delgado,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,C
+Yara Delgado,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,C
+Yara Delgado,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Yara Delgado,5,Grade 5 Science,Spring 2026,Aaliyah Chen,A
+Yara Delgado,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,B
+Yara Delgado,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,A
+Yara Delgado,5,Grade 5 Social Studies,Spring 2026,Javier Patel,A
+Yara Delgado,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,A
+Yara Delgado,5,Grade 5 Art,Fall 2025,Hector Vasquez,C
+Yara Delgado,5,Grade 5 Art,Spring 2026,Rosa Cruz,B
+Yara Delgado,5,Grade 5 Art,Fall 2026,Jasmine Silva,A
+Javier Vasquez,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,B
+Javier Vasquez,3,Grade 3 Reading,Spring 2026,Tomas Bennett,C
+Javier Vasquez,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,A
+Javier Vasquez,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,A
+Javier Vasquez,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,C
+Javier Vasquez,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,C
+Javier Vasquez,3,Grade 3 Science,Fall 2025,Kenji Gomez,D
+Javier Vasquez,3,Grade 3 Science,Spring 2026,Uriel Yazzie,B
+Javier Vasquez,3,Grade 3 Science,Fall 2026,Rosa Cruz,C
+Javier Vasquez,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,B
+Javier Vasquez,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,B
+Javier Vasquez,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,B
+Javier Vasquez,3,Grade 3 Art,Fall 2025,Felix Yazzie,C
+Javier Vasquez,3,Grade 3 Art,Spring 2026,Xavier Torres,A
+Javier Vasquez,3,Grade 3 Art,Fall 2026,Beatriz Romero,B
+Zoe Delgado,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,B
+Zoe Delgado,5,Grade 5 Reading,Spring 2026,Felix Yazzie,B
+Zoe Delgado,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Zoe Delgado,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,B
+Zoe Delgado,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,B
+Zoe Delgado,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,D
+Zoe Delgado,5,Grade 5 Science,Fall 2025,Beatriz Padilla,B
+Zoe Delgado,5,Grade 5 Science,Spring 2026,Aaliyah Chen,C
+Zoe Delgado,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,B
+Zoe Delgado,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,C
+Zoe Delgado,5,Grade 5 Social Studies,Spring 2026,Javier Patel,B
+Zoe Delgado,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,B
+Zoe Delgado,5,Grade 5 Art,Fall 2025,Hector Vasquez,B
+Zoe Delgado,5,Grade 5 Art,Spring 2026,Rosa Cruz,A
+Zoe Delgado,5,Grade 5 Art,Fall 2026,Jasmine Silva,B
+Leon Hernandez,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,B
+Leon Hernandez,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,C
+Leon Hernandez,2,Grade 2 Reading,Fall 2026,Ana Tsosie,C
+Leon Hernandez,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,C
+Leon Hernandez,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,C
+Leon Hernandez,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,A
+Leon Hernandez,2,Grade 2 Science,Fall 2025,Ana Tsosie,C
+Leon Hernandez,2,Grade 2 Science,Spring 2026,Valeria Cruz,C
+Leon Hernandez,2,Grade 2 Science,Fall 2026,Nadia Yazzie,B
+Leon Hernandez,2,Grade 2 Social Studies,Fall 2025,Renata Chen,A
+Leon Hernandez,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,A
+Leon Hernandez,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,C
+Isaac Padilla,6,Grade 6 Reading,Fall 2025,Hector Dominguez,B
+Isaac Padilla,6,Grade 6 Reading,Spring 2026,Rosa Cruz,C
+Isaac Padilla,6,Grade 6 Reading,Fall 2026,Marisol Padilla,A
+Isaac Padilla,6,Grade 6 Mathematics,Fall 2025,Renata Chen,C
+Isaac Padilla,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,A
+Isaac Padilla,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,B
+Isaac Padilla,6,Grade 6 Science,Fall 2025,Renata Delgado,C
+Isaac Padilla,6,Grade 6 Science,Spring 2026,Nadia Yazzie,B
+Isaac Padilla,6,Grade 6 Science,Fall 2026,Xavier Torres,A
+Isaac Padilla,6,Grade 6 Social Studies,Fall 2025,Nathan Foster,A
+Isaac Padilla,6,Grade 6 Social Studies,Spring 2026,Nadia Yazzie,A
+Isaac Padilla,6,Grade 6 Social Studies,Fall 2026,Hana Ortiz,F
+Isaac Padilla,6,Grade 6 Art,Fall 2025,Tomas Bennett,D
+Isaac Padilla,6,Grade 6 Art,Spring 2026,Aaliyah Chen,A
+Isaac Padilla,6,Grade 6 Art,Fall 2026,Omar Ibarra,C
+Celeste Foster,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,D
+Celeste Foster,5,Grade 5 Reading,Spring 2026,Felix Yazzie,A
+Celeste Foster,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Celeste Foster,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,A
+Celeste Foster,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,B
+Celeste Foster,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,A
+Celeste Foster,5,Grade 5 Science,Fall 2025,Beatriz Padilla,C
+Celeste Foster,5,Grade 5 Science,Spring 2026,Aaliyah Chen,F
+Celeste Foster,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,B
+Celeste Foster,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,C
+Celeste Foster,5,Grade 5 Social Studies,Spring 2026,Javier Patel,B
+Celeste Foster,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,B
+Celeste Foster,5,Grade 5 Art,Fall 2025,Hector Vasquez,A
+Celeste Foster,5,Grade 5 Art,Spring 2026,Rosa Cruz,A
+Celeste Foster,5,Grade 5 Art,Fall 2026,Jasmine Silva,A
+Talia Garcia,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Talia Garcia,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Talia Garcia,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,B
+Talia Garcia,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,C
+Talia Garcia,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,A
+Talia Garcia,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Talia Garcia,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Talia Garcia,4,Grade 4 Science,Spring 2026,Marisol Padilla,C
+Talia Garcia,4,Grade 4 Science,Fall 2026,Kenji Mendoza,B
+Talia Garcia,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Talia Garcia,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,B
+Talia Garcia,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,C
+Talia Garcia,4,Grade 4 Art,Fall 2025,Ana Tsosie,B
+Talia Garcia,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Talia Garcia,4,Grade 4 Art,Fall 2026,Kaya Gomez,A
+Nadia Patel,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,B
+Nadia Patel,3,Grade 3 Reading,Spring 2026,Tomas Bennett,B
+Nadia Patel,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,B
+Nadia Patel,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,C
+Nadia Patel,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,A
+Nadia Patel,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,A
+Nadia Patel,3,Grade 3 Science,Fall 2025,Kenji Gomez,B
+Nadia Patel,3,Grade 3 Science,Spring 2026,Uriel Yazzie,A
+Nadia Patel,3,Grade 3 Science,Fall 2026,Rosa Cruz,B
+Nadia Patel,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,A
+Nadia Patel,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,C
+Nadia Patel,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,C
+Nadia Patel,3,Grade 3 Art,Fall 2025,Felix Yazzie,B
+Nadia Patel,3,Grade 3 Art,Spring 2026,Xavier Torres,B
+Nadia Patel,3,Grade 3 Art,Fall 2026,Beatriz Romero,B
+Javier Chavez,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,C
+Javier Chavez,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Javier Chavez,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,B
+Javier Chavez,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,F
+Javier Chavez,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,B
+Javier Chavez,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,B
+Javier Chavez,4,Grade 4 Science,Fall 2025,Hana Valdez,D
+Javier Chavez,4,Grade 4 Science,Spring 2026,Marisol Padilla,D
+Javier Chavez,4,Grade 4 Science,Fall 2026,Kenji Mendoza,B
+Javier Chavez,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Javier Chavez,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,F
+Javier Chavez,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,F
+Javier Chavez,4,Grade 4 Art,Fall 2025,Ana Tsosie,C
+Javier Chavez,4,Grade 4 Art,Spring 2026,Uriel Chavez,C
+Javier Chavez,4,Grade 4 Art,Fall 2026,Kaya Gomez,C
+Isaac Yazzie,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,B
+Isaac Yazzie,4,Grade 4 Reading,Spring 2026,Renata Chen,A
+Isaac Yazzie,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,A
+Isaac Yazzie,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,A
+Isaac Yazzie,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,C
+Isaac Yazzie,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,C
+Isaac Yazzie,4,Grade 4 Science,Fall 2025,Hana Valdez,B
+Isaac Yazzie,4,Grade 4 Science,Spring 2026,Marisol Padilla,C
+Isaac Yazzie,4,Grade 4 Science,Fall 2026,Kenji Mendoza,A
+Isaac Yazzie,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,C
+Isaac Yazzie,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,C
+Isaac Yazzie,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Isaac Yazzie,4,Grade 4 Art,Fall 2025,Ana Tsosie,B
+Isaac Yazzie,4,Grade 4 Art,Spring 2026,Uriel Chavez,C
+Isaac Yazzie,4,Grade 4 Art,Fall 2026,Kaya Gomez,D
+Ana Salazar,0,Grade 0 Reading,Fall 2025,Marisol Perez,A
+Ana Salazar,0,Grade 0 Reading,Spring 2026,Miguel Kim,A
+Ana Salazar,0,Grade 0 Reading,Fall 2026,Felix Yazzie,B
+Ana Salazar,0,Grade 0 Mathematics,Fall 2025,Jasmine Martinez,C
+Ana Salazar,0,Grade 0 Mathematics,Spring 2026,Javier Silva,B
+Ana Salazar,0,Grade 0 Mathematics,Fall 2026,Ana Silva,D
+Ana Salazar,0,Grade 0 Science,Fall 2025,Adrian Velasquez,B
+Ana Salazar,0,Grade 0 Science,Spring 2026,Valeria Cruz,B
+Ana Salazar,0,Grade 0 Science,Fall 2026,Keisha Bell,B
+Ana Salazar,0,Grade 0 Social Studies,Fall 2025,Ana Tsosie,A
+Ana Salazar,0,Grade 0 Social Studies,Spring 2026,Hana Ortiz,B
+Ana Salazar,0,Grade 0 Social Studies,Fall 2026,Beatriz Padilla,B
+Diego Chen,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,C
+Diego Chen,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,B
+Diego Chen,2,Grade 2 Reading,Fall 2026,Ana Tsosie,B
+Diego Chen,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,C
+Diego Chen,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,B
+Diego Chen,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,B
+Diego Chen,2,Grade 2 Science,Fall 2025,Ana Tsosie,A
+Diego Chen,2,Grade 2 Science,Spring 2026,Valeria Cruz,B
+Diego Chen,2,Grade 2 Science,Fall 2026,Nadia Yazzie,C
+Diego Chen,2,Grade 2 Social Studies,Fall 2025,Renata Chen,A
+Diego Chen,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,A
+Diego Chen,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,B
+Serena Ramirez,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,B
+Serena Ramirez,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,A
+Serena Ramirez,2,Grade 2 Reading,Fall 2026,Ana Tsosie,A
+Serena Ramirez,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,A
+Serena Ramirez,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,A
+Serena Ramirez,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,F
+Serena Ramirez,2,Grade 2 Science,Fall 2025,Ana Tsosie,C
+Serena Ramirez,2,Grade 2 Science,Spring 2026,Valeria Cruz,C
+Serena Ramirez,2,Grade 2 Science,Fall 2026,Nadia Yazzie,C
+Serena Ramirez,2,Grade 2 Social Studies,Fall 2025,Renata Chen,C
+Serena Ramirez,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,C
+Serena Ramirez,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,A
+Carlos Rivera,5,Grade 5 Reading,Fall 2025,Tomas Jimenez,D
+Carlos Rivera,5,Grade 5 Reading,Spring 2026,Felix Yazzie,A
+Carlos Rivera,5,Grade 5 Reading,Fall 2026,Xavier Torres,B
+Carlos Rivera,5,Grade 5 Mathematics,Fall 2025,Kaya Gomez,B
+Carlos Rivera,5,Grade 5 Mathematics,Spring 2026,Nadia Yazzie,B
+Carlos Rivera,5,Grade 5 Mathematics,Fall 2026,Kenji Mendoza,B
+Carlos Rivera,5,Grade 5 Science,Fall 2025,Beatriz Padilla,C
+Carlos Rivera,5,Grade 5 Science,Spring 2026,Aaliyah Chen,C
+Carlos Rivera,5,Grade 5 Science,Fall 2026,Gabriela Ramirez,C
+Carlos Rivera,5,Grade 5 Social Studies,Fall 2025,Hana Ortiz,C
+Carlos Rivera,5,Grade 5 Social Studies,Spring 2026,Javier Patel,A
+Carlos Rivera,5,Grade 5 Social Studies,Fall 2026,Rosa Cruz,C
+Carlos Rivera,5,Grade 5 Art,Fall 2025,Hector Vasquez,A
+Carlos Rivera,5,Grade 5 Art,Spring 2026,Rosa Cruz,F
+Carlos Rivera,5,Grade 5 Art,Fall 2026,Jasmine Silva,A
+Paloma Chavez,4,Grade 4 Reading,Fall 2025,Jasmine Martinez,A
+Paloma Chavez,4,Grade 4 Reading,Spring 2026,Renata Chen,B
+Paloma Chavez,4,Grade 4 Reading,Fall 2026,Gabriela Ramirez,C
+Paloma Chavez,4,Grade 4 Mathematics,Fall 2025,Adrian Ibarra,A
+Paloma Chavez,4,Grade 4 Mathematics,Spring 2026,Jasmine Martinez,C
+Paloma Chavez,4,Grade 4 Mathematics,Fall 2026,Felix Nguyen,F
+Paloma Chavez,4,Grade 4 Science,Fall 2025,Hana Valdez,A
+Paloma Chavez,4,Grade 4 Science,Spring 2026,Marisol Padilla,B
+Paloma Chavez,4,Grade 4 Science,Fall 2026,Kenji Mendoza,A
+Paloma Chavez,4,Grade 4 Social Studies,Fall 2025,Paloma Jimenez,A
+Paloma Chavez,4,Grade 4 Social Studies,Spring 2026,Beatriz Padilla,A
+Paloma Chavez,4,Grade 4 Social Studies,Fall 2026,Keisha Bell,A
+Paloma Chavez,4,Grade 4 Art,Fall 2025,Ana Tsosie,A
+Paloma Chavez,4,Grade 4 Art,Spring 2026,Uriel Chavez,A
+Paloma Chavez,4,Grade 4 Art,Fall 2026,Kaya Gomez,B
+Samuel Nguyen,3,Grade 3 Reading,Fall 2025,Sebastian Gomez,D
+Samuel Nguyen,3,Grade 3 Reading,Spring 2026,Tomas Bennett,A
+Samuel Nguyen,3,Grade 3 Reading,Fall 2026,Aaliyah Chen,D
+Samuel Nguyen,3,Grade 3 Mathematics,Fall 2025,Gabriela Ramirez,A
+Samuel Nguyen,3,Grade 3 Mathematics,Spring 2026,Adrian Ibarra,A
+Samuel Nguyen,3,Grade 3 Mathematics,Fall 2026,Aaliyah Chen,A
+Samuel Nguyen,3,Grade 3 Science,Fall 2025,Kenji Gomez,C
+Samuel Nguyen,3,Grade 3 Science,Spring 2026,Uriel Yazzie,B
+Samuel Nguyen,3,Grade 3 Science,Fall 2026,Rosa Cruz,C
+Samuel Nguyen,3,Grade 3 Social Studies,Fall 2025,Tomas Bennett,D
+Samuel Nguyen,3,Grade 3 Social Studies,Spring 2026,Beatriz Romero,A
+Samuel Nguyen,3,Grade 3 Social Studies,Fall 2026,Andre Nguyen,C
+Samuel Nguyen,3,Grade 3 Art,Fall 2025,Felix Yazzie,C
+Samuel Nguyen,3,Grade 3 Art,Spring 2026,Xavier Torres,C
+Samuel Nguyen,3,Grade 3 Art,Fall 2026,Beatriz Romero,C
+Wren Patel,2,Grade 2 Reading,Fall 2025,Jasmine Martinez,C
+Wren Patel,2,Grade 2 Reading,Spring 2026,Aaliyah Chen,C
+Wren Patel,2,Grade 2 Reading,Fall 2026,Ana Tsosie,C
+Wren Patel,2,Grade 2 Mathematics,Fall 2025,Marisol Padilla,B
+Wren Patel,2,Grade 2 Mathematics,Spring 2026,Marisol Padilla,B
+Wren Patel,2,Grade 2 Mathematics,Fall 2026,Kaya Cruz,A
+Wren Patel,2,Grade 2 Science,Fall 2025,Ana Tsosie,B
+Wren Patel,2,Grade 2 Science,Spring 2026,Valeria Cruz,C
+Wren Patel,2,Grade 2 Science,Fall 2026,Nadia Yazzie,A
+Wren Patel,2,Grade 2 Social Studies,Fall 2025,Renata Chen,B
+Wren Patel,2,Grade 2 Social Studies,Spring 2026,Nadia Gutierrez,B
+Wren Patel,2,Grade 2 Social Studies,Fall 2026,Felix Nguyen,A
+Talia Yazzie,6,Grade 6 Reading,Fall 2025,Hector Dominguez,A
+Talia Yazzie,6,Grade 6 Reading,Spring 2026,Rosa Cruz,F
+Talia Yazzie,6,Grade 6 Reading,Fall 2026,Marisol Padilla,A
+Talia Yazzie,6,Grade 6 Mathematics,Fall 2025,Renata Chen,A
+Talia Yazzie,6,Grade 6 Mathematics,Spring 2026,Xavier Torres,A
+Talia Yazzie,6,Grade 6 Mathematics,Fall 2026,Ana Tsosie,A
+Tanya Young,5,Grade 5 Social Studies,Spring 2026,Javier Patel,C

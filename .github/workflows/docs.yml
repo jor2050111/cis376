@@ -1,0 +1,51 @@
+name: Documentation
+
+# Build the Zensical site and deploy it to GitHub Pages on every push to main.
+# One-time repo setup: Settings -> Pages -> "Build and deployment" ->
+# Source = "GitHub Actions".
+#
+# Build and deploy are separate jobs on purpose: GitHub's Pages backend can
+# occasionally return "Deployment failed, try again later." When that happens,
+# re-run just the "deploy" job from the Actions tab (or `gh run rerun <id>
+# --failed`) and it redeploys the already-built artifact without rebuilding.
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+# Allow one Pages deployment at a time; a newer push waits rather than cancels.
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/configure-pages@v6
+      - uses: actions/setup-python@v6
+        with:
+          # Pinned (not floating 3.x) so builds stay reproducible.
+          python-version: "3.12"
+      - run: pip install -r requirements-docs.txt
+      - run: zensical build --clean
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v5
+        id: deployment

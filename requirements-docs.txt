@@ -1,0 +1,7 @@
+# Documentation toolchain for the textbook site (shared across all textbooks).
+# Install into a virtualenv:  python -m venv .venv && .venv/bin/pip install -r requirements-docs.txt
+# Build:  zensical build --clean     Preview:  zensical serve
+#
+# Pinned because Zensical is pre-1.0 (0.0.x) and may introduce breaking
+# changes between releases. Bump deliberately after testing a local build.
+zensical==0.0.46

@@ -1,0 +1,90 @@
+/* ============================================================
+   Sonoran Nightfall: Color tokens
+   A desert night sky lit by the last gold of sunset, built on
+   Phoenix College's brand navy and gold.
+   ============================================================ */
+
+:root {
+  /* ---- Brand base palette ---- */
+  --midnight-navy: #002e5d; /* Primary dark: Phoenix College navy */
+  --twilight-blue: #03488f; /* Mid-tone accent: Canvas h4 blue */
+  --phoenix-gold:  #ffc845; /* Bright accent: Phoenix College gold */
+  --desert-sand:   #f7f4ec; /* Warm light neutral */
+
+  /* ---- Extended navy ramp (tints/shades of the brand navy) ---- */
+  --navy-900: #001a36;
+  --navy-800: #002e5d; /* = midnight navy */
+  --navy-700: #033a72;
+  --navy-600: #03488f; /* = twilight blue */
+  --navy-500: #1d5ea3;
+  --navy-400: #4d80ba;
+  --navy-300: #86a8d1;
+  --navy-200: #bcd0e6;
+  --navy-100: #e3ecf5;
+
+  /* ---- Gold ramp ---- */
+  --gold-700: #b8860b; /* deep amber: decorative only, never text-on-light */
+  --gold-600: #e0a92e;
+  --gold-500: #ffc845; /* = phoenix gold */
+  --gold-400: #ffd573;
+  --gold-300: #ffe3a3;
+  --gold-200: #fff0cf;
+
+  /* ---- Canvas interactive blue (authentic Canvas LMS link color) ---- */
+  --canvas-blue:      #0374b5; /* links & interactive accents */
+  --canvas-blue-hover:#025a8c;
+  --canvas-blue-tint: #e3f2fa; /* info-callout / soft-blue fill */
+
+  /* ---- Canyon / terracotta (Sonoran desert earth accent) ---- */
+  --canyon-700: #5e2a1d;
+  --canyon-600: #7c3626; /* primary canyon accent */
+  --canyon-500: #9a4a36;
+  --canyon-tint: #f4e7e1;
+
+  /* ---- Sand / warm neutral ramp ---- */
+  --sand-100: #ffffff;
+  --sand-200: #fbf9f3;
+  --sand-300: #f7f4ec; /* = desert sand */
+  --sand-400: #ece6d6;
+  --sand-500: #d9d1bd;
+  --sand-600: #b3a98f;
+  --sand-700: #7d7560;
+
+  /* ---- Functional / status (desert-tuned) ---- */
+  --status-success: #2f7d54; /* saguaro green */
+  --status-warning: #c9821f; /* sunset amber */
+  --status-danger:  #a6321f; /* canyon red */
+  --status-info:    #0374b5; /* Canvas blue */
+
+  /* ============================================================
+     SEMANTIC ALIASES: prefer these in components & layouts
+     ============================================================ */
+
+  /* Surfaces */
+  --surface-page:      var(--sand-300); /* default light page background */
+  --surface-card:      var(--sand-100); /* card / panel fill */
+  --surface-raised:    var(--sand-200);
+  --surface-sunken:    var(--sand-400);
+  --surface-inverse:   var(--navy-800); /* dark slide / header background */
+  --surface-inverse-2: var(--navy-900);
+  --surface-gold:      var(--gold-500); /* gold fill: navy text only */
+
+  /* Text */
+  --text-body:        var(--navy-800); /* navy body on light */
+  --text-heading:     var(--twilight-blue); /* Twilight Blue headings on light */
+  --text-muted:       var(--sand-700);
+  --text-on-dark:     var(--sand-300); /* sand text on navy */
+  --text-on-dark-strong: var(--sand-100);
+  --text-on-gold:     var(--navy-800); /* navy on gold fills */
+  --text-heading-dark: var(--phoenix-gold); /* gold headings on navy */
+  --text-link:        var(--canvas-blue); /* authentic Canvas link blue */
+  --text-link-hover:  var(--canvas-blue-hover);
+
+  /* Lines & accents */
+  --border-subtle:  var(--sand-400);
+  --border-default: var(--sand-500);
+  --border-strong:  var(--navy-800);
+  --accent-rule:    var(--phoenix-gold); /* gold underlines & dividers */
+  --accent-canyon:  var(--canyon-600); /* warm earthy tertiary accent */
+  --focus-ring:     var(--canvas-blue);
+}

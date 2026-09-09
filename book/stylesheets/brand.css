@@ -1,0 +1,323 @@
+/* ==========================================================================
+   Sonoran Nightfall brand mapping for Zensical (shared across all textbooks)
+   --------------------------------------------------------------------------
+   Design tokens live in colors.css (the source of truth). This file maps
+   those tokens and semantic aliases onto Zensical's modern theme.
+
+   IMPORTANT: the modern Zensical variant paints .md-header, .md-footer, and
+   admonitions from the default fg/bg variables (NOT from the primary or
+   footer variables, and admonitions carry no border width). Those surfaces
+   are therefore styled with real rules below, not through theme variables.
+
+   CAUTION: never write the two-character sequence star-slash inside a
+   comment (for example in a variable glob). It terminates the comment early
+   and the parser then silently swallows the next rule. This exact bug once
+   knocked out the entire light-scheme block on the live sites.
+
+   Two schemes:
+     [data-md-color-scheme="default"]  -> light "desert day" (sand + navy)
+     [data-md-color-scheme="slate"]    -> dark  "Sonoran Nightfall" (navy + gold)
+   ========================================================================== */
+
+/* Note: a few colors are written as literals at their point of use below.
+   Dark scheme: #6b5a1f muted highlight, #c06a52 lightened terracotta.
+   Light scheme code: #6b6353 warm-gray comments (5.9:1 on white) and
+   #5f6c74 slate operators/punctuation (5.4:1 on white). They are
+   contrast-tuned adjustments for one scheme, not design tokens, so they
+   intentionally live in this mapping layer rather than in colors.css. */
+
+/* 1. Light scheme (default) ---------------------------------------------- */
+
+[data-md-color-scheme="default"] {
+  /* Primary still drives the primary button; header/footer are styled directly */
+  --md-primary-fg-color: var(--surface-inverse);
+  --md-primary-bg-color: var(--text-on-dark-strong);
+
+  /* Interactive accent (hover, active nav, theme-managed focus rings) */
+  --md-accent-fg-color: var(--canvas-blue);
+  --md-accent-fg-color--transparent: color-mix(in srgb, var(--canvas-blue) 10%, transparent);
+
+  /* Warm "paper" page with navy body text */
+  --md-default-bg-color: var(--surface-page);   /* sand 300 -- do not darken below this or links drop under AA */
+  --md-typeset-color: var(--text-body);
+
+  /* Navy-based foreground ramp so secondary text (nav, table of contents,
+     captions) reads as brand navy instead of the theme's washed-out gray.
+     The 78% step clears 5.5:1 on sand 300; the theme default was 4.6:1. */
+  --md-default-fg-color: var(--text-body);
+  --md-default-fg-color--light: color-mix(in srgb, var(--text-body) 78%, transparent);
+  --md-default-fg-color--lighter: color-mix(in srgb, var(--text-body) 45%, transparent);
+  --md-default-fg-color--lightest: color-mix(in srgb, var(--text-body) 8%, transparent);
+
+  /* Code sits on white cards (bordered below) so every syntax color clears
+     WCAG AA. Sand-on-sand had almost no separation from the page. */
+  --md-code-bg-color: var(--sand-100);
+  --md-code-fg-color: var(--text-body);
+  --md-code-hl-comment-color: #6b6353;      /* output comments must stay readable */
+  --md-code-hl-operator-color: #5f6c74;
+  --md-code-hl-punctuation-color: #5f6c74;
+  --md-code-hl-variable-color: #5f6c74;
+  --md-code-hl-generic-color: #5f6c74;
+
+  /* Links use the authentic Canvas blue (4.58:1 on sand 300) */
+  --md-typeset-a-color: var(--text-link);
+
+  /* Highlight (==mark==) uses a soft gold fill */
+  --md-typeset-mark-color: var(--gold-300);
+}
+
+/* 2. Dark scheme (slate) -- Sonoran Nightfall ---------------------------- */
+
+[data-md-color-scheme="slate"] {
+  --md-hue: 214;                                /* navy family for computed grays */
+
+  --md-default-bg-color: var(--surface-inverse-2);  /* navy 900 night sky */
+  --md-typeset-color: var(--text-on-dark);          /* sand body text */
+  --md-code-bg-color: var(--navy-800);
+
+  --md-primary-fg-color: var(--navy-800);
+  --md-primary-bg-color: var(--text-on-dark-strong);
+
+  /* Lighter blue for interactive elements so they read on dark navy */
+  --md-accent-fg-color: var(--navy-300);
+  --md-accent-fg-color--transparent: color-mix(in srgb, var(--navy-300) 10%, transparent);
+  --md-typeset-a-color: var(--navy-300);
+
+  --md-typeset-mark-color: #6b5a1f;   /* muted night highlight; not part of the gold ramp */
+}
+
+/* 3. Header -- navy in both schemes -------------------------------------- */
+
+.md-header {
+  background-color: var(--surface-inverse);          /* navy 800 */
+  color: var(--text-on-dark-strong);
+  border-bottom: 3px solid var(--accent-rule);       /* gold rule (8.78:1 on navy) */
+}
+[data-md-color-scheme="slate"] .md-header {
+  background-color: var(--navy-800);
+}
+
+/* Header search: the modern theme renders a button (the "Search" pill), and
+   by default paints it with page-foreground colors, which turn navy-on-navy
+   on our header. Style it for the navy header in both schemes, with a
+   Phoenix Gold outline and magnifier so it reads as an interactive control. */
+.md-header .md-search__button {
+  background-color: color-mix(in srgb, var(--text-on-dark-strong) 12%, transparent);
+  border: 0.05rem solid var(--phoenix-gold);         /* gold: 8.78:1 on navy */
+  color: var(--text-on-dark-strong);
+}
+.md-header .md-search__button::before {
+  background-color: var(--phoenix-gold);             /* magnifier icon */
+}
+.md-header .md-search__button::after {
+  background-color: color-mix(in srgb, var(--text-on-dark-strong) 18%, transparent);
+  color: var(--text-on-dark-strong);                 /* keyboard-shortcut chip */
+}
+.md-header .md-search__button:hover,
+.md-header .md-search__button:focus {
+  background-color: color-mix(in srgb, var(--text-on-dark-strong) 24%, transparent);
+  color: var(--text-on-dark-strong);
+}
+
+/* 4. Footer -- two-tone navy in both schemes ----------------------------- */
+
+.md-footer {
+  background-color: var(--navy-800);
+  color: var(--text-on-dark);
+}
+.md-footer-meta {
+  background-color: var(--navy-900);
+  color: var(--text-on-dark);
+}
+.md-footer a,
+.md-footer .md-copyright,
+.md-footer .md-copyright__highlight {
+  color: var(--text-on-dark);
+}
+.md-footer a:hover {
+  color: var(--text-on-dark-strong);
+}
+
+/* 5. Headings -- Twilight Blue (light), Phoenix Gold (dark) -------------- */
+/* h4-h6 included so the slate palette cannot force them white and the two
+   schemes stay symmetric. Kept distinct from the Canvas-Blue link color. */
+[data-md-color-scheme="default"] .md-typeset h1,
+[data-md-color-scheme="default"] .md-typeset h2,
+[data-md-color-scheme="default"] .md-typeset h3,
+[data-md-color-scheme="default"] .md-typeset h4,
+[data-md-color-scheme="default"] .md-typeset h5,
+[data-md-color-scheme="default"] .md-typeset h6 {
+  color: var(--text-heading);
+}
+[data-md-color-scheme="slate"] .md-typeset h1,
+[data-md-color-scheme="slate"] .md-typeset h2,
+[data-md-color-scheme="slate"] .md-typeset h3,
+[data-md-color-scheme="slate"] .md-typeset h4,
+[data-md-color-scheme="slate"] .md-typeset h5,
+[data-md-color-scheme="slate"] .md-typeset h6 {
+  color: var(--text-heading-dark);
+}
+
+/* 6. Link hover ---------------------------------------------------------- */
+[data-md-color-scheme="default"] .md-typeset a:hover {
+  color: var(--text-link-hover);
+}
+[data-md-color-scheme="slate"] .md-typeset a:hover {
+  color: var(--navy-200);
+}
+
+/* 7. Code blocks and inline code (light scheme) --------------------------- */
+/* White cards need an edge on the sand page. The hairline matches the
+   theme's own 0.05rem border weight elsewhere. */
+[data-md-color-scheme="default"] .md-typeset pre > code {
+  border: 0.05rem solid var(--border-default);
+}
+[data-md-color-scheme="default"] .md-typeset .highlight span.filename {
+  border: 0.05rem solid var(--border-default);
+  border-bottom-color: var(--border-subtle);
+}
+[data-md-color-scheme="default"] .md-typeset .highlight span.filename + pre > code {
+  border-top: 0;
+}
+/* Inline code chips: same white card treatment at chip scale. Blocks keep
+   the stronger edge; the pre > code rule above wins on specificity. */
+[data-md-color-scheme="default"] .md-typeset code {
+  border: 0.05rem solid var(--border-subtle);
+}
+
+/* 8. Admonitions --------------------------------------------------------- */
+/* Modern admonitions have no border width and set a per-type background tint,
+   so we add a left border AND override the tint. info/note -> Canvas blue,
+   example -> canyon terracotta. */
+.md-typeset .admonition.info,
+.md-typeset details.info,
+.md-typeset .admonition.note,
+.md-typeset details.note {
+  border-left: 0.2rem solid var(--canvas-blue);
+  background-color: color-mix(in srgb, var(--canvas-blue) 8%, transparent);
+}
+.md-typeset .info > .admonition-title,
+.md-typeset .info > summary,
+.md-typeset .note > .admonition-title,
+.md-typeset .note > summary {
+  background-color: color-mix(in srgb, var(--canvas-blue) 14%, transparent);
+}
+.md-typeset .info > .admonition-title::before,
+.md-typeset .note > .admonition-title::before {
+  background-color: var(--canvas-blue);
+}
+
+.md-typeset .admonition.example,
+.md-typeset details.example {
+  border-left: 0.2rem solid var(--accent-canyon);
+  background-color: color-mix(in srgb, var(--accent-canyon) 8%, transparent);
+}
+.md-typeset .example > .admonition-title,
+.md-typeset .example > summary {
+  background-color: color-mix(in srgb, var(--accent-canyon) 14%, transparent);
+}
+.md-typeset .example > .admonition-title::before {
+  background-color: var(--accent-canyon);
+}
+[data-md-color-scheme="slate"] .md-typeset .admonition.example,
+[data-md-color-scheme="slate"] .md-typeset details.example {
+  border-left-color: #c06a52;   /* lightened terracotta, 4.52:1 on navy-900 */
+}
+
+/* 9. Blockquotes -- readable "example panel" treatment -------------------- */
+/* The theme dims blockquote text to its --light foreground. Our chapters put
+   whole worked examples in blockquotes, so they get full-contrast text, a
+   wider canyon border, and a faint canyon tint that matches the example
+   admonition family. */
+[dir="ltr"] .md-typeset blockquote {
+  border-left: 0.25rem solid var(--accent-canyon);
+}
+[dir="rtl"] .md-typeset blockquote {
+  border-right: 0.25rem solid var(--accent-canyon);
+}
+.md-typeset blockquote {
+  padding: 0.4rem 0.8rem;
+  border-radius: 0 0.2rem 0.2rem 0;
+}
+[data-md-color-scheme="default"] .md-typeset blockquote {
+  color: var(--text-body);
+  background-color: color-mix(in srgb, var(--accent-canyon) 5%, transparent);
+}
+[data-md-color-scheme="slate"] .md-typeset blockquote {
+  color: var(--text-on-dark);
+  background-color: color-mix(in srgb, #c06a52 10%, transparent);
+  border-left-color: #c06a52;   /* lightened terracotta, 4.52:1 on navy-900 */
+}
+
+/* 10. Table headers -- subtle navy tint for scannable data tables --------- */
+[data-md-color-scheme="default"] .md-typeset table:not([class]) th {
+  background-color: var(--navy-100);
+  color: var(--text-body);
+}
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) th {
+  background-color: var(--navy-700);
+  color: var(--text-on-dark-strong);
+}
+
+/* 11. Focus ring -- follows the accent (Canvas blue light / navy-300 dark),
+   both of which clear the 3:1 non-text minimum on their scheme background. */
+:focus-visible {
+  outline: 2px solid var(--md-accent-fg-color);
+  outline-offset: 2px;
+}
+
+/* 12. Left nav Part labels -- headings, not links -------------------------- */
+/* With navigation.sections enabled, the theme renders each Part as a section
+   label styled almost like the chapter links below it, so students read it as
+   clickable. The eyebrow treatment (smaller, uppercase, letter-spaced, muted)
+   separates "grouping heading" from "chapter link" in both schemes while the
+   active-chapter highlight keeps doing its job. */
+.md-nav__item--section > .md-nav__link {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+.md-nav--primary > .md-nav__list > .md-nav__item--section {
+  margin-top: 1.25em;
+}
+/* Muted below link color but above 4.5:1 on both scheme backgrounds */
+[data-md-color-scheme="default"] .md-nav__item--section > .md-nav__link {
+  color: color-mix(in srgb, var(--text-body) 72%, transparent);
+}
+[data-md-color-scheme="slate"] .md-nav__item--section > .md-nav__link {
+  color: color-mix(in srgb, var(--text-on-dark) 72%, transparent);
+}
+/* Desktop sidebar only: the label is inert there, so remove the hand cursor
+   and hover shift. The mobile drawer keeps its toggle behavior untouched. */
+@media screen and (min-width: 76.25em) {
+  .md-nav__item--section > .md-nav__link,
+  .md-nav__item--section > .md-nav__link:hover {
+    cursor: default;
+  }
+  [data-md-color-scheme="default"] .md-nav__item--section > .md-nav__link:hover {
+    color: color-mix(in srgb, var(--text-body) 72%, transparent);
+  }
+  [data-md-color-scheme="slate"] .md-nav__item--section > .md-nav__link:hover {
+    color: color-mix(in srgb, var(--text-on-dark) 72%, transparent);
+  }
+}
+
+/* 13. Definition lists -- glossary term / definition separation ------------ */
+/* Glossary pages use real definition lists, so the term (dt) gets the same
+   accent language as headings: canyon terracotta on the light scheme (8.0:1
+   on sand 300) and Phoenix Gold on the dark scheme (10.6:1 on navy 900).
+   The definition keeps body color, so the pair reads at a glance in both
+   modes. Applies to every def list for a consistent visual grammar. */
+.md-typeset dl > dt {
+  font-weight: 700;
+}
+.md-typeset dl > dt:not(:first-child) {
+  margin-top: 1em;
+}
+[data-md-color-scheme="default"] .md-typeset dl > dt {
+  color: var(--accent-canyon);
+}
+[data-md-color-scheme="slate"] .md-typeset dl > dt {
+  color: var(--text-heading-dark);
+}

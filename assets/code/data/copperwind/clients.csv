@@ -1,0 +1,41 @@
+client_id,client_name,sector,city,contract_start
+1,Sandwash Family Clinic,Healthcare,Gilbert,2022-10-08
+2,Harquahala Charter Academy,Education,Glendale,2021-08-23
+3,Agave Family Dental,Healthcare,Surprise,2019-11-29
+4,Camelback Kids Clinic,Healthcare,Gilbert,2019-07-27
+5,Verde River Physical Therapy,Healthcare,Tempe,2021-03-06
+6,Sunrise Ridge Counseling,Healthcare,Phoenix,2022-04-02
+7,Desert Bloom Optometry,Healthcare,Scottsdale,2021-07-05
+8,Mesquite Legal Group,Legal,Glendale,2019-12-17
+9,Ironwood Estate Planning,Legal,Avondale,2022-07-09
+10,Salt River Immigration Law,Legal,Avondale,2023-01-28
+11,Papago Title and Escrow,Legal,Chandler,2019-04-26
+12,Canyon Trail Charter School,Education,Mesa,2021-07-09
+13,Sonoran Early Learning Center,Education,Surprise,2022-10-14
+14,Westgate Tutoring Collective,Education,Tempe,2023-08-31
+15,Palo Verde Music Academy,Education,Avondale,2019-06-25
+16,Cactus Wren Outfitters,Retail,Mesa,2020-01-10
+17,Copper State Bike Shop,Retail,Scottsdale,2019-01-03
+18,Monsoon Coffee Roasters,Retail,Surprise,2022-09-14
+19,Red Rock Running Company,Retail,Peoria,2023-12-16
+20,Dust Devil Hardware,Retail,Scottsdale,2023-04-13
+21,Javelina Pet Supply,Retail,Glendale,2022-09-19
+22,Ocotillo Home Goods,Retail,Chandler,2019-12-16
+23,Valley Harvest Food Bank,Nonprofit,Phoenix,2022-11-08
+24,Second Saguaro Thrift,Nonprofit,Gilbert,2024-01-08
+25,Desert Paws Rescue,Nonprofit,Phoenix,2023-07-23
+26,Bridges Youth Mentoring,Nonprofit,Scottsdale,2022-03-27
+27,Grand Canal Arts Council,Nonprofit,Mesa,2021-11-06
+28,Tortolita Senior Center,Nonprofit,Avondale,2021-05-05
+29,Mariposa Community Housing,Nonprofit,Scottsdale,2020-02-11
+30,Gila Bend Veterinary,Healthcare,Glendale,2021-06-25
+31,Superstition Orthodontics,Healthcare,Chandler,2022-04-01
+32,Quail Run Chiropractic,Healthcare,Avondale,2021-03-05
+33,Thunderbird Court Reporting,Legal,Tempe,2020-07-16
+34,Encanto Notary Services,Legal,Gilbert,2020-09-14
+35,Roadrunner STEM Academy,Education,Gilbert,2024-04-27
+36,Kachina Driving School,Education,Chandler,2023-01-08
+37,Sagebrush Garden Center,Retail,Phoenix,2020-02-01
+38,Apache Junction Auto Glass,Retail,Glendale,2019-01-22
+39,Arcadia Neighborhood Alliance,Nonprofit,Surprise,2021-11-22
+40,Hohokam Heritage Museum,Nonprofit,Avondale,2021-08-04

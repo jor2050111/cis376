@@ -1,0 +1,599 @@
+2026-08-14 02:11:00.000 MST [40828] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:00.000 MST [40828] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:05.000 MST [40829] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:05.000 MST [40829] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:10.000 MST [40830] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:10.000 MST [40830] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:15.000 MST [40831] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:15.000 MST [40831] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:20.000 MST [40832] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:20.000 MST [40832] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:25.000 MST [40833] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:25.000 MST [40833] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:30.000 MST [40834] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:30.000 MST [40834] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:35.000 MST [40835] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:35.000 MST [40835] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:40.000 MST [40836] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:40.000 MST [40836] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:45.000 MST [40837] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:45.000 MST [40837] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:50.000 MST [40838] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:50.000 MST [40838] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:11:55.000 MST [40839] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:11:55.000 MST [40839] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:00.000 MST [40840] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:00.000 MST [40840] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:05.000 MST [40841] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:05.000 MST [40841] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:10.000 MST [40842] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:10.000 MST [40842] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:15.000 MST [40843] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:15.000 MST [40843] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:20.000 MST [40844] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:20.000 MST [40844] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:25.000 MST [40845] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:25.000 MST [40845] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:30.000 MST [40846] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:30.000 MST [40846] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:35.000 MST [40847] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:35.000 MST [40847] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:40.000 MST [40848] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:40.000 MST [40848] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:45.000 MST [40849] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:45.000 MST [40849] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:50.000 MST [40850] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:50.000 MST [40850] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:12:55.000 MST [40851] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:12:55.000 MST [40851] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:00.000 MST [40852] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:00.000 MST [40852] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:05.000 MST [40853] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:05.000 MST [40853] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:10.000 MST [40854] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:10.000 MST [40854] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:15.000 MST [40855] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:15.000 MST [40855] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:20.000 MST [40856] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:20.000 MST [40856] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:25.000 MST [40857] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:25.000 MST [40857] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:30.000 MST [40858] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:30.000 MST [40858] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:35.000 MST [40859] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:35.000 MST [40859] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:40.000 MST [40860] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:40.000 MST [40860] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:45.000 MST [40861] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:45.000 MST [40861] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:50.000 MST [40862] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:50.000 MST [40862] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:13:55.000 MST [40863] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:13:55.000 MST [40863] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:00.000 MST [40864] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:00.000 MST [40864] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:05.000 MST [40865] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:05.000 MST [40865] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:10.000 MST [40866] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:10.000 MST [40866] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:15.000 MST [40867] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:15.000 MST [40867] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:20.000 MST [40868] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:20.000 MST [40868] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:25.000 MST [40869] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:25.000 MST [40869] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:30.000 MST [40870] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:30.000 MST [40870] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:35.000 MST [40871] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:35.000 MST [40871] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:40.000 MST [40872] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:40.000 MST [40872] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:45.000 MST [40873] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:45.000 MST [40873] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:50.000 MST [40874] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:50.000 MST [40874] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:14:55.000 MST [40875] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:14:55.000 MST [40875] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:00.000 MST [40876] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:00.000 MST [40876] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:05.000 MST [40877] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:05.000 MST [40877] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:10.000 MST [40878] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:10.000 MST [40878] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:15.000 MST [40879] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:15.000 MST [40879] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:20.000 MST [40880] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:20.000 MST [40880] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:25.000 MST [40881] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:25.000 MST [40881] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:30.000 MST [40882] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:30.000 MST [40882] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:35.000 MST [40883] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:35.000 MST [40883] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:40.000 MST [40884] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:40.000 MST [40884] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:45.000 MST [40885] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:45.000 MST [40885] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:50.000 MST [40886] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:50.000 MST [40886] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 02:15:55.000 MST [40887] postgres@copperwind_ops FATAL:  password authentication failed for user "postgres"
+2026-08-14 02:15:55.000 MST [40887] postgres@copperwind_ops DETAIL:  Connection matched file "/etc/postgresql/17/main/pg_hba.conf" line 12: "host all all 0.0.0.0/0 scram-sha-256"
+2026-08-14 06:04:07.000 MST [40736] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 06:05:25.000 MST [40692] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 06:05:25.000 MST [40692] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 06:07:33.000 MST [40792] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 06:07:59.000 MST [40387] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 06:08:03.000 MST [40557] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 06:10:46.000 MST [40672] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 06:11:35.000 MST [40318] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 06:12:28.000 MST [40550] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 06:12:39.000 MST [40171] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 06:12:39.000 MST [40171] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 06:13:36.000 MST [40016] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 06:15:23.000 MST [40725] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 06:15:55.000 MST [40657] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 06:18:01.000 MST [40370] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 06:18:32.000 MST [40018] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 06:22:03.000 MST [40308] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 06:22:55.000 MST [40036] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 06:23:14.000 MST [40083] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 06:23:14.000 MST [40083] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 06:30:18.000 MST [40002] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 06:30:44.000 MST [40266] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 06:32:20.000 MST [40420] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 06:36:41.000 MST [40390] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 06:36:41.000 MST [40390] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 06:37:11.000 MST [40106] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 06:39:11.000 MST [40585] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 06:39:44.000 MST [40082] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 06:41:39.000 MST [40562] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 06:45:05.000 MST [40652] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 06:47:20.000 MST [40138] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 06:48:21.000 MST [40801] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 06:51:26.000 MST [40061] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 06:59:41.000 MST [40021] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 07:00:25.000 MST [40031] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:01:14.000 MST [40780] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 07:03:48.000 MST [40404] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 07:06:07.000 MST [40107] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:06:37.000 MST [40199] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:06:43.000 MST [40642] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 07:12:23.000 MST [40651] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 07:13:46.000 MST [40752] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 07:15:43.000 MST [40650] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:15:45.000 MST [40050] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:16:24.000 MST [40257] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 07:19:17.000 MST [40437] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:19:31.000 MST [40341] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:20:35.000 MST [40126] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 07:22:30.000 MST [40577] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:23:24.000 MST [40417] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:25:16.000 MST [40166] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:27:28.000 MST [40056] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:27:34.000 MST [40309] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:27:28.000 MST [40056] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 07:28:44.000 MST [40412] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:29:13.000 MST [40195] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:29:34.000 MST [40367] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 07:28:44.000 MST [40412] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 07:31:25.000 MST [40760] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:31:25.000 MST [40760] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 07:31:41.000 MST [40817] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:34:32.000 MST [40646] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:34:42.000 MST [40010] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:34:42.000 MST [40010] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 07:35:14.000 MST [40421] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:36:56.000 MST [40461] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:37:47.000 MST [40317] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:39:08.000 MST [40073] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:39:17.000 MST [40716] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 07:41:15.000 MST [40402] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:42:15.000 MST [40384] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 07:44:50.000 MST [40242] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:47:39.000 MST [40343] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:49:05.000 MST [40473] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:50:30.000 MST [40290] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:51:02.000 MST [40535] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 07:51:55.000 MST [40576] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:52:22.000 MST [40253] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 07:55:05.000 MST [40331] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 07:55:05.000 MST [40331] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 07:56:46.000 MST [40787] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 07:57:18.000 MST [40773] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 07:58:19.000 MST [40537] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 08:00:50.000 MST [40330] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 08:01:58.000 MST [40092] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 08:05:18.000 MST [40013] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 08:05:29.000 MST [40533] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 08:16:27.000 MST [40196] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 08:16:27.000 MST [40196] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 08:18:14.000 MST [40726] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 08:18:18.000 MST [40154] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 08:19:52.000 MST [40148] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 08:21:53.000 MST [40777] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 08:22:31.000 MST [40400] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 08:21:53.000 MST [40777] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 08:25:15.000 MST [40695] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 08:28:28.000 MST [40102] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 08:34:44.000 MST [40805] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 08:34:44.000 MST [40805] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 08:36:04.000 MST [40175] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 08:36:04.000 MST [40175] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 08:40:55.000 MST [40733] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 08:41:03.000 MST [40231] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 08:44:14.000 MST [40069] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 08:50:04.000 MST [40707] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 08:50:44.000 MST [40178] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 08:52:40.000 MST [40608] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 08:53:09.000 MST [40258] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 08:58:51.000 MST [40798] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:00:15.000 MST [40509] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 09:01:30.000 MST [40524] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 09:00:15.000 MST [40509] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 09:03:10.000 MST [40745] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 09:05:42.000 MST [40211] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:05:57.000 MST [40667] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 09:06:43.000 MST [40208] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 09:11:30.000 MST [40174] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:11:30.000 MST [40174] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 09:14:07.000 MST [40316] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 09:15:52.000 MST [40746] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 09:18:35.000 MST [40212] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 09:21:10.000 MST [40072] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 09:23:43.000 MST [40566] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 09:25:38.000 MST [40758] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 09:26:33.000 MST [40091] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 09:26:33.000 MST [40091] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 09:28:18.000 MST [40101] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 09:29:10.000 MST [40413] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:30:11.000 MST [40709] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:30:18.000 MST [40570] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 09:30:18.000 MST [40570] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 09:31:50.000 MST [40042] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 09:32:23.000 MST [40730] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 09:34:03.000 MST [40740] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:34:04.000 MST [40298] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 09:34:04.000 MST [40298] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 09:38:00.000 MST [40286] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 09:38:27.000 MST [40189] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:41:16.000 MST [40034] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 09:41:26.000 MST [40718] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 09:41:26.000 MST [40718] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 09:47:32.000 MST [40301] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 09:53:14.000 MST [40381] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 09:57:16.000 MST [40704] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 10:01:33.000 MST [40622] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:03:13.000 MST [40203] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:03:18.000 MST [40077] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:03:28.000 MST [40574] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:03:56.000 MST [40186] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:05:34.000 MST [40761] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 10:05:41.000 MST [40347] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:05:56.000 MST [40432] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:06:20.000 MST [40376] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:06:40.000 MST [40095] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:07:50.000 MST [40636] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:08:22.000 MST [40490] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:08:22.000 MST [40490] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 10:09:50.000 MST [40712] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:11:21.000 MST [40808] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 10:11:21.000 MST [40808] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 10:13:47.000 MST [40252] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:14:34.000 MST [40053] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:14:39.000 MST [40542] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:15:02.000 MST [40697] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:14:39.000 MST [40542] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 10:15:36.000 MST [40277] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:16:04.000 MST [40528] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:15:36.000 MST [40277] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 10:18:56.000 MST [40607] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:21:14.000 MST [40128] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:21:55.000 MST [40614] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:22:36.000 MST [40105] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:23:45.000 MST [40256] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:24:01.000 MST [40556] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:25:52.000 MST [40454] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 10:30:04.000 MST [40670] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:30:45.000 MST [40201] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:33:44.000 MST [40200] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:33:48.000 MST [40296] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:33:54.000 MST [40012] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:34:03.000 MST [40222] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:34:35.000 MST [40319] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:36:13.000 MST [40486] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:38:33.000 MST [40098] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:39:01.000 MST [40058] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:39:09.000 MST [40348] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:39:49.000 MST [40210] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:40:12.000 MST [40088] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:41:43.000 MST [40481] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:44:09.000 MST [40467] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:45:17.000 MST [40678] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 10:49:07.000 MST [40677] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:50:18.000 MST [40501] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 10:50:22.000 MST [40639] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:51:26.000 MST [40353] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 10:50:22.000 MST [40639] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 10:51:40.000 MST [40470] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 10:51:54.000 MST [40666] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 10:53:21.000 MST [40812] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 10:57:06.000 MST [40591] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:00:58.000 MST [40226] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 11:01:52.000 MST [40782] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:02:34.000 MST [40472] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:05:47.000 MST [40137] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:06:28.000 MST [40526] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:06:31.000 MST [40569] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:06:38.000 MST [40498] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:10:44.000 MST [40007] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 11:12:25.000 MST [40136] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:16:13.000 MST [40133] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 11:19:49.000 MST [40673] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:21:00.000 MST [40618] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 11:21:00.000 MST [40618] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 11:22:49.000 MST [40164] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 11:23:49.000 MST [40700] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:23:49.000 MST [40700] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 11:26:28.000 MST [40215] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:27:13.000 MST [40078] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 11:29:48.000 MST [40181] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 11:31:38.000 MST [40545] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:37:23.000 MST [40660] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:41:51.000 MST [40774] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 11:41:51.000 MST [40774] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 11:43:24.000 MST [40281] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:44:08.000 MST [40291] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:49:13.000 MST [40753] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:50:28.000 MST [40699] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 11:50:28.000 MST [40699] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 11:51:53.000 MST [40580] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:52:29.000 MST [40457] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 11:51:53.000 MST [40580] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 11:53:50.000 MST [40824] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 11:54:15.000 MST [40478] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:54:28.000 MST [40160] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 11:55:34.000 MST [40756] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 11:54:28.000 MST [40160] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 12:05:09.000 MST [40188] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 12:05:36.000 MST [40581] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 12:06:17.000 MST [40744] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 12:06:17.000 MST [40744] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 12:08:31.000 MST [40008] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 12:14:58.000 MST [40727] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 12:16:25.000 MST [40182] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 12:21:58.000 MST [40086] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 12:23:57.000 MST [40720] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 12:24:28.000 MST [40220] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 12:25:57.000 MST [40268] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 12:26:28.000 MST [40619] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 12:27:03.000 MST [40274] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 12:33:35.000 MST [40294] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 12:42:37.000 MST [40681] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 12:48:29.000 MST [40005] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 12:48:49.000 MST [40275] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 12:50:43.000 MST [40074] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 12:51:15.000 MST [40339] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 12:53:36.000 MST [40543] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 12:55:53.000 MST [40396] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:03:28.000 MST [40081] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 13:04:37.000 MST [40769] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:06:22.000 MST [40289] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:07:22.000 MST [40482] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:09:09.000 MST [40624] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:11:20.000 MST [40320] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:11:51.000 MST [40633] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:12:47.000 MST [40109] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:14:03.000 MST [40552] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:14:03.000 MST [40552] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 13:15:12.000 MST [40254] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:17:10.000 MST [40553] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:17:32.000 MST [40534] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:17:58.000 MST [40394] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:18:36.000 MST [40606] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:21:14.000 MST [40313] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:24:41.000 MST [40407] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 13:25:25.000 MST [40263] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:26:42.000 MST [40690] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:27:57.000 MST [40235] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:31:04.000 MST [40110] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:32:34.000 MST [40446] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:33:00.000 MST [40521] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:33:00.000 MST [40521] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 13:34:25.000 MST [40785] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:34:25.000 MST [40785] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 13:35:41.000 MST [40451] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:35:42.000 MST [40664] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:36:28.000 MST [40147] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:35:41.000 MST [40451] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 13:37:10.000 MST [40409] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:37:30.000 MST [40227] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:38:38.000 MST [40816] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:39:18.000 MST [40796] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:40:59.000 MST [40306] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 13:44:56.000 MST [40701] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:47:36.000 MST [40250] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:50:18.000 MST [40427] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 13:52:13.000 MST [40046] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:52:13.000 MST [40046] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 13:53:02.000 MST [40236] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:53:02.000 MST [40236] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 13:54:49.000 MST [40395] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:55:32.000 MST [40111] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:57:14.000 MST [40821] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 13:59:05.000 MST [40239] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 13:59:28.000 MST [40460] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 13:59:52.000 MST [40564] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 14:02:01.000 MST [40303] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 14:02:01.000 MST [40303] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 14:03:47.000 MST [40118] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 14:05:15.000 MST [40039] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 14:05:52.000 MST [40722] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 14:08:53.000 MST [40076] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:08:57.000 MST [40124] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 14:08:53.000 MST [40076] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 14:10:44.000 MST [40097] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:11:18.000 MST [40014] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:12:30.000 MST [40803] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 14:12:44.000 MST [40685] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:15:47.000 MST [40269] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 14:17:04.000 MST [40741] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 14:18:24.000 MST [40519] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 14:22:04.000 MST [40627] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:22:35.000 MST [40818] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 14:24:58.000 MST [40462] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:26:35.000 MST [40644] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:26:51.000 MST [40749] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:27:35.000 MST [40449] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:28:28.000 MST [40630] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:32:10.000 MST [40573] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 14:34:19.000 MST [40205] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:35:38.000 MST [40228] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:36:04.000 MST [40248] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:37:14.000 MST [40443] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:47:44.000 MST [40028] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 14:51:25.000 MST [40271] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:51:25.000 MST [40271] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 14:52:32.000 MST [40531] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 14:55:15.000 MST [40351] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 14:56:42.000 MST [40575] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 14:57:52.000 MST [40675] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 14:58:48.000 MST [40694] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 15:05:46.000 MST [40507] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:05:52.000 MST [40763] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:07:46.000 MST [40177] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:07:59.000 MST [40714] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 15:14:36.000 MST [40356] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 15:16:12.000 MST [40146] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 15:16:25.000 MST [40514] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 15:16:25.000 MST [40514] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 15:18:00.000 MST [40134] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:18:08.000 MST [40063] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:18:08.000 MST [40063] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 15:20:46.000 MST [40040] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:26:01.000 MST [40066] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 15:26:02.000 MST [40144] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:26:56.000 MST [40116] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 15:27:29.000 MST [40079] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 15:27:37.000 MST [40613] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:27:29.000 MST [40079] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 15:28:08.000 MST [40183] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:27:37.000 MST [40613] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 15:29:05.000 MST [40770] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 15:33:44.000 MST [40150] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:34:19.000 MST [40496] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 15:36:47.000 MST [40517] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:36:47.000 MST [40517] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 15:38:08.000 MST [40389] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 15:42:05.000 MST [40373] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 15:42:09.000 MST [40888] ecole@copperwind_ops LOG:  statement: ALTER ROLE copperwind_reports WITH SUPERUSER
+2026-08-14 15:42:29.000 MST [40739] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:43:35.000 MST [40233] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 15:46:18.000 MST [40084] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:46:25.000 MST [40051] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 15:51:21.000 MST [40809] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:51:55.000 MST [40365] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:52:17.000 MST [40687] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 15:54:15.000 MST [40648] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:00:40.000 MST [40399] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 16:01:37.000 MST [40262] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:02:08.000 MST [40487] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:02:30.000 MST [40167] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:03:37.000 MST [40379] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:04:31.000 MST [40815] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 16:04:31.000 MST [40815] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 16:05:56.000 MST [40131] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 16:06:52.000 MST [40584] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 16:07:19.000 MST [40403] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:10:58.000 MST [40260] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:11:16.000 MST [40380] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:13:43.000 MST [40755] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:23:15.000 MST [40629] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:25:53.000 MST [40485] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 16:30:12.000 MST [40710] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 16:30:12.000 MST [40710] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 16:34:14.000 MST [40615] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 16:37:11.000 MST [40435] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 16:38:06.000 MST [40663] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:40:20.000 MST [40336] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:40:20.000 MST [40336] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 16:43:22.000 MST [40023] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:43:23.000 MST [40512] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 16:47:04.000 MST [40502] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 16:47:04.000 MST [40502] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 16:50:52.000 MST [40588] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 16:56:38.000 MST [40323] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:57:04.000 MST [40492] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 16:58:04.000 MST [40425] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 16:58:24.000 MST [40494] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 16:58:55.000 MST [40597] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 16:58:24.000 MST [40494] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 16:59:53.000 MST [40600] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:01:08.000 MST [40225] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 17:01:38.000 MST [40423] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:02:10.000 MST [40204] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:02:52.000 MST [40491] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 17:07:45.000 MST [40800] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:08:22.000 MST [40349] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:10:10.000 MST [40217] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:10:10.000 MST [40217] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 17:20:02.000 MST [40682] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:20:08.000 MST [40505] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:20:15.000 MST [40152] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:20:46.000 MST [40047] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:21:19.000 MST [40362] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:22:27.000 MST [40142] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:26:14.000 MST [40572] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 17:29:02.000 MST [40324] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:35:58.000 MST [40474] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:35:58.000 MST [40474] copperwind_app@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 17:38:59.000 MST [40393] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:39:07.000 MST [40009] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:39:25.000 MST [40280] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 17:40:12.000 MST [40794] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:41:04.000 MST [40499] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:42:15.000 MST [40611] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:42:37.000 MST [40043] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:42:44.000 MST [40327] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:42:45.000 MST [40789] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:43:20.000 MST [40246] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:43:42.000 MST [40312] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:45:57.000 MST [40060] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:45:57.000 MST [40060] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 17:47:27.000 MST [40334] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:50:10.000 MST [40113] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:50:22.000 MST [40415] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:50:32.000 MST [40202] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:51:03.000 MST [40594] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 17:51:46.000 MST [40283] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 17:53:48.000 MST [40168] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 17:55:35.000 MST [40766] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:56:25.000 MST [40475] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 17:56:25.000 MST [40475] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 17:58:10.000 MST [40540] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 18:00:21.000 MST [40192] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 18:03:55.000 MST [40603] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 18:04:51.000 MST [40121] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 18:11:02.000 MST [40560] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 18:17:24.000 MST [40724] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 18:21:34.000 MST [40429] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 18:25:32.000 MST [40052] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 18:25:57.000 MST [40064] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 18:25:57.000 MST [40064] copperwind_reports@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 18:26:42.000 MST [40382] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 18:27:20.000 MST [40513] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 18:27:39.000 MST [40243] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 18:27:39.000 MST [40243] mlin@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 18:27:20.000 MST [40513] ecole@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 18:37:38.000 MST [40465] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 18:38:27.000 MST [40345] mlin@copperwind_ops LOG:  connection authorized: user=mlin database=copperwind_ops application_name=psql
+2026-08-14 18:37:38.000 MST [40465] nredhouse@copperwind_ops LOG:  statement: SELECT count(*) FROM tickets WHERE status = 'Open'
+2026-08-14 18:41:37.000 MST [40157] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 18:44:06.000 MST [40359] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 18:44:52.000 MST [40440] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 18:45:47.000 MST [40483] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 18:46:15.000 MST [40654] ecole@copperwind_ops LOG:  connection authorized: user=ecole database=copperwind_ops application_name=psql
+2026-08-14 18:50:43.000 MST [40827] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql
+2026-08-14 18:52:41.000 MST [40163] copperwind_reports@copperwind_ops LOG:  connection authorized: user=copperwind_reports database=copperwind_ops application_name=psql
+2026-08-14 18:53:13.000 MST [40140] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 18:54:24.000 MST [40025] copperwind_app@copperwind_ops LOG:  connection authorized: user=copperwind_app database=copperwind_ops application_name=psql
+2026-08-14 18:55:21.000 MST [40548] nredhouse@copperwind_ops LOG:  connection authorized: user=nredhouse database=copperwind_ops application_name=psql

@@ -1,0 +1,301 @@
+2026-09-02 07:04:50.000 MST [51155] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 07:05:12.000 MST [51109] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 07:05:18.000 MST [51013] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 07:12:05.000 MST [51016] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:13:50.000 MST [51105] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 07:14:35.000 MST [51185] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:14:52.000 MST [51164] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 07:22:56.000 MST [51043] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:25:54.000 MST [51148] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 07:27:54.000 MST [51216] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:28:23.000 MST [51195] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:28:45.000 MST [51139] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 07:30:38.000 MST [51079] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 07:30:48.000 MST [51156] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:32:26.000 MST [51169] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 07:34:35.000 MST [51069] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 07:37:10.000 MST [51076] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 07:42:24.000 MST [51228] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:43:22.000 MST [51041] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 07:46:51.000 MST [51082] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 07:48:30.000 MST [51192] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 07:49:47.000 MST [51068] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 07:55:48.000 MST [51231] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 08:04:48.000 MST [51028] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 08:06:04.000 MST [51209] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 08:07:21.000 MST [51226] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 08:10:35.000 MST [51132] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:12:04.000 MST [51142] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 08:12:21.000 MST [51138] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:14:03.000 MST [51222] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:15:01.000 MST [51075] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 08:19:58.000 MST [51059] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 08:20:49.000 MST [51046] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:30:48.000 MST [51019] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:31:27.000 MST [51077] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:32:26.000 MST [51174] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:34:11.000 MST [51256] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 08:37:49.000 MST [51010] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 08:39:11.000 MST [51260] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 08:39:16.000 MST [51023] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 08:39:20.000 MST [51064] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 08:39:27.000 MST [51163] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:45:29.000 MST [51049] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 08:49:51.000 MST [51251] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 08:51:57.000 MST [51021] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:52:45.000 MST [51012] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 08:52:46.000 MST [51104] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 08:52:52.000 MST [51191] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:00:11.000 MST [51200] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 09:01:11.000 MST [51199] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:01:28.000 MST [51107] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 09:02:51.000 MST [51197] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:15:30.000 MST [51095] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:15:38.000 MST [51143] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:16:38.000 MST [51128] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:17:01.000 MST [51052] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:17:42.000 MST [51227] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 09:23:10.000 MST [51242] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:27:08.000 MST [51110] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 09:33:17.000 MST [51239] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 09:33:45.000 MST [51078] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:36:08.000 MST [51053] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 09:36:39.000 MST [51146] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:39:30.000 MST [51145] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:43:35.000 MST [51165] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:43:57.000 MST [51234] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:49:36.000 MST [51177] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:55:37.000 MST [51205] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 09:55:41.000 MST [51224] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 09:56:19.000 MST [51127] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 09:59:49.000 MST [51198] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 10:08:31.000 MST [51085] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:08:51.000 MST [51100] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:11:27.000 MST [51015] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 10:12:42.000 MST [51219] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:13:25.000 MST [51212] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:13:27.000 MST [51014] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 10:21:31.000 MST [51027] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:23:22.000 MST [51108] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 10:26:53.000 MST [51157] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:28:24.000 MST [51171] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 10:28:29.000 MST [51243] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:30:16.000 MST [51056] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 10:34:18.000 MST [51048] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 10:35:21.000 MST [51188] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 10:37:44.000 MST [51211] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 10:57:12.000 MST [51201] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 10:57:47.000 MST [51130] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 10:58:41.000 MST [51150] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 10:59:25.000 MST [51092] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 11:00:42.000 MST [51081] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 11:08:56.000 MST [51246] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 11:09:19.000 MST [51011] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 11:16:44.000 MST [51194] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 11:18:11.000 MST [51202] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 11:20:35.000 MST [51024] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 11:22:24.000 MST [51215] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 11:24:53.000 MST [51187] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 11:25:08.000 MST [51067] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 11:25:58.000 MST [51103] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 11:26:11.000 MST [51123] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 11:28:15.000 MST [51213] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 11:30:53.000 MST [51062] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 11:36:48.000 MST [51241] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 11:42:21.000 MST [51135] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 11:45:12.000 MST [51080] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 11:49:21.000 MST [51237] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 11:50:47.000 MST [51172] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 11:51:12.000 MST [51253] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:00:03.000 MST [51196] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:01:28.000 MST [51136] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:02:19.000 MST [51073] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 12:03:19.000 MST [51183] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:04:04.000 MST [51042] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:04:05.000 MST [51097] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 12:04:52.000 MST [51158] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:04:54.000 MST [51179] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:07:49.000 MST [51258] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:10:55.000 MST [51129] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:13:24.000 MST [51088] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 12:13:58.000 MST [51083] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 12:23:17.000 MST [51233] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:27:18.000 MST [51047] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 12:29:18.000 MST [51026] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:29:28.000 MST [51178] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:33:00.000 MST [51147] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:34:28.000 MST [51036] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:36:14.000 MST [51208] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:38:24.000 MST [51065] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 12:40:27.000 MST [51182] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 12:43:34.000 MST [51140] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 12:49:00.000 MST [51045] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 12:53:27.000 MST [51009] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 13:04:02.000 MST [51032] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 13:06:49.000 MST [51152] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 13:09:35.000 MST [51249] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:11:18.000 MST [51098] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:12:02.000 MST [51229] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 13:13:39.000 MST [51113] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 13:22:03.000 MST [51134] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 13:22:25.000 MST [51173] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 13:22:47.000 MST [51180] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 13:23:56.000 MST [51115] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 13:25:23.000 MST [51151] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:29:22.000 MST [51050] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:30:15.000 MST [51144] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:30:16.000 MST [51005] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:30:40.000 MST [51034] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 13:31:42.000 MST [51184] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 13:41:39.000 MST [51186] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 13:50:03.000 MST [51120] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:53:04.000 MST [51031] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 13:56:59.000 MST [51248] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 13:58:12.000 MST [51154] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 13:59:09.000 MST [51170] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 14:01:26.000 MST [51022] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:03:30.000 MST [51035] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:05:20.000 MST [51225] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:06:23.000 MST [51149] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:07:23.000 MST [51175] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 14:10:14.000 MST [51240] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 14:11:14.000 MST [51004] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:13:02.000 MST [51111] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:13:16.000 MST [51037] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 14:15:05.000 MST [51203] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:16:31.000 MST [51119] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 14:20:03.000 MST [51206] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:20:40.000 MST [51220] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 14:23:19.000 MST [51162] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:24:51.000 MST [51121] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:28:36.000 MST [51159] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 14:31:13.000 MST [51038] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 14:32:02.000 MST [51116] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 14:34:02.000 MST [51093] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 14:34:22.000 MST [51054] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 14:36:13.000 MST [51044] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 14:36:27.000 MST [51245] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:37:09.000 MST [51124] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:39:02.000 MST [51087] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 14:39:23.000 MST [51007] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:42:32.000 MST [51063] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:53:39.000 MST [51223] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:54:53.000 MST [51190] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:55:52.000 MST [51207] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 14:56:38.000 MST [51072] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 14:58:23.000 MST [51025] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:58:54.000 MST [51166] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 14:59:47.000 MST [51039] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:00:55.000 MST [51084] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:02:40.000 MST [51033] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 15:03:56.000 MST [51137] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 15:04:35.000 MST [51153] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:08:04.000 MST [51131] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 15:09:00.000 MST [51259] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 15:13:18.000 MST [51055] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 15:14:30.000 MST [51250] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 15:17:19.000 MST [51168] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 15:17:38.000 MST [51210] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:18:08.000 MST [51086] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 15:20:41.000 MST [51074] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 15:20:45.000 MST [51235] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 15:21:24.000 MST [51217] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:23:22.000 MST [51232] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:26:15.000 MST [51071] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:26:50.000 MST [51008] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 15:28:42.000 MST [51030] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 15:30:23.000 MST [51091] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 15:36:05.000 MST [51118] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 15:49:53.000 MST [51112] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 15:51:36.000 MST [51230] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 15:53:13.000 MST [51257] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 15:56:02.000 MST [51040] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 15:59:04.000 MST [51051] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:00:59.000 MST [51061] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 16:01:04.000 MST [51066] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 16:01:56.000 MST [51096] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 16:02:28.000 MST [51099] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:04:00.000 MST [51001] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 16:07:40.000 MST [51193] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 16:09:26.000 MST [51089] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 16:10:39.000 MST [51029] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:17:46.000 MST [51254] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:21:21.000 MST [51167] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 16:22:32.000 MST [51161] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:25:16.000 MST [51102] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 16:28:13.000 MST [51070] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 16:33:52.000 MST [51125] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:35:42.000 MST [51204] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 16:40:05.000 MST [51133] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:41:22.000 MST [51006] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 16:41:58.000 MST [51002] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 16:42:18.000 MST [51060] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:44:53.000 MST [51218] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:45:48.000 MST [51058] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:49:24.000 MST [51252] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 16:51:07.000 MST [51160] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 16:51:36.000 MST [51122] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 16:53:35.000 MST [51017] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 16:54:16.000 MST [51214] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 16:58:58.000 MST [51255] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 17:03:00.000 MST [51244] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 17:03:38.000 MST [51141] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 17:03:46.000 MST [51020] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 17:05:01.000 MST [51126] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 17:09:55.000 MST [51106] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 17:16:26.000 MST [51247] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 17:23:29.000 MST [51114] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 17:25:54.000 MST [51003] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 17:26:06.000 MST [51018] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 17:28:59.000 MST [51094] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 17:33:02.000 MST [51057] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 17:33:14.000 MST [51176] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 17:35:11.000 MST [51189] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 17:41:40.000 MST [51238] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 17:47:01.000 MST [51090] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 17:50:22.000 MST [51181] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 17:50:43.000 MST [51101] academy_app@harquahala_academy LOG:  connection authorized: user=academy_app database=harquahala_academy application_name=psql
+2026-09-02 17:52:07.000 MST [51221] kbell@harquahala_academy LOG:  connection authorized: user=kbell database=harquahala_academy application_name=psql
+2026-09-02 17:54:32.000 MST [51117] lortega@harquahala_academy LOG:  connection authorized: user=lortega database=harquahala_academy application_name=psql
+2026-09-02 17:57:52.000 MST [51236] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-02 23:48:00.000 MST [51261] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:48:09.000 MST [51262] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:48:18.000 MST [51263] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:48:27.000 MST [51264] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:48:36.000 MST [51265] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:48:45.000 MST [51266] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:48:54.000 MST [51267] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:49:03.000 MST [51268] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:49:12.000 MST [51269] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:49:21.000 MST [51270] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:49:30.000 MST [51271] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:49:39.000 MST [51272] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:49:48.000 MST [51273] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:49:57.000 MST [51274] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:50:06.000 MST [51275] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:50:15.000 MST [51276] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:50:24.000 MST [51277] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:50:33.000 MST [51278] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:50:42.000 MST [51279] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:50:51.000 MST [51280] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:51:00.000 MST [51281] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:51:09.000 MST [51282] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:51:18.000 MST [51283] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:51:27.000 MST [51284] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:51:36.000 MST [51285] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:51:45.000 MST [51286] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:51:54.000 MST [51287] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:52:03.000 MST [51288] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:52:12.000 MST [51289] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:52:21.000 MST [51290] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:52:30.000 MST [51291] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:52:39.000 MST [51292] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:52:48.000 MST [51293] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:52:57.000 MST [51294] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-02 23:53:06.000 MST [51295] academy_reports@harquahala_academy FATAL:  password authentication failed for user "academy_reports"
+2026-09-03 02:09:41.000 MST [51296] academy_reports@harquahala_academy LOG:  connection authorized: user=academy_reports database=harquahala_academy application_name=psql
+2026-09-03 02:09:41.000 MST [51296] academy_reports@harquahala_academy LOG:  connection received: host=198.51.100.23 port=51844
+2026-09-03 02:10:53.000 MST [51296] academy_reports@harquahala_academy LOG:  statement: SELECT table_name FROM information_schema.tables WHERE table_schema = 'public'
+2026-09-03 02:13:11.000 MST [51296] academy_reports@harquahala_academy LOG:  statement: COPY (SELECT full_name, phone, email FROM guardians) TO STDOUT WITH CSV HEADER
+2026-09-03 02:13:43.000 MST [51296] academy_reports@harquahala_academy LOG:  statement: COPY (SELECT s.first_name, s.last_name, s.date_of_birth, g.term_grade FROM students s JOIN enrollments e ON e.student_id = s.student_id JOIN grades g ON g.enrollment_id = e.enrollment_id) TO STDOUT WITH CSV HEADER
+2026-09-03 02:15:29.000 MST [51296] academy_reports@harquahala_academy LOG:  disconnection: session time: 0:05:48.201 user=academy_reports database=harquahala_academy host=198.51.100.23 port=51844
