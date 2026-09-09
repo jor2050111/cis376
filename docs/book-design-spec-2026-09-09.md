@@ -182,8 +182,16 @@ needs and nothing it does not:
 * `setup-<database>.sql` for each database the chapter uses. The
   script drops and recreates the database's tables, then loads the
   CSVs with `\copy` using paths relative to the `cis376` root. It is
-  idempotent.
-* The CSV files that setup script loads.
+  idempotent. The generator writes the base script into every chapter
+  folder listed for that organization. A chapter that needs a
+  different starting state (schemas already separated, roles already
+  created) keeps a hand-edited copy marked
+  `-- CHAPTER-SPECIFIC: do not regenerate` on its first lines.
+* The shared CSVs live once in `assets/code/data/<org>/` (decision
+  2026-09-09: the Copperwind history is several megabytes and twelve
+  copies would bloat the repo and the student zip). Every setup script
+  loads from there. Chapter independence is unchanged: a chapter needs
+  the pack, never saved work.
 * Any chapter-specific fixture: a server log excerpt, a backup dump, a
   scan report, a flat export, a starter `pg_hba.conf`.
 * `skills-lab-Na.sql` (starter script with numbered `\echo` markers)
@@ -445,9 +453,18 @@ criteria read as:
 
 The harness runs against the local PostgreSQL 17 cluster
 (`/opt/homebrew/opt/postgresql@17`, data directory
-`/opt/homebrew/var/postgresql@17`, superuser `vega`, trust auth on
-localhost, `LC_ALL=en_US.UTF-8` required to start). Each chapter runs
-in its own database named `cis376_chNN_<org>` so chapters never
-collide. Roles are cluster-wide, so every setup script drops the roles
-it creates before recreating them, and the harness drops any role
-prefixed `copperwind_`, `clinic_`, or `academy_` before a chapter run.
+`/opt/homebrew/var/postgresql@17`, bootstrap superuser `postgres`,
+trust auth on localhost, `LC_ALL=en_US.UTF-8` required to start). The
+harness rebuilds the three databases under their real names before
+every chapter run, so `current_database()`, connect messages, and
+column widths match what a student sees. A file lock serializes runs.
+Roles are cluster-wide, so the harness drops any role prefixed
+`copperwind_`, `clinic_`, or `academy_` before a chapter run, and
+chapter authors never paste `\du` output (it would list the author's
+cluster, not the student's). Use catalog queries filtered to the
+course prefixes instead.
+
+Workflow for an author: draft the chapter with `-- Output:` markers
+left empty, run `run_chapter_sql.py`, run `fill_sql_outputs.py` to
+paste the captured output, review the diff, then run
+`check_sql_outputs.py` and the rest of the battery.

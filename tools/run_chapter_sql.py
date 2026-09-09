@@ -13,8 +13,9 @@ How a chapter run works:
    (``copperwind_``, ``clinic_``, ``academy_``). Roles are cluster-wide,
    so a previous chapter's roles would otherwise leak into this one.
 2. For each ``setup-<org>.sql`` in ``assets/code/chapter-NN/``, drop
-   and recreate the database ``cis376_chNN_<org>`` and run the setup
+   and recreate the database under its real name and run the setup
    script against it from the repo root, so ``\\copy`` paths resolve.
+   A file lock serializes harness runs, because roles are cluster-wide.
 3. Concatenate every fenced ``sql`` block, in file order, into one
    psql script with an ``\\echo`` marker after each block, and run it
    once with ``psql -f``. Blocks share the session, so a role or table
@@ -22,8 +23,7 @@ How a chapter run works:
    student typing along would see it. The session starts connected to
    the chapter's first database (Copperwind if present). A block
    switches databases with ``\\connect <name>`` when the prose tells
-   the student to. Real database names are rewritten to the
-   per-chapter copies so chapters never collide.
+   the student to.
 4. Attribute errors to blocks by the script line number psql prints
    (``psql:script.sql:LINE: ERROR: ...``), write
    ``docs/execution-logs/chapter-NN.log``, and exit non-zero if any
@@ -50,11 +50,12 @@ import re
 import subprocess
 import sys
 import tempfile
+import fcntl
 from pathlib import Path
 
 REPO = Path(__file__).resolve().parents[1]
 PSQL = os.environ.get("PSQL", "/opt/homebrew/opt/postgresql@17/bin/psql")
-PGUSER = os.environ.get("PGUSER", "vega")
+PGUSER = os.environ.get("PGUSER", "postgres")
 ROLE_PREFIXES = ("copperwind_", "clinic_", "academy_")
 ORG_ORDER = ("copperwind", "sandwash", "harquahala")
 REAL_DB = {"copperwind": "copperwind_ops", "sandwash": "sandwash_clinic",
@@ -73,7 +74,11 @@ def psql(args: list[str], stdin: str | None = None) -> subprocess.CompletedProce
 
 
 def temp_db(chapter_num: int, org: str) -> str:
-    return f"cis376_ch{chapter_num:02d}_{org}"
+    """The harness uses the REAL database names so every output a
+    student sees (current_database(), connect messages, column widths)
+    matches the book. Runs are serialized by a file lock instead, since
+    roles are cluster-wide and two chapters must never run at once."""
+    return REAL_DB[org]
 
 
 def drop_prefixed_roles() -> None:
@@ -207,6 +212,9 @@ def run_blocks(chapter_path: Path, databases: list[str],
 def main() -> None:
     if len(sys.argv) != 2:
         sys.exit(__doc__)
+    lock_path = Path(tempfile.gettempdir()) / "cis376-harness.lock"
+    lock = open(lock_path, "w")
+    fcntl.flock(lock, fcntl.LOCK_EX)
     chapter_path = Path(sys.argv[1]).resolve()
     chapter_num = int(re.search(r"chapter-(\d+)", chapter_path.name).group(1))
     (REPO / "docs" / "execution-logs").mkdir(parents=True, exist_ok=True)

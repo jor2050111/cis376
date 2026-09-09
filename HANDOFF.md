@@ -62,10 +62,13 @@ export LC_ALL=en_US.UTF-8
 /opt/homebrew/opt/postgresql@17/bin/pg_ctl -D /opt/homebrew/var/postgresql@17 -l /tmp/pg.log start
 ```
 
-Superuser `vega`, trust auth on localhost. The harness builds
-`cis376_chNN_<org>` databases per chapter and drops course roles
-(`copperwind_*`, `clinic_*`, `academy_*`) before every run. `LC_ALL`
-must be set or the postmaster refuses to start on macOS.
+The cluster was initialized with `initdb -U postgres --auth=trust`,
+so `postgres` is the only login role and catalog outputs match a
+student install. The harness rebuilds the three databases under their
+real names before every run and drops course roles (`copperwind_*`,
+`clinic_*`, `academy_*`). A file lock serializes harness runs, because
+roles are cluster-wide. `LC_ALL` must be set or the postmaster refuses
+to start on macOS.
 
 ## Rebuilding the student data pack
 

@@ -1,0 +1,62 @@
+Execution log: chapter-01.md
+SQL blocks found: 6
+Databases: copperwind_ops, sandwash_clinic, harquahala_academy
+
+--- block 1/6 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+     ticket_count 
+    --------------
+            18240
+    (1 row)
+
+--- block 2/6 --- [OK]
+    >>> SELECT current_database() AS database_name,
+     database_name  | total_size | server_version 
+    ----------------+------------+----------------
+     copperwind_ops | 14 MB      | 17.11
+    (1 row)
+
+--- block 3/6 --- [OK]
+    >>> SELECT relname AS table_name,
+      table_name  | total_size 
+    --------------+------------
+     ticket_notes | 2848 kB
+     tickets      | 2624 kB
+     login_events | 1336 kB
+     clients      | 32 kB
+     technicians  | 32 kB
+    (5 rows)
+
+--- block 4/6 --- [OK]
+    >>> SELECT rolname AS role_name,
+     role_name | is_superuser | can_login 
+    -----------+--------------+-----------
+     postgres  | t            | t
+    (1 row)
+
+--- block 5/6 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+      database_name  | total_size 
+    -----------------+------------
+     sandwash_clinic | 9782 kB
+    (1 row)
+
+--- block 6/6 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+        table_name     
+    -------------------
+     courses
+     enrollments
+     grades
+     guardians
+     portal_accounts
+     sections
+     staff
+     student_guardians
+     students
+    (9 rows)
+
+Failures: 0
