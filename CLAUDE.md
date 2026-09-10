@@ -133,8 +133,10 @@ inside fenced code blocks or inline code.
 * Flesch Reading Ease target for this course: 60-70. CIS376 is a
   300-level course, so chapters 4 and 10 (regulation-heavy vocabulary:
   HIPAA, FERPA, breach notification) may land as low as 55. Every
-  other chapter stays inside 60-70. Recorded 2026-09-09, pending
-  Mr. Vega's confirmation.
+  other chapter aims for 60-70. Any chapter may land slightly above
+  55 when the author's educator judgment says the section's
+  vocabulary calls for it, and the chapter report must say so.
+  Confirmed by Mr. Vega 2026-09-09.
 * Run `python3 tools/check_sentence_length.py book/chapters/chapter-NN.md`
   with the style sweeps. It flags prose sentences at 35 words or more.
 

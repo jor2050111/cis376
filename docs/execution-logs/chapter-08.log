@@ -1,0 +1,129 @@
+Execution log: chapter-08.md
+SQL blocks found: 9
+Databases: copperwind_ops, harquahala_academy
+
+--- block 1/9 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+                            QUERY PLAN                        
+    ----------------------------------------------------------
+     Seq Scan on tickets
+       Filter: ((client_id = 12) AND (status = 'Open'::text))
+    (2 rows)
+
+--- block 2/9 --- [OK]
+    >>> EXPLAIN (ANALYZE, COSTS OFF, TIMING OFF, SUMMARY OFF)
+                            QUERY PLAN                        
+    ----------------------------------------------------------
+     Seq Scan on tickets (actual rows=4 loops=1)
+       Filter: ((client_id = 12) AND (status = 'Open'::text))
+       Rows Removed by Filter: 18236
+    (3 rows)
+
+--- block 3/9 --- [OK]
+    >>> SHOW shared_preload_libraries;
+     shared_preload_libraries 
+    --------------------------
+     
+    (1 row)
+    
+     installed 
+    -----------
+             0
+    (1 row)
+
+--- block 4/9 --- [OK]
+    >>> CREATE INDEX tickets_client_status_idx
+    CREATE INDEX
+                                      QUERY PLAN                                  
+    ------------------------------------------------------------------------------
+     Bitmap Heap Scan on tickets (actual rows=4 loops=1)
+       Recheck Cond: ((client_id = 12) AND (status = 'Open'::text))
+       Heap Blocks: exact=4
+       ->  Bitmap Index Scan on tickets_client_status_idx (actual rows=4 loops=1)
+             Index Cond: ((client_id = 12) AND (status = 'Open'::text))
+    (5 rows)
+
+--- block 5/9 --- [OK]
+    >>> CREATE INDEX ticket_notes_ticket_id_idx
+    CREATE INDEX
+                                            QUERY PLAN                                         
+    -------------------------------------------------------------------------------------------
+     Sort (actual rows=2 loops=1)
+       Sort Key: noted_at
+       Sort Method: quicksort  Memory: 25kB
+       ->  Index Scan using ticket_notes_ticket_id_idx on ticket_notes (actual rows=2 loops=1)
+             Index Cond: (ticket_id = 9001)
+    (5 rows)
+
+--- block 6/9 --- [OK]
+    >>> SELECT pg_size_pretty(pg_relation_size('login_events')) AS before_update;
+     before_update 
+    ---------------
+     1024 kB
+    (1 row)
+    
+    UPDATE 12000
+     after_update 
+    --------------
+     1456 kB
+    (1 row)
+    
+    VACUUM
+     after_vacuum 
+    --------------
+     1456 kB
+    (1 row)
+    
+    VACUUM
+     after_vacuum_full 
+    -------------------
+     728 kB
+    (1 row)
+
+--- block 7/9 --- [OK]
+    >>> SET work_mem = '64kB';
+    SET
+                             QUERY PLAN                         
+    ------------------------------------------------------------
+     Sort (actual rows=28326 loops=1)
+       Sort Key: note_text
+       Sort Method: external merge  Disk: 1040kB
+       ->  Seq Scan on ticket_notes (actual rows=28326 loops=1)
+    (4 rows)
+    
+    SET
+                             QUERY PLAN                         
+    ------------------------------------------------------------
+     Sort (actual rows=28326 loops=1)
+       Sort Key: note_text
+       Sort Method: quicksort  Memory: 2040kB
+       ->  Seq Scan on ticket_notes (actual rows=28326 loops=1)
+    (4 rows)
+    
+    RESET
+
+--- block 8/9 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+    CREATE INDEX
+    CREATE INDEX
+                                        QUERY PLAN                                    
+    ----------------------------------------------------------------------------------
+     Bitmap Heap Scan on students (actual rows=21 loops=1)
+       Recheck Cond: (lower(last_name) = 'young'::text)
+       Heap Blocks: exact=4
+       ->  Bitmap Index Scan on students_lower_last_name_idx (actual rows=21 loops=1)
+             Index Cond: (lower(last_name) = 'young'::text)
+    (5 rows)
+
+--- block 9/9 --- [OK]
+    >>> SELECT name, setting
+          name       | setting 
+    -----------------+---------
+     archive_mode    | off
+     max_wal_senders | 10
+     wal_level       | replica
+    (3 rows)
+
+Failures: 0

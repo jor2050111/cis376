@@ -1,0 +1,146 @@
+Execution log: chapter-07.md
+SQL blocks found: 9
+Databases: copperwind_ops, sandwash_clinic
+
+--- block 1/9 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+     success | attempts | usernames 
+    ---------+----------+-----------
+     f       |      557 |        14
+     t       |    11443 |        11
+    (2 rows)
+
+--- block 2/9 --- [OK]
+    >>> SELECT name, setting, context
+           name        |            setting             |      context      
+    -------------------+--------------------------------+-------------------
+     log_connections   | off                            | superuser-backend
+     log_destination   | stderr                         | sighup
+     log_directory     | log                            | sighup
+     log_filename      | postgresql-%Y-%m-%d_%H%M%S.log | sighup
+     log_line_prefix   | %m [%p]                        | sighup
+     log_rotation_age  | 1440                           | sighup
+     log_rotation_size | 10240                          | sighup
+     log_statement     | none                           | superuser
+     logging_collector | off                            | postmaster
+    (9 rows)
+
+--- block 3/9 --- [OK]
+    >>> ALTER DATABASE copperwind_ops SET log_statement = 'ddl';
+    ALTER DATABASE
+    You are now connected to database "copperwind_ops" as user "postgres".
+     log_statement 
+    ---------------
+     ddl
+    (1 row)
+    
+     database_name  |      settings       
+    ----------------+---------------------
+     copperwind_ops | {log_statement=ddl}
+    (1 row)
+    
+     pg_reload_conf 
+    ----------------
+     t
+    (1 row)
+    
+           name        | setting  |      context      | pending_restart 
+    -------------------+----------+-------------------+-----------------
+     log_connections   | off      | superuser-backend | f
+     log_line_prefix   | %m [%p]  | sighup            | f
+     log_statement     | ddl      | superuser         | f
+     logging_collector | off      | postmaster        | f
+    (4 rows)
+
+--- block 4/9 --- [OK]
+    >>> CREATE ROLE copperwind_reports LOGIN
+    CREATE ROLE
+    ALTER ROLE
+         role_name      |  database_name   |      settings       
+    --------------------+------------------+---------------------
+     (every role)       | copperwind_ops   | {log_statement=ddl}
+     copperwind_reports | (every database) | {log_statement=all}
+    (2 rows)
+
+--- block 5/9 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+    CREATE TABLE
+    CREATE FUNCTION
+    CREATE TRIGGER
+
+--- block 6/9 --- [OK]
+    >>> CREATE ROLE clinic_scheduler_app LOGIN
+    CREATE ROLE
+    GRANT
+    GRANT
+    SET
+    UPDATE 1
+    RESET
+     audit_id |      changed_by      |  table_name  | operation | old_status | new_status 
+    ----------+----------------------+--------------+-----------+------------+------------
+            1 | clinic_scheduler_app | appointments | UPDATE    | Completed  | Cancelled
+    (1 row)
+    
+     can_insert | can_select | can_update | can_delete 
+    ------------+------------+------------+------------
+     t          | f          | f          | f
+    (1 row)
+
+--- block 7/9 --- [OK]
+    >>> CREATE OR REPLACE FUNCTION patients_phone_audit() RETURNS trigger
+    CREATE FUNCTION
+    CREATE TRIGGER
+    UPDATE 1
+     changed_by | table_name | operation |  old_phone   | new_phone 
+    ------------+------------+-----------+--------------+-----------
+     postgres   | patients   | UPDATE    | 602-555-2526 | 555-0199
+    (1 row)
+
+--- block 8/9 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+    CREATE TABLE
+    COPY 599
+    SELECT 599
+     lines_unparsed 
+    ----------------
+                  0
+    (1 row)
+    
+     classification |  event_kind  |     role_name      | events | first_seen | last_seen 
+    ----------------+--------------+--------------------+--------+------------+-----------
+     violation      | role change  | ecole              |      1 | 15:42:09   | 15:42:09
+     suspicious     | failed login | postgres           |     60 | 02:11:00   | 02:15:55
+     routine        | login        | copperwind_app     |     82 | 06:07:33   | 18:54:24
+     routine        | login        | copperwind_reports |     88 | 06:11:35   | 18:52:41
+     routine        | login        | ecole              |    106 | 06:18:01   | 18:46:15
+     routine        | login        | mlin               |     77 | 06:04:07   | 18:38:27
+     routine        | login        | nredhouse          |     67 | 06:08:03   | 18:55:21
+     routine        | read query   | copperwind_app     |     12 | 07:27:28   | 17:35:58
+     routine        | read query   | copperwind_reports |     14 | 06:12:39   | 18:25:57
+     routine        | read query   | ecole              |      9 | 07:34:42   | 18:27:20
+     routine        | read query   | mlin               |     12 | 06:05:25   | 18:27:39
+     routine        | read query   | nredhouse          |     11 | 08:21:53   | 18:37:38
+    (12 rows)
+
+--- block 9/9 --- [OK]
+    >>> SELECT source_ip,
+      source_ip   | failures | usernames_tried |    first_attempt    |    last_attempt     
+    --------------+----------+-----------------+---------------------+---------------------
+     203.0.113.77 |      199 |               5 | 2026-07-19 02:11:00 | 2026-07-19 02:34:06
+     10.20.5.14   |       69 |              10 | 2026-06-01 17:45:27 | 2026-07-30 22:06:09
+     10.20.7.9    |       64 |              10 | 2026-06-01 08:26:04 | 2026-07-30 15:37:56
+    (3 rows)
+    
+        username    | failures 
+    ----------------+----------
+     admin          |       47
+     root           |       44
+     postgres       |       42
+     backup         |       38
+     copperwind_app |       28
+    (5 rows)
+
+Failures: 0

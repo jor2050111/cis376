@@ -1,6 +1,6 @@
 # HANDOFF: CIS376 Textbook
 
-**Last updated:** 2026-09-09 (end of session 1)
+**Last updated:** 2026-09-09 (session 2, wave two drafted)
 
 ## What this is
 
@@ -29,10 +29,16 @@ subgoal labels). Lab engine: PostgreSQL 17.
   "Understand" wording. Recorded in docs/CIS376_CLOs.md. This is a
   deviation from the assumption stated at kickoff, made because
   "understand" fails QM measurability and the Canvas alignment map
-  already uses the elevated lines. Flagged for Mr. Vega.
-* Flesch band 60-70, with a 55 floor for chapters 4 and 10. Pending
-  Mr. Vega's confirmation.
-* Task list id: `cis376-spring27` (assumed; confirm the term).
+  already uses the elevated lines. Confirmed by Mr. Vega on
+  2026-09-09 (session 2): every chapter uses the elevated Bloom's
+  wording, never "Understand".
+* Flesch band 60-70, with a 55 floor for chapters 4 and 10. Confirmed
+  2026-09-09: landing slightly above 55 is acceptable in any chapter
+  when the author's educator judgment says the vocabulary calls for
+  it, and the report must say so.
+* Task list id: `cis376-spring27`. Confirmed 2026-09-09 (Spring 2027).
+* Publishing: Mr. Vega approved (2026-09-09) creating the public
+  GitHub repo as the first push and deploying the draft site.
 
 ## Where things are
 
@@ -78,10 +84,12 @@ zip -r cis376/build/cis376-data-pack.zip cis376/assets/code \
     -x '*.DS_Store' -x '*__pycache__*' -x 'cis376/assets/code/_generators/*'
 ```
 
-## Status at the end of session 1 (2026-09-09)
+## Status after wave two (2026-09-09, session 2)
 
-**Chapters 1-5 drafted, verified, and committed. Chapters 6-12 not
-started.** No GitHub remote yet. Nothing is deployed.
+**Chapters 1-9 drafted, verified, and committed. Chapters 10-12 not
+started.** Wave two (6-9) awaits Mr. Vega's review before wave three
+launches. Public repo `jor2050111/cis376` created and the draft site
+deploys from `main` through `.github/workflows/docs.yml`.
 
 | Ch | Lines | SQL blocks | Flesch | Notes |
 | -- | ----- | ---------- | ------ | ----- |
@@ -90,13 +98,17 @@ started.** No GitHub remote yet. Nothing is deployed.
 | 3 | 694 | 15 | 64.3 | Found 12 real double bookings in appointments and taught them |
 | 4 | 692 | 14 | 57.2 | Inside the 55 floor; regulatory vocabulary |
 | 5 | 741 | 13 | 64.2 | 41 lines over target; chapter-specific setup-sandwash.sql plants an over-grant |
+| 6 | 726 | 11 | 64.6 | 26 over target; TLS "after restart" captures from a throwaway cluster on port 5499, recorded in chapter-06-captures.md |
+| 7 | 727 | 9 | 66.7 | Drafted at 811 with 24 fences, trimmed to 15 fences; log settings captured from a throwaway cluster on port 5439 |
+| 8 | 611 | 9 | 66.4 | pg_stat_statements taught in a text fence because the local cluster has no preload; verified blocks use EXPLAIN (COSTS OFF) |
+| 9 | 566 | 12 | 62.1 | 34 under the floor by author choice; ships copperwind_ops (3.7 MB) and sandwash_clinic (604 KB) plain dumps plus a scan report |
 
 Every chapter passes: harness (0 failures), output check (0
 mismatches), structure checker (0 errors), sentence length (0 flagged),
-style sweeps, and a clean Zensical build. Glossary: 99 terms merged
-from `docs/glossary-additions/` (four duplicate definitions were kept
+style sweeps, and a clean Zensical build. Glossary: 180 terms merged
+from `docs/glossary-additions/` (seven duplicate definitions were kept
 as the earlier chapter's wording; see the CONFLICT lines from
-`tools/merge_glossary_additions.py --check`).
+`tools/merge_glossary_additions.py --check`). Combined Flesch 62.3.
 
 ### How to continue (next session)
 
@@ -106,14 +118,19 @@ as the earlier chapter's wording; see the CONFLICT lines from
 2. Read `docs/CHAPTER-AGENT-BRIEF.md`. It is the complete instruction
    set for a chapter author. Wave one proved it: four agents in
    parallel, each ~15-30 minutes, all green on the first review.
-3. Launch wave two: chapters 6, 7, 8, 9 as four background agents.
-   Each prompt names the chapter, points at the brief, and restates the
-   chapter's spec row (spec Section 4: spine database, fading level,
-   Fix It error, fixture) plus the part-structure sections and MLOs.
-   The wave-one prompts are in this session's transcript; the pattern
-   is: read the brief first, deliver the listed files, run the
-   workflow until green, report back, do not commit. Wave three:
-   chapters 10, 11, 12.
+3. Wave two (6-9) is drafted. After Mr. Vega's review, launch wave
+   three: chapters 10, 11, 12 as three background agents. Each prompt
+   names the chapter, points at the brief, and restates the chapter's
+   spec row (spec Section 4: spine database, fading level, Fix It
+   error, fixture) plus the part-structure sections, MLOs, aligned
+   CLOs, and neighbors. Add the wave-two lessons: no cluster config
+   edits (capture restart-dependent output from a throwaway `initdb`
+   cluster on a spare port and record it in a `chapter-NN-captures.md`),
+   `EXPLAIN (COSTS OFF)` in verified blocks, deterministic evidence
+   instead of random salts or timings, and a fence budget of 15.
+   Chapter 11's Fix It (pg_stat_statements not preloaded) is real on
+   this cluster. Pattern: read the brief first, deliver the listed
+   files, run the workflow until green, report back, do not commit.
 4. Special fixtures the spec assigns: ch 9 needs a backup dump of
    copperwind_ops (produce it with `pg_dump` under `tools/locked.py`
    after a plain `psql -f` rebuild, never inside the harness) and a
@@ -127,12 +144,33 @@ as the earlier chapter's wording; see the CONFLICT lines from
    `python3 tools/check_readability.py`, `.venv/bin/zensical build
    --clean`, then commit.
 6. Whole-book QA after chapter 12 (spec Section 8), then rebuild the
-   data pack zip, update this file, and create the GitHub repo:
-   `gh repo create jor2050111/cis376 --public --source . --remote
-   origin --push` followed by `gh api -X POST
-   repos/jor2050111/cis376/pages -f build_type=workflow`. Mr. Vega
-   asked for a look at the book before anything is pushed; the repo
-   creation is the push, so it waits for his word.
+   data pack zip and update this file. The repo and Pages deploy
+   already exist (created 2026-09-09 in session 2); every push to
+   `main` redeploys https://jor2050111.github.io/cis376/.
+
+### Review notes from wave two (maintainer judgment calls pending)
+
+* Ch 6 is 726 lines. Every configuration change carries its proof, and
+  the "after your restart" TLS output sits in `text` fences. The
+  `hostnossl ... reject` refusal was captured on port 5499 against
+  `postgres` and quoted with `sandwash_clinic` and 5432 substituted
+  (stated in the captures file). The Skills Lab hashes 1,201 rows at
+  bcrypt cost 10, about a minute; Part 3 asks students to restart
+  their own server for TLS. The HHS breach-notification link answers
+  403 to curl but renders in a browser.
+* Ch 7 ships two settings that persist across setup reruns (`ALTER
+  DATABASE copperwind_ops SET log_statement` and a role-level SET);
+  the README says how to reset them. The classification rule names a
+  `copperwind_dba` login that is a plan rule, not a created role. The
+  postgresql.conf excerpt became a bulleted list to hit the fence
+  budget. The merged parse-and-classify block is 41 SQL lines.
+* Ch 8 adds a WAL definition that Chapter 2 bolds but never defined.
+  The merge kept Chapter 8's wording and dropped Chapter 9's.
+* Ch 9 is 566 lines. Both dump headers read "17.11 (Homebrew)". The
+  Fix It pre-seeds a lone `tickets` table so the error is the spec's
+  exact line. Point-in-time recovery is taught in `text` fences and
+  verified only through `SHOW` and `pg_current_wal_lsn()`.
+* Wave-one items below still stand.
 
 ### Review notes from wave one (maintainer judgment calls pending)
 
@@ -169,3 +207,13 @@ PostgreSQL 17 locally and verified the harness end to end. Wrote
 Chapter 1 by hand as the exemplar, then ran wave one (chapters 2-5)
 as four parallel agents against `docs/CHAPTER-AGENT-BRIEF.md`.
 HQ task: recWdgSTKDhci9Y9v (In progress, Claude).
+
+### 2026-09-09: session 2, wave two
+
+Recorded Mr. Vega's four rulings (elevated CLOs, Flesch floor
+judgment, task list term, public repo as first push). Ran chapters
+6-9 as four parallel agents; chapter 7 took a second consolidation
+pass (811 lines and 24 fences down to 727 and 15). Merged the
+glossary to 180 terms, whole-book checks green, committed, created
+the public repo, and deployed the draft site. Paused for Mr. Vega's
+review before wave three.

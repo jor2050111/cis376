@@ -1,0 +1,139 @@
+Execution log: chapter-09.md
+SQL blocks found: 12
+Databases: copperwind_ops, sandwash_clinic
+
+--- block 1/12 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+     first_ticket | last_ticket | total_tickets | tickets_per_day 
+    --------------+-------------+---------------+-----------------
+     2024-01-01   | 2026-06-30  |         18240 |            20.0
+    (1 row)
+
+--- block 2/12 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+    DROP DATABASE
+    CREATE DATABASE
+
+--- block 3/12 --- [OK]
+    >>> \connect copperwind_restore_drill
+    You are now connected to database "copperwind_restore_drill" as user "postgres".
+    SET
+    SET
+    SET
+    SET
+    SET
+    SET
+     set_config 
+    ------------
+     
+    (1 row)
+    
+    SET
+    SET
+    SET
+    SET
+    SET
+    SET
+    CREATE TABLE
+    CREATE TABLE
+    CREATE TABLE
+    CREATE TABLE
+    CREATE TABLE
+    COPY 40
+    COPY 12000
+    COPY 8
+    COPY 28326
+    COPY 18240
+    ALTER TABLE
+    ALTER TABLE
+    ALTER TABLE
+    ALTER TABLE
+    ALTER TABLE
+    ALTER TABLE
+    ALTER TABLE
+    ALTER TABLE
+    ALTER TABLE
+
+--- block 4/12 --- [OK]
+    >>> \connect copperwind_restore_drill
+    You are now connected to database "copperwind_restore_drill" as user "postgres".
+      table_name  | restored_rows 
+    --------------+---------------
+     clients      |            40
+     login_events |         12000
+     technicians  |             8
+     ticket_notes |         28326
+     tickets      |         18240
+    (5 rows)
+
+--- block 5/12 --- [OK]
+    >>> \connect copperwind_restore_drill
+    You are now connected to database "copperwind_restore_drill" as user "postgres".
+     restored_size 
+    ---------------
+     14 MB
+    (1 row)
+
+--- block 6/12 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+    DROP DATABASE
+
+--- block 7/12 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+         name     | setting 
+    --------------+---------
+     archive_mode | off
+     wal_level    | replica
+    (2 rows)
+
+--- block 8/12 --- [OK]
+    >>> SELECT pg_current_wal_lsn() IS NOT NULL AS wal_position_tracked,
+     wal_position_tracked | server_in_recovery 
+    ----------------------+--------------------
+     t                    | f
+    (1 row)
+
+--- block 9/12 --- [OK]
+    >>> SELECT current_setting('server_version') AS running_version,
+     running_version  | ssl_on | password_scheme 
+    ------------------+--------+-----------------
+     17.11 (Homebrew) | off    | scram-sha-256
+    (1 row)
+
+--- block 10/12 --- [OK]
+    >>> CREATE TEMP TABLE scan_findings (
+    CREATE TABLE
+    INSERT 0 5
+     finding_id | likelihood | impact | risk_score | priority 
+    ------------+------------+--------+------------+----------
+     CW-02      |          4 |      4 |         16 | Critical
+     CW-03      |          3 |      5 |         15 | Critical
+     CW-01      |          3 |      4 |         12 | High
+     CW-04      |          2 |      5 |         10 | High
+     CW-05      |          4 |      2 |          8 | Medium
+    (5 rows)
+
+--- block 11/12 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+    CREATE FUNCTION
+    CREATE FUNCTION
+     unsafe_real_name | unsafe_injected | safe_injected 
+    ------------------+-----------------+---------------
+                    0 |              40 |             0
+    (1 row)
+
+--- block 12/12 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+    CREATE FUNCTION
+     format_real_name | format_injected 
+    ------------------+-----------------
+                    0 |               0
+    (1 row)
+
+Failures: 0

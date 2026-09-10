@@ -1,0 +1,107 @@
+Execution log: chapter-06.md
+SQL blocks found: 11
+Databases: sandwash_clinic, harquahala_academy
+
+--- block 1/11 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+    CREATE EXTENSION
+     extension | version 
+    -----------+---------
+     pgcrypto  | 1.3
+    (1 row)
+
+--- block 2/11 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+    CREATE EXTENSION
+     account_id |     username      |   password_hash    
+    ------------+-------------------+--------------------
+              1 | talia.espinoza897 | plain:5b54bdceca11
+              2 | lena.young108     | plain:6c63752edb15
+              3 | elijah.chavez390  | plain:004621ebcdd3
+    (3 rows)
+
+--- block 3/11 --- [OK]
+    >>> SELECT left(hash_one, 7) AS scheme_and_cost,
+     scheme_and_cost | hash_length | different_hashes 
+    -----------------+-------------+------------------
+     $2a$10$         |          60 | t
+    (1 row)
+
+--- block 4/11 --- [OK]
+    >>> UPDATE portal_accounts
+    UPDATE 3
+     account_id | scheme_and_cost | hash_length | right_password | wrong_password 
+    ------------+-----------------+-------------+----------------+----------------
+              1 | $2a$10$         |          60 | t              | f
+              2 | $2a$10$         |          60 | t              | f
+              3 | $2a$10$         |          60 | t              | f
+    (3 rows)
+
+--- block 5/11 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+     ciphertexts_differ | stored_as |  round_trip   
+    --------------------+-----------+---------------
+     t                  | bytea     | CPR-407977684
+    (1 row)
+
+--- block 6/11 --- [OK]
+    >>> SELECT left(encode(digest('CPR-407977684', 'sha256'), 'hex'), 16) AS digest_prefix,
+      digest_prefix   |   hmac_prefix    | hmac_repeats 
+    ------------------+------------------+--------------
+     4e31546f0c006c21 | d5daf0afa601bd47 | t
+    (1 row)
+
+--- block 7/11 --- [OK]
+    >>> SELECT name, setting
+               name           |  setting   
+    --------------------------+------------
+     ssl                      | off
+     ssl_cert_file            | server.crt
+     ssl_key_file             | server.key
+     ssl_min_protocol_version | TLSv1.2
+    (4 rows)
+
+--- block 8/11 --- [OK]
+    >>> CREATE ROLE clinic_billing_app LOGIN
+    CREATE ROLE
+         role_name      | can_login | conn_limit 
+    --------------------+-----------+------------
+     clinic_billing_app | t         |          3
+    (1 row)
+
+--- block 9/11 --- [OK]
+    >>> SHOW ssl;
+     ssl 
+    -----
+     off
+    (1 row)
+    
+     ssl | version | cipher 
+    -----+---------+--------
+     f   |         | 
+    (1 row)
+    
+     hostssl_rules | host_rules 
+    ---------------+------------
+                 0 |          4
+    (1 row)
+
+--- block 10/11 --- [OK]
+    >>> \connect sandwash_clinic postgres localhost
+    You are now connected to database "sandwash_clinic" as user "postgres" on host "localhost" (address "127.0.0.1") at port "5432".
+     server_addr | client_addr | ssl 
+    -------------+-------------+-----
+     127.0.0.1   | 127.0.0.1   | f
+    (1 row)
+
+--- block 11/11 --- [OK]
+    >>> SELECT pg_column_size('CPR-407977684'::text) AS plaintext_bytes,
+     plaintext_bytes | ciphertext_bytes | lookup_bytes 
+    -----------------+------------------+--------------
+                  17 |               79 |           32
+    (1 row)
+
+Failures: 0
