@@ -1,0 +1,141 @@
+Execution log: chapter-03.md
+SQL blocks found: 15
+Databases: sandwash_clinic, harquahala_academy
+
+--- block 1/15 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+            constraint_name        | type |                         definition                          
+    -------------------------------+------+-------------------------------------------------------------
+     appointments_patient_id_fkey  | f    | FOREIGN KEY (patient_id) REFERENCES patients(patient_id)
+     appointments_pkey             | p    | PRIMARY KEY (appointment_id)
+     appointments_provider_id_fkey | f    | FOREIGN KEY (provider_id) REFERENCES providers(provider_id)
+    (3 rows)
+
+--- block 2/15 --- [OK]
+    >>> SELECT COUNT(*) AS double_booked_slots
+     double_booked_slots 
+    ---------------------
+                      12
+    (1 row)
+
+--- block 3/15 --- [OK]
+    >>> BEGIN;
+    BEGIN
+    UPDATE 1
+    INSERT 0 1
+    COMMIT
+     appointment_id |  status   | diagnosis_code 
+    ----------------+-----------+----------------
+                430 | Completed | Z00.00
+    (1 row)
+
+--- block 4/15 --- [OK]
+    >>> ALTER TABLE appointments
+    ALTER TABLE
+          constraint_name      |                                                definition                                                
+    ---------------------------+----------------------------------------------------------------------------------------------------------
+     appointments_status_check | CHECK ((status = ANY (ARRAY['Scheduled'::text, 'Completed'::text, 'Cancelled'::text, 'No-show'::text])))
+    (1 row)
+
+--- block 5/15 --- [OK]
+    >>> SELECT status,
+      status   | appointment_count 
+    -----------+-------------------
+     Cancelled |               512
+     Completed |              4655
+     No-show   |               421
+     Scheduled |               412
+    (4 rows)
+
+--- block 6/15 --- [OK]
+    >>> CREATE VIEW provider_no_show_rate AS
+    CREATE VIEW
+         full_name     | appointments | no_shows | no_show_pct 
+    -------------------+--------------+----------+-------------
+     Dr. Elena Vasquez |          476 |       40 |         8.4
+     Yara Jackson      |          490 |       38 |         7.8
+     Dr. Nadia Yazzie  |          460 |       35 |         7.6
+     Dr. Kenji Foster  |          629 |       48 |         7.6
+     Dr. Miguel Garcia |          494 |       37 |         7.5
+    (5 rows)
+
+--- block 7/15 --- [OK]
+    >>> CREATE MATERIALIZED VIEW provider_visit_summary AS
+    SELECT 12
+    CREATE INDEX
+    CREATE ROLE
+    GRANT
+     can_read_summary | can_read_appointments 
+    ------------------+-----------------------
+     t                | f
+    (1 row)
+
+--- block 8/15 --- [OK]
+    >>> UPDATE appointments
+    UPDATE 1
+         full_name     | scheduled | cancelled 
+    -------------------+-----------+-----------
+     Dr. Alma Martinez |        36 |        45
+    (1 row)
+
+--- block 9/15 --- [OK]
+    >>> REFRESH MATERIALIZED VIEW CONCURRENTLY provider_visit_summary;
+    REFRESH MATERIALIZED VIEW
+         full_name     | scheduled | cancelled 
+    -------------------+-----------+-----------
+     Dr. Alma Martinez |        35 |        46
+    (1 row)
+
+--- block 10/15 --- [OK]
+    >>> CREATE TABLE intake_responses (
+    CREATE TABLE
+    INSERT 0 2
+     appointment_id | symptom_days | fever |  medications  
+    ----------------+--------------+-------+---------------
+                881 | 3            | true  | ["ibuprofen"]
+                430 | 10           | false | 
+    (2 rows)
+
+--- block 11/15 --- [OK]
+    >>> SELECT appointment_id, answers ->> 'symptom_days' AS symptom_days
+     appointment_id | symptom_days 
+    ----------------+--------------
+                881 | 3
+    (1 row)
+
+--- block 12/15 --- [OK]
+    >>> SELECT '{"donor": "Desert Spoke Cyclists", "amount": 250}'::jsonb ->> 'amount' AS amount,
+     amount | missing_amount 
+    --------+----------------
+     250    | 
+    (1 row)
+
+--- block 13/15 --- [OK]
+    >>> CREATE TABLE flu_shot_signups (
+    CREATE TABLE
+    INSERT 0 6
+     patient_name | phone_spellings 
+    --------------+-----------------
+     Hana Singh   |               2
+    (1 row)
+
+--- block 14/15 --- [OK]
+    >>> CREATE TABLE immunizations (
+    CREATE TABLE
+    INSERT 0 6
+     staged_rows | loaded_rows 
+    -------------+-------------
+               6 |           6
+    (1 row)
+
+--- block 15/15 --- [OK]
+    >>> DROP TABLE flu_shot_signups;
+    DROP TABLE
+     first_name |    phone     |  vaccine  |  given_on  
+    ------------+--------------+-----------+------------
+     Hana       | 602-555-9536 | COVID-19  | 2025-10-06
+     Hana       | 602-555-9536 | Influenza | 2025-10-06
+    (2 rows)
+
+Failures: 0

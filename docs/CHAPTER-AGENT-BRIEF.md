@@ -90,8 +90,10 @@ may rebuild a moment later. Therefore:
   name.
 * If you must run `pg_dump` or another command against a live
   database, wrap it: `python3 tools/locked.py -- sh -c '...'` and
-  rebuild inside the same shell first (run the harness on a scratch
-  file, then dump).
+  rebuild inside that same shell with plain `psql -f` on the chapter's
+  setup script, then dump. Never call the harness inside `locked.py`:
+  both take the same lock and the pair deadlocks (it happened in wave
+  one and stalled two other agents).
 * Never paste `\du`, `\l`, or `\dt` output that shows owners or roles
   from the author's cluster. Use catalog queries filtered to the
   course prefixes (`copperwind_`, `clinic_`, `academy_`).

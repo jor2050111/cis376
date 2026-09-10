@@ -69,7 +69,7 @@ copies there, never the synced copies here.
 
 * Git (for version control)
 * Python 3.12+ (builds the site)
-* The tools in PostgreSQL 17, psql, pgAdmin 4, SQL (for testing code examples)
+* PostgreSQL 17 with psql (the harness in `tools/run_chapter_sql.py` verifies every SQL block against a local cluster)
 
 ### Initial Setup
 
@@ -173,6 +173,6 @@ Jorge.Vega@PhoenixCollege.edu
 
 ---
 
-**Status:** Initial Scaffolding - Active Development
+**Status:** Active Development (first draft in progress, 2026-09)
 
-**Current Chapter Count:** 0 of 12 (scaffolding only)
+**Current Chapter Count:** see HANDOFF.md for the running tally

@@ -1,0 +1,187 @@
+Execution log: chapter-05.md
+SQL blocks found: 13
+Databases: sandwash_clinic, harquahala_academy
+
+--- block 1/13 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+     password_encryption 
+    ---------------------
+     scram-sha-256
+    (1 row)
+    
+    CREATE ROLE
+    CREATE ROLE
+          role_name       | can_login | conn_limit | valid_until | password_scheme 
+    ----------------------+-----------+------------+-------------+-----------------
+     clinic_backup_svc    | t         |          1 |             | SCRAM-SHA-256
+     clinic_reports_svc   | t         |         -1 |             | SCRAM-SHA-256
+     clinic_scheduler_app | t         |          5 |             | SCRAM-SHA-256
+     clinic_treyes        | t         |         -1 | 2027-06-30  | SCRAM-SHA-256
+    (4 rows)
+
+--- block 2/13 --- [OK]
+    >>> CREATE ROLE clinic_frontdesk NOLOGIN;
+    CREATE ROLE
+    GRANT
+    GRANT
+     can_connect | schema_usage | whole_table | phone_column | insurance_column 
+    -------------+--------------+-------------+--------------+------------------
+     t           | t            | f           | t            | f
+    (1 row)
+
+--- block 3/13 --- [OK]
+    >>> CREATE ROLE clinic_quality NOLOGIN;
+    CREATE ROLE
+    GRANT
+    CREATE TABLE
+     existing_table | new_table 
+    ----------------+-----------
+     t              | f
+    (1 row)
+    
+    ALTER DEFAULT PRIVILEGES
+    CREATE TABLE
+     before_rule | after_rule 
+    -------------+------------
+     f           | t
+    (1 row)
+    
+    DROP TABLE
+
+--- block 4/13 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+    CREATE SCHEMA
+    CREATE VIEW
+    CREATE ROLE
+    GRANT
+    GRANT
+    SET
+     roster_rows 
+    -------------
+            6000
+    (1 row)
+    
+    RESET
+     schema_usage 
+    --------------
+     t
+    (1 row)
+
+--- block 5/13 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+    CREATE ROLE
+    GRANT
+    CREATE ROLE
+    GRANT
+    GRANT
+    GRANT ROLE
+    CREATE ROLE
+
+--- block 6/13 --- [OK]
+    >>> SET ROLE clinic_evasquez;
+    SET
+           who       | providers_visible | appointments_visible 
+    -----------------+-------------------+----------------------
+     clinic_evasquez |                12 |                 6000
+    (1 row)
+    
+    RESET
+
+--- block 7/13 --- [OK]
+    >>> ALTER TABLE appointments ENABLE ROW LEVEL SECURITY;
+    ALTER TABLE
+    CREATE POLICY
+    SET
+           who       | appointments_visible | providers_seen 
+    -----------------+----------------------+----------------
+     clinic_evasquez |                  476 |              1
+    (1 row)
+    
+    RESET
+    SET
+           who        | appointments_visible 
+    ------------------+----------------------
+     clinic_frontdesk |                    0
+    (1 row)
+    
+    RESET
+
+--- block 8/13 --- [OK]
+    >>> CREATE POLICY frontdesk_all_appointments ON appointments
+    CREATE POLICY
+    SET
+     appointments_visible 
+    ----------------------
+                     6000
+    (1 row)
+    
+    RESET
+
+--- block 9/13 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+    SELECT 60
+    ALTER TABLE
+    ALTER TABLE
+         login_role      | sections_taught 
+    ---------------------+-----------------
+     academy_keisha_bell |               4
+     academy_luis_ortega |               0
+    (2 rows)
+
+--- block 10/13 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+          role_name       | is_superuser | conn_limit | valid_until 
+    ----------------------+--------------+------------+-------------
+     clinic_backup_svc    | f            |          1 | 
+     clinic_evasquez      | f            |         -1 | 
+     clinic_reports_svc   | f            |         -1 | 
+     clinic_scheduler_app | f            |          5 | 
+     clinic_treyes        | f            |         -1 | 2027-06-30
+     postgres             | t            |         -1 | 
+    (6 rows)
+
+--- block 11/13 --- [OK]
+    >>> WITH reviewed_roles AS (
+        role_name     |  table_name  | effective_privileges 
+    ------------------+--------------+----------------------
+     clinic_evasquez  | appointments | SELECT
+     clinic_evasquez  | patients     | SELECT
+     clinic_evasquez  | providers    | SELECT
+     clinic_evasquez  | visit_notes  | SELECT
+     clinic_frontdesk | appointments | SELECT
+     clinic_frontdesk | providers    | SELECT
+     clinic_provider  | appointments | SELECT
+     clinic_provider  | patients     | SELECT
+     clinic_provider  | providers    | SELECT
+     clinic_provider  | visit_notes  | SELECT
+     clinic_staff     | providers    | SELECT
+    (11 rows)
+
+--- block 12/13 --- [OK]
+    >>> SELECT tablename, policyname, roles AS applies_to
+      tablename   |         policyname         |     applies_to     
+    --------------+----------------------------+--------------------
+     appointments | frontdesk_all_appointments | {clinic_frontdesk}
+     appointments | provider_own_appointments  | {clinic_provider}
+    (2 rows)
+
+--- block 13/13 --- [OK]
+    >>> GRANT UPDATE ON patients TO clinic_frontdesk;
+    GRANT
+        role_name     | table_name | write_privileges 
+    ------------------+------------+------------------
+     clinic_frontdesk | patients   | UPDATE
+    (1 row)
+    
+    REVOKE
+     can_update 
+    ------------
+     f
+    (1 row)
+
+Failures: 0

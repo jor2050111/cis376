@@ -1,6 +1,6 @@
 # HANDOFF: CIS376 Textbook
 
-**Last updated:** 2026-09-09
+**Last updated:** 2026-09-09 (end of session 1)
 
 ## What this is
 
@@ -78,9 +78,84 @@ zip -r cis376/build/cis376-data-pack.zip cis376/assets/code \
     -x '*.DS_Store' -x '*__pycache__*' -x 'cis376/assets/code/_generators/*'
 ```
 
-## Status
+## Status at the end of session 1 (2026-09-09)
 
-See the bottom of this file for the running session log.
+**Chapters 1-5 drafted, verified, and committed. Chapters 6-12 not
+started.** No GitHub remote yet. Nothing is deployed.
+
+| Ch | Lines | SQL blocks | Flesch | Notes |
+| -- | ----- | ---------- | ------ | ----- |
+| 1 | 540 | 6 | 61.3 | Written by the maintainer, the exemplar |
+| 2 | 662 | 12 | 62.9 | Fix It error differs from the spec row (corrected in spec) |
+| 3 | 694 | 15 | 64.3 | Found 12 real double bookings in appointments and taught them |
+| 4 | 692 | 14 | 57.2 | Inside the 55 floor; regulatory vocabulary |
+| 5 | 741 | 13 | 64.2 | 41 lines over target; chapter-specific setup-sandwash.sql plants an over-grant |
+
+Every chapter passes: harness (0 failures), output check (0
+mismatches), structure checker (0 errors), sentence length (0 flagged),
+style sweeps, and a clean Zensical build. Glossary: 99 terms merged
+from `docs/glossary-additions/` (four duplicate definitions were kept
+as the earlier chapter's wording; see the CONFLICT lines from
+`tools/merge_glossary_additions.py --check`).
+
+### How to continue (next session)
+
+1. Start PostgreSQL (command above) and confirm `psql -U postgres -d
+   postgres -c "select 1"` works. Activate nothing else: the QA tools
+   are plain `python3`, the build uses `.venv/bin/zensical`.
+2. Read `docs/CHAPTER-AGENT-BRIEF.md`. It is the complete instruction
+   set for a chapter author. Wave one proved it: four agents in
+   parallel, each ~15-30 minutes, all green on the first review.
+3. Launch wave two: chapters 6, 7, 8, 9 as four background agents.
+   Each prompt names the chapter, points at the brief, and restates the
+   chapter's spec row (spec Section 4: spine database, fading level,
+   Fix It error, fixture) plus the part-structure sections and MLOs.
+   The wave-one prompts are in this session's transcript; the pattern
+   is: read the brief first, deliver the listed files, run the
+   workflow until green, report back, do not commit. Wave three:
+   chapters 10, 11, 12.
+4. Special fixtures the spec assigns: ch 9 needs a backup dump of
+   copperwind_ops (produce it with `pg_dump` under `tools/locked.py`
+   after a plain `psql -f` rebuild, never inside the harness) and a
+   scan report; ch 10 already has its log and audit CSV in
+   `assets/code/chapter-10/`; ch 11 needs a benchmark checklist and a
+   baselines file; ch 12 needs the plan template. Ch 6 needs a
+   self-signed certificate for the TLS section (generate with openssl,
+   ship the command, not the key).
+5. After each wave: `python3 tools/merge_glossary_additions.py`,
+   `python3 tools/check_course_structure.py --all`,
+   `python3 tools/check_readability.py`, `.venv/bin/zensical build
+   --clean`, then commit.
+6. Whole-book QA after chapter 12 (spec Section 8), then rebuild the
+   data pack zip, update this file, and create the GitHub repo:
+   `gh repo create jor2050111/cis376 --public --source . --remote
+   origin --push` followed by `gh api -X POST
+   repos/jor2050111/cis376/pages -f build_type=workflow`. Mr. Vega
+   asked for a look at the book before anything is pushed; the repo
+   creation is the push, so it waits for his word.
+
+### Review notes from wave one (maintainer judgment calls pending)
+
+* Ch 2 prints the author's `hba_file` path and `trust` rules from the
+  development cluster in two verified blocks. The prose says so and
+  names the Windows path. Acceptable for a draft; consider moving the
+  rules output to a `text` fence showing a typical installer default.
+* Ch 3 names NoSQL products (MongoDB, Redis, DynamoDB, Cassandra,
+  Neo4j) in a comparison table, following Chapter 1's naming of
+  Oracle, MySQL, and SQL Server. Products, not clients. Kept.
+* Ch 3 found 12 provider double bookings and 86 student name
+  collisions in the generated data and turned both into lessons. If a
+  later chapter needs a UNIQUE(provider_id, scheduled_at) constraint
+  to succeed, the generator must change and chapter 3 with it.
+* Ch 4 measured the directory opt-out rate at 6.1 percent (49 of
+  800); the spec said about 8 percent. The chapter prints the real
+  number. Spec Section 2.3 should be corrected.
+* Ch 5 is 741 lines because every configuration change is followed by
+  its proof query. Trimming means removing evidence. Left as is.
+* Ch 5 setup-sandwash.sql is chapter-specific and marked; the
+  generator will not overwrite it.
+
+## Session log
 
 ### 2026-09-09: scaffold, spec, data, tools
 
@@ -88,5 +163,9 @@ Instantiated from the template, tokens replaced, shared files synced,
 Bloom's reference seeded. Wrote the CLO reference, the 12-chapter
 part structure with refined MLOs, the design spec, the style layer,
 the home page, the glossary stub, and the nav. Built the data
-generator and the four SQL QA tools. Installed PostgreSQL 17 locally
-and verified the harness end to end. Chapters: not yet written.
+generator and the SQL QA tools (harness, output fill and check,
+structure, readability, glossary merge, lock wrapper). Installed
+PostgreSQL 17 locally and verified the harness end to end. Wrote
+Chapter 1 by hand as the exemplar, then ran wave one (chapters 2-5)
+as four parallel agents against `docs/CHAPTER-AGENT-BRIEF.md`.
+HQ task: recWdgSTKDhci9Y9v (In progress, Claude).

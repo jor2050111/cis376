@@ -1,0 +1,149 @@
+Execution log: chapter-04.md
+SQL blocks found: 14
+Databases: sandwash_clinic, harquahala_academy
+
+--- block 1/14 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+     table_name  |     column_name     | data_type 
+    -------------+---------------------+-----------
+     patients    | patient_id          | integer
+     patients    | first_name          | text
+     patients    | last_name           | text
+     patients    | date_of_birth       | date
+     patients    | phone               | text
+     patients    | email               | text
+     patients    | address             | text
+     patients    | insurance_member_id | text
+     visit_notes | note_id             | integer
+     visit_notes | appointment_id      | integer
+     visit_notes | diagnosis_code      | text
+     visit_notes | note_text           | text
+    (12 rows)
+
+--- block 2/14 --- [OK]
+    >>> SELECT role_name,
+       role_name    | accounts 
+    ----------------+----------
+     provider       |       12
+     frontdesk      |        4
+     billing        |        2
+     office_manager |        1
+     it_admin       |        1
+    (5 rows)
+
+--- block 3/14 --- [OK]
+    >>> SELECT a.scheduled_at,
+        scheduled_at     | first_name | last_name |    phone     |  status   
+    ---------------------+------------+-----------+--------------+-----------
+     2026-05-23 08:30:00 | Benjamin   | Chavez    | 602-555-8023 | Completed
+     2026-05-23 08:45:00 | Serena     | Sanchez   | 602-555-2183 | Completed
+     2026-05-23 08:45:00 | Lena       | Dominguez | 602-555-4546 | Completed
+     2026-05-23 12:00:00 | Nathan     | Bennett   | 602-555-1149 | Completed
+     2026-05-23 15:30:00 | Javier     | Flores    | 602-555-6963 | Completed
+    (5 rows)
+
+--- block 4/14 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+     directory_opt_out | students 
+    -------------------+----------
+     f                 |      751
+     t                 |       49
+    (2 rows)
+
+--- block 5/14 --- [OK]
+    >>> CREATE VIEW student_directory AS
+    CREATE VIEW
+     directory_rows 
+    ----------------
+                751
+    (1 row)
+    
+     opted_out_visible 
+    -------------------
+                     0
+    (1 row)
+
+--- block 6/14 --- [OK]
+    >>> SELECT st.full_name,
+      full_name  | students_taught | students_enrolled 
+    -------------+-----------------+-------------------
+     Keisha Bell |             189 |               800
+    (1 row)
+
+--- block 7/14 --- [OK]
+    >>> CREATE SCHEMA academy_restricted;
+    CREATE SCHEMA
+    CREATE SCHEMA
+    ALTER TABLE
+    ALTER VIEW
+    CREATE ROLE
+    GRANT
+    GRANT
+
+--- block 8/14 --- [OK]
+    >>> SELECT has_schema_privilege('academy_portal', 'academy_directory', 'USAGE') AS directory_usage,
+     directory_usage | directory_select | students_select | restricted_usage 
+    -----------------+------------------+-----------------+------------------
+     t               | t                | f               | f
+    (1 row)
+
+--- block 9/14 --- [OK]
+    >>> SET ROLE academy_portal;
+    SET
+     rows_visible 
+    --------------
+              751
+    (1 row)
+    
+    RESET
+
+--- block 10/14 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+     diagnosis_code | visits 
+    ----------------+--------
+     L30.9          |    411
+     K21.9          |    392
+     M54.5          |    389
+     J45.909        |    386
+     I10            |    383
+    (5 rows)
+
+--- block 11/14 --- [OK]
+    >>> SELECT COUNT(*) AS notes_past_retention
+     notes_past_retention 
+    ----------------------
+                      992
+    (1 row)
+
+--- block 12/14 --- [OK]
+    >>> CREATE TABLE clinic_legal_holds (
+    CREATE TABLE
+    INSERT 0 1
+     notes_on_hold 
+    ---------------
+                 4
+    (1 row)
+
+--- block 13/14 --- [OK]
+    >>> CREATE TABLE clinic_disposal_log (
+    CREATE TABLE
+    BEGIN
+    INSERT 0 1
+    COMMIT
+     record_series | cutoff_date | rows_destroyed |  performed_by  
+    ---------------+-------------+----------------+----------------
+     visit_notes   | 2020-09-01  |            988 | Copperwind DBA
+    (1 row)
+
+--- block 14/14 --- [OK]
+    >>> VACUUM visit_notes;
+    VACUUM
+     notes_past_retention 
+    ----------------------
+                        4
+    (1 row)
+
+Failures: 0

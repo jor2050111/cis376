@@ -1,0 +1,108 @@
+Execution log: chapter-02.md
+SQL blocks found: 12
+Databases: copperwind_ops, sandwash_clinic
+
+--- block 1/12 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+           name       |                   setting                   
+    ------------------+---------------------------------------------
+     hba_file         | /opt/homebrew/var/postgresql@17/pg_hba.conf
+     listen_addresses | localhost
+     port             | 5432
+     ssl              | off
+    (4 rows)
+
+--- block 2/12 --- [OK]
+    >>> SELECT line_number, type, database, user_name, address, auth_method
+     line_number | type  |   database    | user_name |  address  | auth_method 
+    -------------+-------+---------------+-----------+-----------+-------------
+             117 | local | {all}         | {all}     |           | trust
+             119 | host  | {all}         | {all}     | 127.0.0.1 | trust
+             121 | host  | {all}         | {all}     | ::1       | trust
+             124 | local | {replication} | {all}     |           | trust
+             125 | host  | {replication} | {all}     | 127.0.0.1 | trust
+             126 | host  | {replication} | {all}     | ::1       | trust
+    (6 rows)
+
+--- block 3/12 --- [OK]
+    >>> SELECT rolname AS role_name,
+     role_name | can_login | connection_limit | password_expires 
+    -----------+-----------+------------------+------------------
+     postgres  | t         |               -1 | 
+    (1 row)
+
+--- block 4/12 --- [OK]
+    >>> SHOW password_encryption;
+     password_encryption 
+    ---------------------
+     scram-sha-256
+    (1 row)
+
+--- block 5/12 --- [OK]
+    >>> SELECT 'tickets' AS table_name,
+      table_name  | row_count | total_size | bytes_per_row 
+    --------------+-----------+------------+---------------
+     tickets      |     18240 | 2624 kB    |           147
+     ticket_notes |     28326 | 2848 kB    |           102
+    (2 rows)
+
+--- block 6/12 --- [OK]
+    >>> SELECT date_trunc('month', opened_at)::date AS month_start,
+     month_start | tickets_opened 
+    -------------+----------------
+     2026-03-01  |            829
+     2026-04-01  |            854
+     2026-05-01  |            879
+     2026-06-01  |            906
+    (4 rows)
+
+--- block 7/12 --- [OK]
+    >>> WITH monthly AS (
+     first_month | last_month | monthly_growth_pct 
+    -------------+------------+--------------------
+             383 |        906 |                3.0
+    (1 row)
+
+--- block 8/12 --- [OK]
+    >>> SELECT relname AS table_name,
+      table_name  | rows_inserted | rows_updated | rows_deleted 
+    --------------+---------------+--------------+--------------
+     ticket_notes |         28326 |            0 |            0
+     tickets      |         18240 |            0 |            0
+     login_events |         12000 |            0 |            0
+     clients      |            40 |            0 |            0
+     technicians  |             8 |            0 |            0
+    (5 rows)
+
+--- block 9/12 --- [OK]
+    >>> SELECT COUNT(*) AS june_tickets,
+     june_tickets | tickets_per_day | tickets_per_working_hour 
+    --------------+-----------------+--------------------------
+              906 |            30.2 |                      2.5
+    (1 row)
+
+--- block 10/12 --- [OK]
+    >>> SELECT EXTRACT(hour FROM opened_at) AS hour_of_day,
+     hour_of_day | tickets_opened 
+    -------------+----------------
+              13 |           1595
+              11 |           1574
+              14 |           1549
+    (3 rows)
+
+--- block 11/12 --- [OK]
+    >>> WITH per_ticket AS (
+     bytes_per_ticket | new_tickets | ticket_data_today | growth_36_months | ticket_data_in_36_months 
+    ------------------+-------------+-------------------+------------------+--------------------------
+                  307 |       59048 | 5472 kB           | 17 MB            | 23 MB
+    (1 row)
+
+--- block 12/12 --- [OK]
+    >>> WITH growth AS (
+     growth_factor | rough_ceiling 
+    ---------------+---------------
+              2.37 | 13 MB
+    (1 row)
+
+Failures: 0
