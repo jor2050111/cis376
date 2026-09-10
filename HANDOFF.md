@@ -1,6 +1,6 @@
 # HANDOFF: CIS376 Textbook
 
-**Last updated:** 2026-09-09 (session 2, wave two drafted)
+**Last updated:** 2026-09-10 (session 3, all twelve chapters drafted)
 
 ## What this is
 
@@ -85,12 +85,12 @@ zip -r cis376/build/cis376-data-pack.zip cis376/assets/code \
     -x '*.DS_Store' -x '*__pycache__*' -x 'cis376/assets/code/_generators/*'
 ```
 
-## Status after wave two (2026-09-09, session 2)
+## Status after wave three (2026-09-10, session 3)
 
-**Chapters 1-9 drafted, verified, and committed. Chapters 10-12 not
-started.** Wave two (6-9) awaits Mr. Vega's review before wave three
-launches. Public repo `jor2050111/cis376` created and the draft site
-deploys from `main` through `.github/workflows/docs.yml`.
+**All twelve chapters drafted, verified, and committed.** The book is
+draft complete. What remains is the whole-book QA pass in spec Section
+8 and Mr. Vega's read. Public repo `jor2050111/cis376` deploys from
+`main` through `.github/workflows/docs.yml`.
 
 | Ch | Lines | SQL blocks | Flesch | Notes |
 | -- | ----- | ---------- | ------ | ----- |
@@ -104,50 +104,98 @@ deploys from `main` through `.github/workflows/docs.yml`.
 | 8 | 611 | 9 | 66.4 | pg_stat_statements taught in a text fence because the local cluster has no preload; verified blocks use EXPLAIN (COSTS OFF) |
 | 9 | 566 | 12 | 62.1 | 34 under the floor by author choice; ships copperwind_ops (3.7 MB) and sandwash_clinic (604 KB) plain dumps plus a scan report |
 
+| 10 | 700 | 8 | 59.3 | Inside the 55 floor on regulatory vocabulary at 15.0 words per sentence. Arizona's statute produces a negative verdict, which is the Evaluate payoff |
+| 11 | 700 | 9 | 63.8 | Ships a benchmark checklist, a baselines file, and a signed access list. The login_roles metric is prefix-scoped so it survives a student's leftover roles |
+| 12 | 678 | 9 | 62.6 | The capstone. Ships the nine-section plan template the Skills Lab fills |
+
 Every chapter passes: harness (0 failures), output check (0
 mismatches), structure checker (0 errors), sentence length (0 flagged),
-style sweeps, and a clean Zensical build. Glossary: 180 terms merged
-from `docs/glossary-additions/` (seven duplicate definitions were kept
-as the earlier chapter's wording; see the CONFLICT lines from
-`tools/merge_glossary_additions.py --check`). Combined Flesch 62.3.
+style sweeps, and a clean Zensical build. Glossary: 237 terms merged
+from `docs/glossary-additions/` with zero conflicts. Chapter Flesch
+runs 57.3 to 66.7, with only chapters 4 and 10 under 60 and both inside
+their documented floor. Data pack rebuilt at 1.9 MB, all twelve chapter
+folders, generators excluded.
+
+Readability note for whoever runs QA next. `check_readability.py`
+also scores `index.md` (42.0), `glossary.md` (49.7), and
+`skills-lab-rubric.md` (51.7), which drags the combined number to 61.7.
+That is expected and not a defect. Those three files are mandated
+boilerplate, definitions, and rubric criteria, and spec Section 8 item
+5 applies the 60-70 band to chapters only. Rewriting the district CLO
+wording to raise a score would break the alignment contract. Do not
+chase the combined figure.
 
 ### How to continue (next session)
 
+The drafting is done. The next session runs whole-book QA, not chapters.
+
 1. Start PostgreSQL (command above) and confirm `psql -U postgres -d
-   postgres -c "select 1"` works. Activate nothing else: the QA tools
-   are plain `python3`, the build uses `.venv/bin/zensical`.
-2. Read `docs/CHAPTER-AGENT-BRIEF.md`. It is the complete instruction
-   set for a chapter author. Wave one proved it: four agents in
-   parallel, each ~15-30 minutes, all green on the first review.
-3. Wave two (6-9) is drafted. After Mr. Vega's review, launch wave
-   three: chapters 10, 11, 12 as three background agents. Each prompt
-   names the chapter, points at the brief, and restates the chapter's
-   spec row (spec Section 4: spine database, fading level, Fix It
-   error, fixture) plus the part-structure sections, MLOs, aligned
-   CLOs, and neighbors. Add the wave-two lessons: no cluster config
-   edits (capture restart-dependent output from a throwaway `initdb`
-   cluster on a spare port and record it in a `chapter-NN-captures.md`),
-   `EXPLAIN (COSTS OFF)` in verified blocks, deterministic evidence
-   instead of random salts or timings, and a fence budget of 15.
-   Chapter 11's Fix It (pg_stat_statements not preloaded) is real on
-   this cluster. Pattern: read the brief first, deliver the listed
-   files, run the workflow until green, report back, do not commit.
-4. Special fixtures the spec assigns: ch 9 needs a backup dump of
-   copperwind_ops (produce it with `pg_dump` under `tools/locked.py`
-   after a plain `psql -f` rebuild, never inside the harness) and a
-   scan report; ch 10 already has its log and audit CSV in
-   `assets/code/chapter-10/`; ch 11 needs a benchmark checklist and a
-   baselines file; ch 12 needs the plan template. Ch 6 needs a
-   self-signed certificate for the TLS section (generate with openssl,
-   ship the command, not the key).
-5. After each wave: `python3 tools/merge_glossary_additions.py`,
-   `python3 tools/check_course_structure.py --all`,
-   `python3 tools/check_readability.py`, `.venv/bin/zensical build
-   --clean`, then commit.
-6. Whole-book QA after chapter 12 (spec Section 8), then rebuild the
-   data pack zip and update this file. The repo and Pages deploy
-   already exist (created 2026-09-09 in session 2); every push to
-   `main` redeploys https://jor2050111.github.io/cis376/.
+   postgres -c "select 1"` works. The QA tools are plain `python3`, the
+   build uses `.venv/bin/zensical`.
+2. Run spec Section 8 across all twelve: `check_course_structure.py
+   --all`, `check_readability.py`, and per chapter the harness, output
+   check, and sentence length. Every one was green at the close of
+   session 3, so a red result means something drifted.
+3. Read for the seams, which is what parallel authorship cannot catch
+   and no checker will flag:
+   * A term bolded as a first use in two chapters. Session 3 fixed
+     seven of these. Detect them by diffing bolded terms across
+     chapters, not by reading.
+   * A cross-chapter callback that names something the other chapter
+     does not actually contain.
+   * A metric, path, or count that is true on the author's cluster and
+     false on a student's. The chapter 11 login_roles defect was this
+     shape: `pg_roles` is cluster-wide, so it counted roles left behind
+     by earlier chapters. Anything reading `pg_roles`, `pg_database`,
+     `pg_settings`, or a file path deserves the same suspicion.
+4. Re-verify Further Reading URLs. All twenty-two resolved on
+   2026-09-10. The four HHS pages answer 403 to curl and render fine in
+   a browser, so check those in the browser pane and do not replace
+   them over a 403.
+5. Rebuild the data pack (command above) and push. Every push to `main`
+   redeploys https://jor2050111.github.io/cis376/.
+
+### Review notes from wave three (decisions already taken, recorded for review)
+
+* Chapter 11's `login_roles` metric counted every login role in the
+  cluster. Roles are cluster-wide, so a student holding roles from
+  chapters 5 through 10 would read a different number and a different
+  delta than the book prints, and the prose reading that delta would be
+  wrong for them. The metric now filters on the `copperwind_` prefix,
+  which is also what an MSP reviewing one client would measure. The
+  baseline moved 4 to 3, the delta stayed at -1, and a sentence names
+  the reason. Output refilled from a fresh harness run.
+* Chapter 11 promised four cloud security categories and shipped three.
+  The fourth is now a managed secret service, closing the Chapter 5
+  problem of a service account password sitting in a config file.
+* Chapter 11 ships a third fixture the plan did not name,
+  `copperwind-access-list.csv`. Kept: a signed access list is a data
+  owner artifact a student should load, not type.
+* Chapter 11 keeps both databases' rows in `review.metrics` and filters
+  by `current_database()`. That is one archive for a managed fleet.
+* Chapter 10's reading of the shipped log corrected the wave-three
+  brief. The guessing run ends at 23:53:06 across 35 attempts, not
+  23:51:36. The chapter teaches from the evidence.
+* Chapter 10's Arizona verdict is negative and deliberate. None of the
+  exported columns is a specified data element under A.R.S. 18-551(11),
+  so the state statute does not trigger. Verified against the statute
+  text on 2026-09-10, along with the 45-day deadline, the maintainer
+  duty in 18-552(C), and the HIPAA exemption in 18-552(N)(2) that keeps
+  the clinic out of Arizona's statute entirely.
+* Chapter 10 cites NIST SP 800-61 Rev. 3. Rev. 2 was withdrawn in
+  April 2025 and its four-phase model is not presented as current.
+* Chapter 10 keeps the breach exposure counts in its captures file
+  rather than the chapter, because Skills Lab 10A asks students to
+  produce them.
+* Quick Check question counts are not uniform book-wide. Chapters 1-4,
+  8, 10, and 12 carry three per section, chapters 5-7, 9, and 11 carry
+  two. CLAUDE.md allows 2-3, so both pass. Forcing uniformity would
+  either pad five chapters past the line budget or cut content from
+  seven. Left as is, deliberately.
+* Captures files belong in `docs/execution-logs/`, not the chapter's
+  data pack folder. The wave-three brief said otherwise and was wrong.
+  Chapters 10 and 11 caught it; chapter 12's was moved by hand.
+
 
 ### Review notes from wave two (decisions already taken, recorded for review)
 
@@ -233,3 +281,37 @@ pass (811 lines and 24 fences down to 727 and 15). Merged the
 glossary to 180 terms, whole-book checks green, committed, created
 the public repo, and deployed the draft site. Paused for Mr. Vega's
 review before wave three.
+
+### 2026-09-10: session 3, wave three and draft completion
+
+Opened by checking what was waiting on Mr. Vega and finding nothing.
+All four rulings from session 2 were already applied. The wave-one and
+wave-two notes had been filed under a "pending" heading despite
+recording decisions already taken, which is what sent him looking.
+Renamed both headings and added an "Open questions for Mr. Vega"
+section so a real question has one home.
+
+Fixed two design spec defects before launching. Section 4's chapter 10
+row described the shipped academy fixtures while naming the clinic as
+its spine database, when Section 1.3's rotation table, Section 2.3, the
+Skills Lab title, and the generator's chapter map all agree the
+fixtures are the academy's and the spine block is the clinic's. The row
+text was the error. Section 2.3's 8 percent opt-out estimate became the
+6.1 percent chapter 4 measured. Pinned chapter 10's timezone Fix It to
+an explicit SET TimeZone in both blocks so the seven-hour shift
+reproduces outside Arizona.
+
+Fixed seven cross-chapter double-bolds from waves one and two, and
+kept chapter 2's pg_hba trust rules as verified output while reframing
+them as the stock initdb --auth=trust default they are.
+
+Ran chapters 10, 11, and 12 as three parallel agents. All three came
+back green. Repaired chapter 11's cluster-wide login_roles metric and
+its missing fourth cloud category, merged the glossary to 237 terms
+with zero conflicts, rebuilt the data pack, and committed.
+
+Verified independently rather than on report: chapter 12's Fix It error
+and repair output against the live server, and every chapter 10 legal
+claim against the Arizona statute text.
+
+HQ task: recWdgSTKDhci9Y9v.
