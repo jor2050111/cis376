@@ -29,7 +29,7 @@ By the end of this chapter, you will be able to:
 
 ## 5.1 Authentication: Who Is Asking
 
-Every request that reaches a database carries two questions. **Authentication** answers the first: is this connection who it claims to be? **Authorization** answers the second: given who it is, what may it do? PostgreSQL handles them in that order, at two different gates. Chapter 2 wrote the rules in `pg_hba.conf` that decide which client addresses may ask and which method (password, certificate, or operating-system identity) proves the claim. This section decides which roles exist to be proven, and how.
+Every request that reaches a database carries two questions. Chapter 2 named them. Authentication answers the first: is this connection who it claims to be? Authorization answers the second: given who it is, what may it do? PostgreSQL handles them in that order, at two different gates. Chapter 2 wrote the rules in `pg_hba.conf` that decide which client addresses may ask and which method (password, certificate, or operating-system identity) proves the claim. This section decides which roles exist to be proven, and how.
 
 ### Login Roles for People and for Programs
 
@@ -41,7 +41,7 @@ Chapter 1 noted that a PostgreSQL role is both a user and a group. A **login rol
 | How many connections? | One or two at a time | A fixed pool the application opens |
 | When does it expire? | When the person leaves | When the application is retired |
 
-A **service account** is a login role used by software, not by a person. No human logs in as it to "check something." The reason is evidence: when a service account appears in a log, you need to know that the application acted, not a person hiding behind it. The **connection limit** caps how many sessions a role may hold at once. An application that opens connections until the server refuses everyone else is a Chapter 1 availability threat, and the limit is the control.
+A service account, which Chapter 2 defined as a login role used by an application or a scheduled job, is never used by a person. No human logs in as it to "check something." The reason is evidence: when a service account appears in a log, you need to know that the application acted, not a person hiding behind it. The **connection limit** caps how many sessions a role may hold at once. An application that opens connections until the server refuses everyone else is a Chapter 1 availability threat, and the limit is the control.
 
 ### Passwords the Server Can Defend
 

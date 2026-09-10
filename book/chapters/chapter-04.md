@@ -341,7 +341,7 @@ RESET ROLE;
 -- RESET
 ```
 
-The portal role reads 751 rows through a view over a table it cannot read directly. That works because a **view** is a stored query that runs, by default, with the privileges of the view's owner, not the caller. The caller needs `SELECT` on the view. The owner needs `SELECT` on the base tables. That asymmetry is what makes a view a column filter you can hand to a role you do not trust with the table.
+The portal role reads 751 rows through a view over a table it cannot read directly. That works because a view runs by default with the privileges of the view's owner, not the caller. Chapter 3 used views to give reporting a shape. This one is a security boundary. The caller needs `SELECT` on the view. The owner needs `SELECT` on the base tables. That asymmetry is what makes a view a column filter you can hand to a role you do not trust with the table.
 
 ### Views as Column Filters
 

@@ -34,7 +34,7 @@ A disaster is any event that takes a database out of service: a failed disk, a f
 
 ### Two Numbers That Drive Everything
 
-The plan turns those two questions into two numbers. The **recovery time objective (RTO)** is the longest acceptable time from the moment the database goes down to the moment it is serving users again. The **recovery point objective (RPO)** is the largest amount of recent data the business can afford to lose, measured in time. An RPO of one hour means the recovery may lose up to the last hour of changes. These two numbers decide almost every technical choice that follows, so the data owner sets them and the plan records who signed.
+The plan turns those two questions into the two numbers Chapter 8 set for you. The recovery time objective (RTO) is the longest acceptable time from the moment the database goes down to the moment it is serving users again. The recovery point objective (RPO) is the largest amount of recent data the business can afford to lose, measured in time. An RPO of one hour means the recovery may lose up to the last hour of changes. These two numbers decide almost every technical choice that follows, so the data owner sets them and the plan records who signed.
 
 RPO drives how often you back up. If the clinic can lose at most one hour of appointments, a nightly backup is not enough, because a failure at 4 p.m. would lose a full day. RTO drives which recovery method you use. A method that takes six hours cannot meet a two-hour RTO no matter how well it works. To set an honest RPO, you need to know how fast the data changes. Copperwind's ticket table answers that for its own operations database:
 
@@ -177,7 +177,7 @@ That is the drill: an empty target, a replay, a verified count, and a clean tear
 
 ### Point-in-Time Recovery from the Write-Ahead Log
 
-A logical backup restores the database as it was when the dump ran. To recover to a moment between backups, you need the **write-ahead log (WAL)**, the running record of every change PostgreSQL makes. **Point-in-time recovery (PITR)** starts from a physical **base backup** and replays archived WAL forward to a chosen instant, such as one second before a mistaken `DELETE`. That is how an RPO of minutes is met without backing up every minute.
+A logical backup restores the database as it was when the dump ran. To recover to a moment between backups, you need the write-ahead log (WAL) from Chapter 8, the running record of every change PostgreSQL makes. **Point-in-time recovery (PITR)** starts from a physical **base backup** and replays archived WAL forward to a chosen instant, such as one second before a mistaken `DELETE`. That is how an RPO of minutes is met without backing up every minute.
 
 PITR is a server configuration, not a single command, and it must be armed before the disaster. The settings live in `postgresql.conf`:
 

@@ -7,12 +7,6 @@ already in `book/glossary.md` and is not repeated here.
 access review
 :   The scheduled comparison of what a database server allows against what the data owner approved, recorded so the next review can measure drift from it.
 
-authentication
-:   The check that a connection is who it claims to be, answered by the host-based authentication rules and the login role's password or certificate.
-
-authorization
-:   The decision about what an authenticated role may do, answered by privileges on objects, role memberships, and row-level security policies.
-
 connection limit
 :   The maximum number of simultaneous sessions a role may hold, set with `CONNECTION LIMIT`. A cap on a service account protects availability when an application leaks connections.
 
@@ -51,6 +45,3 @@ row-level security
 
 SCRAM-SHA-256
 :   PostgreSQL's default password scheme since version 14. The server stores a salted hash, and the challenge-response exchange never sends the password itself across the network.
-
-service account
-:   A login role used by an application or a scheduled job, not by a person. It carries a connection limit, its password comes from a secret store, and no human logs in as it.

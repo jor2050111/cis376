@@ -37,12 +37,6 @@ physical backup
 point-in-time recovery (PITR)
 :   Recovery that starts from a base backup and replays archived write-ahead log forward to a chosen instant, so a database can be restored to the moment just before a failure.
 
-recovery point objective (RPO)
-:   The largest amount of recent data a business can afford to lose in a disaster, measured in time. It decides how often backups must run.
-
-recovery time objective (RTO)
-:   The longest acceptable time from the moment a database goes down to the moment it is serving users again. It decides which recovery method is fast enough.
-
 restore drill
 :   A rehearsal that restores a real backup into a throwaway database, verifies the result against the recovery plan, and times the restore, run on a schedule before any disaster.
 
@@ -63,6 +57,3 @@ vulnerability
 
 vulnerability management
 :   The scheduled routine of finding weaknesses, ranking them by likelihood and impact, matching each to a control, fixing or accepting it, and rescanning to measure progress.
-
-write-ahead log (WAL)
-:   PostgreSQL's running record of every change, written before the change reaches the data files. It underlies crash recovery, replication, and point-in-time recovery.

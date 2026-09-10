@@ -188,7 +188,7 @@ hostssl all              all             10.40.5.15/32     scram-sha-256
 
 Step 2 sits above Step 3 on purpose. If a client from the outside range ever did reach the port, it would hit `reject` before any accepting rule. Step 3 names one database and one role, so a leaked application password cannot open the operations database next door. Step 4 uses `hostssl`, which refuses any administrative connection that is not encrypted. Chapter 6 shows you how to set up the certificates that make `hostssl` work.
 
-Two methods deserve a warning. `trust` accepts the connection with no proof of identity at all. It exists for development laptops and appears in the author's cluster below. It never belongs on a server another machine can reach. `password` sends the password in clear text and has no place anywhere. Use `scram-sha-256`, which is the PostgreSQL 17 default.
+Two methods deserve a warning. `trust` accepts the connection with no proof of identity at all. It exists for development laptops and appears in the cluster shown below. It never belongs on a server another machine can reach. `password` sends the password in clear text and has no place anywhere. Use `scram-sha-256`, which is the PostgreSQL 17 default.
 
 ### Verifying the Gate
 
@@ -209,7 +209,7 @@ ORDER BY line_number;
 --          126 | host  | {replication} | {all}     | ::1       | trust
 ```
 
-These rows come from the author's development cluster, which was set up for a laptop that nobody else can reach. Every rule says `trust`, which is fine on that laptop and unacceptable on a server. If you installed with the Windows or macOS installer, your rows show `scram-sha-256` instead. Either way, notice the shape: `local` rules for same-machine connections, `host` rules for the two loopback addresses `127.0.0.1` and `::1`, and no rule at all for any other address. That is why a fresh install is unreachable from the network even before the firewall does anything.
+These rows come from a cluster created with `initdb --auth=trust`, the choice a source build or a package install makes when nobody tells it otherwise. Every rule says `trust`, which accepts any connection that reaches it without checking a password. That is survivable on a laptop no other machine can reach. It is indefensible on a server. If you installed with the Windows or macOS installer, that installer chose for you and your rows show `scram-sha-256` instead. Either way, notice the shape: `local` rules for same-machine connections, `host` rules for the two loopback addresses `127.0.0.1` and `::1`, and no rule at all for any other address. That is why a fresh install is unreachable from the network even before the firewall does anything.
 
 After you edit the file, tell the server to reread it. Unlike `listen_addresses`, this change needs no restart:
 

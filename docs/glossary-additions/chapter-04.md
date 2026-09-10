@@ -59,6 +59,3 @@ Security Rule
 
 technical safeguards
 :   The HIPAA Security Rule's controls inside the system (45 CFR 164.312): access control, audit controls, integrity, person or entity authentication, and transmission security.
-
-view
-:   A stored query that presents selected columns and rows of one or more tables. By default a view runs with its owner's privileges, so a role can read a view over a table it cannot read directly.

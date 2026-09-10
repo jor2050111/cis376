@@ -166,8 +166,9 @@ and Ch 9 retention). Ch 10 ships a separate breached snapshot.
 | `grades` | 6,000 | enrollment_id, term_grade, comments |
 | `portal_accounts` | 1,200 | account_id, guardian_id, username, password_hash (Ch 6 hashes it) |
 
-Engineered properties: about 8 percent of students opt out of
-directory information (Ch 4). The Ch 3 flat gradebook export
+Engineered properties: 6.1 percent of students opt out of directory
+information, 49 of 800 (measured in Ch 4; an earlier draft of this
+spec estimated about 8 percent). The Ch 3 flat gradebook export
 denormalizes `students`, `sections`, and `grades` into one CSV with
 planted anomalies (three spelling variants of one teacher's name,
 one duplicated row, one grade outside the valid range). Ch 10 ships
@@ -265,7 +266,7 @@ whole excerpt is the point.
 | 7 | sandwash_clinic: complete a gapped audit trigger on `visit_notes` and read back the trail | B gaps | `ERROR: control reached end of trigger procedure without RETURN` (trigger function missing `RETURN NEW`) | Ch 5, Ch 3 | the audit trigger function, the log-review classification query |
 | 8 | harquahala_academy: complete a gapped index-and-measure script on `enrollments` and compare two EXPLAIN plans | B gaps | Silent bug: an index exists but `WHERE lower(last_name) = ...` forces a Seq Scan. Capture both plans | Ch 6, Ch 4 | the baseline-index-measure sequence, the backup plan table |
 | 9 | copperwind_ops: given a shipped dump and a target, write and run the restore, then verify row counts against the plan | C problem-first | `ERROR: relation "tickets" already exists` (restoring a plain dump into a database that is not empty) | Ch 7, Ch 5 | the restore drill steps, the vulnerability ranking table |
-| 10 | sandwash_clinic: given the shipped log excerpt and audit rows, write the queries that establish the breach timeline | C problem-first | Silent bug: a timeline query compares `timestamptz` values to naive strings in the wrong zone and shifts every event by 7 hours (Arizona has no daylight saving). Capture both outputs | Ch 8, Ch 6 | the scope analysis query set, the notification decision table |
+| 10 | sandwash_clinic: given a clinic login suspected of compromise, write the containment that revokes access without destroying evidence, then verify both the containment and the surviving trail (the shipped academy log and audit rows drive Section 10.2 and Skills Lab 10A, not this block) | C problem-first | Silent bug: a timeline query compares `timestamptz` values to naive strings in the wrong zone and shifts every event by 7 hours (Arizona has no daylight saving). Both blocks must `SET TimeZone` explicitly, UTC in the broken one and `America/Phoenix` in the repair, so the bug reproduces on a student machine in any zone. Capture both outputs | Ch 8, Ch 6 | the scope analysis query set, the notification decision table |
 | 11 | harquahala_academy: given the metric list, write the monthly review query set and the baseline comparison | C problem-first | `ERROR: pg_stat_statements must be loaded via "shared_preload_libraries"` (extension created but server not configured) | Ch 9, Ch 7 | the scheduled review script, the benchmark scoring table |
 | 12 | all three: given the plan template, write the evidence queries that fill its architecture, access, and recovery sections | C problem-first | `ERROR: column "t.client_id" must appear in the GROUP BY clause or be used in an aggregate function` (the plan's summary query) | Ch 10, Ch 8 | the evidence query set, the skills matrix |
 
