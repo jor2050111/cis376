@@ -1,0 +1,13 @@
+captured_on,database_name,metric_name,metric_value
+2026-08-01,copperwind_ops,tickets_rows,17960
+2026-08-01,copperwind_ops,open_tickets,198
+2026-08-01,copperwind_ops,ticket_notes_kb,2760
+2026-08-01,copperwind_ops,failed_logins,96
+2026-08-01,copperwind_ops,login_roles,3
+2026-08-01,copperwind_ops,indexes_total,5
+2026-08-01,harquahala_academy,students_rows,793
+2026-08-01,harquahala_academy,enrollments_rows,5940
+2026-08-01,harquahala_academy,directory_opt_outs,44
+2026-08-01,harquahala_academy,portal_accounts_rows,1188
+2026-08-01,harquahala_academy,staff_rows,61
+2026-08-01,harquahala_academy,indexes_total,10

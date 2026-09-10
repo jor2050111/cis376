@@ -42,7 +42,7 @@ logging collector
 :   The background process, enabled with `logging_collector = on`, that captures the server's output and writes it to files in `log_directory`. Its context is `postmaster`, so turning it on needs a restart.
 
 routine
-:   The event classification for an event the auditing plan expects, such as a known account connecting during business hours.
+:   The event classification for an event the auditing plan expects, such as a known account connecting during business hours. Chapter 11 uses the word in its ordinary sense instead, for work done on a schedule. See `routine review`.
 
 server log
 :   The text file PostgreSQL writes as it runs. With the right settings it holds every connection, every failed connection, and whichever statements `log_statement` says to keep.

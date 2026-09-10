@@ -1,0 +1,118 @@
+Execution log: chapter-11.md
+SQL blocks found: 9
+Databases: copperwind_ops, harquahala_academy
+
+--- block 1/9 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+     review_month | login_attempts | failed_attempts | failing_sources 
+    --------------+----------------+-----------------+-----------------
+     2026-06-01   |           5920 |             178 |               6
+     2026-07-01   |           6080 |             379 |               7
+    (2 rows)
+
+--- block 2/9 --- [OK]
+    >>> CREATE SCHEMA IF NOT EXISTS review;
+    CREATE SCHEMA
+    CREATE TABLE
+    CREATE VIEW
+    COPY 12
+    INSERT 0 6
+
+--- block 3/9 --- [OK]
+    >>> SELECT last_month.metric_name,
+       metric_name   | baseline_2026_08_01 | current_2026_09_01 | change 
+    -----------------+---------------------+--------------------+--------
+     failed_logins   |                  96 |                557 |    461
+     indexes_total   |                   5 |                  5 |      0
+     login_roles     |                   3 |                  2 |     -1
+     open_tickets    |                 198 |                226 |     28
+     ticket_notes_kb |                2760 |               2848 |     88
+     tickets_rows    |               17960 |              18240 |    280
+    (6 rows)
+
+--- block 4/9 --- [OK]
+    >>> CREATE TABLE review.approved_access (
+    CREATE TABLE
+    COPY 6
+         role_name      |  table_name  | privilege |   finding    
+    --------------------+--------------+-----------+--------------
+     copperwind_app     | ticket_notes | INSERT    | approved
+     copperwind_app     | ticket_notes | SELECT    | approved
+     copperwind_app     | tickets      | INSERT    | approved
+     copperwind_app     | tickets      | SELECT    | approved
+     copperwind_reports | clients      | SELECT    | approved
+     copperwind_reports | login_events | SELECT    | NOT APPROVED
+     copperwind_reports | technicians  | SELECT    | NOT APPROVED
+     copperwind_reports | ticket_notes | SELECT    | NOT APPROVED
+     copperwind_reports | tickets      | SELECT    | approved
+    (9 rows)
+
+--- block 5/9 --- [OK]
+    >>> SELECT c.relname AS table_name,
+      table_name  | index_count | total_size 
+    --------------+-------------+------------
+     ticket_notes |           1 | 2848 kB
+     tickets      |           1 | 2624 kB
+     login_events |           1 | 1336 kB
+     clients      |           1 | 32 kB
+     technicians  |           1 | 32 kB
+    (5 rows)
+    
+                            QUERY PLAN                        
+    ----------------------------------------------------------
+     Seq Scan on tickets
+       Filter: ((client_id = 12) AND (status = 'Open'::text))
+    (2 rows)
+
+--- block 6/9 --- [OK]
+    >>> WITH benchmark (control_id, setting_name, expected_value) AS (
+     control_id |       setting_name       |   expected_value   | observed_value | score 
+    ------------+--------------------------+--------------------+----------------+-------
+     CW-BM-01   | log_connections          | on                 | off            | FAIL
+     CW-BM-02   | log_statement            | ddl                | none           | FAIL
+     CW-BM-03   | log_line_prefix          | %m [%p] %u@%d %h   | %m [%p]        | FAIL
+     CW-BM-04   | ssl                      | on                 | off            | FAIL
+     CW-BM-05   | password_encryption      | scram-sha-256      | scram-sha-256  | PASS
+     CW-BM-06   | archive_mode             | on                 | off            | FAIL
+     CW-BM-07   | row_security             | on                 | on             | PASS
+     CW-BM-08   | shared_preload_libraries | pg_stat_statements |                | FAIL
+    (8 rows)
+
+--- block 7/9 --- [OK]
+    >>> CREATE VIEW review.control_metrics AS
+    CREATE VIEW
+    INSERT 0 3
+          metric_name       | metric_value 
+    ------------------------+--------------
+     indexes_on_tickets     |            1
+     public_connect_allowed |            1
+     reports_role_tables    |            5
+    (3 rows)
+
+--- block 8/9 --- [OK]
+    >>> REVOKE CONNECT ON DATABASE copperwind_ops FROM PUBLIC;
+    REVOKE
+    GRANT
+    REVOKE
+    GRANT
+    CREATE INDEX
+                                 QUERY PLAN                             
+    --------------------------------------------------------------------
+     Bitmap Heap Scan on tickets
+       Recheck Cond: ((client_id = 12) AND (status = 'Open'::text))
+       ->  Bitmap Index Scan on tickets_client_status_idx
+             Index Cond: ((client_id = 12) AND (status = 'Open'::text))
+    (4 rows)
+
+--- block 9/9 --- [OK]
+    >>> INSERT INTO review.metrics (captured_on, database_name, metric_name, metric_value)
+    INSERT 0 3
+          metric_name       | before_2026_09_01 | after_2026_09_15 | change 
+    ------------------------+-------------------+------------------+--------
+     indexes_on_tickets     |                 1 |                2 |      1
+     public_connect_allowed |                 1 |                0 |     -1
+     reports_role_tables    |                 5 |                2 |     -3
+    (3 rows)
+
+Failures: 0

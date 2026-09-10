@@ -1,11 +1,32 @@
--- Sets up sandwash_clinic, the Sandwash Family Clinic database (HIPAA).
+-- CHAPTER-SPECIFIC: do not regenerate
+-- Sets up sandwash_clinic, the Sandwash Family Clinic database (HIPAA),
+-- in the state Try It Yourself 10.3 starts from: the base tables plus
+-- the front desk lead's login, clinic_gyazzie, which the clinic suspects
+-- is compromised.
 -- Run from the extracted cis376 folder:
 --     psql -U postgres -d postgres -f assets/code/chapter-10/setup-sandwash.sql
--- The script is idempotent: it drops and recreates every table it owns.
+-- The script is idempotent: it drops and recreates every table it owns
+-- and every role whose name starts with clinic_.
 
 SELECT 'CREATE DATABASE sandwash_clinic'
 WHERE NOT EXISTS (SELECT FROM pg_database WHERE datname = 'sandwash_clinic') \gexec
 \connect sandwash_clinic
+
+-- Roles are cluster-wide, so a rerun must remove the chapter's roles
+-- before it recreates them. DROP OWNED BY revokes every privilege a role
+-- holds in this database, which is what otherwise blocks DROP ROLE.
+DO $$
+DECLARE
+  clinic_role text;
+BEGIN
+  FOR clinic_role IN
+    SELECT rolname FROM pg_roles WHERE rolname LIKE 'clinic\_%'
+  LOOP
+    EXECUTE format('DROP OWNED BY %I', clinic_role);
+    EXECUTE format('DROP ROLE %I', clinic_role);
+  END LOOP;
+END
+$$;
 
 DROP TABLE IF EXISTS staff_accounts, visit_notes, appointments, patients, providers CASCADE;
 
@@ -57,3 +78,10 @@ CREATE TABLE staff_accounts (
 \copy staff_accounts FROM 'assets/code/data/sandwash/staff_accounts.csv' WITH (FORMAT csv, HEADER true, NULL '')
 
 ANALYZE;
+
+-- Grace Yazzie leads the front desk. Her login reads the schedule and
+-- the patient directory it needs, and nothing else. Replace the password
+-- on any server that is not a lab copy.
+CREATE ROLE clinic_gyazzie LOGIN
+  PASSWORD 'Sandwash-Ch10-Frontdesk-2026!';
+GRANT SELECT ON providers, patients, appointments TO clinic_gyazzie;

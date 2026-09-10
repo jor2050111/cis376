@@ -80,6 +80,7 @@ to start on macOS.
 
 ```bash
 cd /Users/vega/Documents/code/textbooks && \
+mkdir -p cis376/build && \
 zip -r cis376/build/cis376-data-pack.zip cis376/assets/code \
     -x '*.DS_Store' -x '*__pycache__*' -x 'cis376/assets/code/_generators/*'
 ```
@@ -148,7 +149,13 @@ as the earlier chapter's wording; see the CONFLICT lines from
    already exist (created 2026-09-09 in session 2); every push to
    `main` redeploys https://jor2050111.github.io/cis376/.
 
-### Review notes from wave two (maintainer judgment calls pending)
+### Review notes from wave two (decisions already taken, recorded for review)
+
+These are calls the author made and the reasons for them. None is a
+question for Mr. Vega. A heading that said "pending" cost a session in
+2026-09-10 looking for a decision that did not exist. Anything that
+genuinely needs his ruling goes in "Open questions for Mr. Vega" below,
+and nowhere else.
 
 * Ch 6 is 726 lines. Every configuration change carries its proof, and
   the "after your restart" TLS output sits in `text` fences. The
@@ -172,7 +179,7 @@ as the earlier chapter's wording; see the CONFLICT lines from
   verified only through `SHOW` and `pg_current_wal_lsn()`.
 * Wave-one items below still stand.
 
-### Review notes from wave one (maintainer judgment calls pending)
+### Review notes from wave one (decisions already taken, recorded for review)
 
 * Ch 2 prints the author's `hba_file` path and `trust` rules from the
   development cluster in two verified blocks. The prose says so and
@@ -192,6 +199,15 @@ as the earlier chapter's wording; see the CONFLICT lines from
   its proof query. Trimming means removing evidence. Left as is.
 * Ch 5 setup-sandwash.sql is chapter-specific and marked; the
   generator will not overwrite it.
+
+## Open questions for Mr. Vega
+
+None. All four rulings requested in session 1 were given on 2026-09-09
+and are applied: elevated Bloom's CLO wording in every chapter block,
+educator judgment allowed slightly above the 55 Flesch floor, task list
+id `cis376-spring27`, and the public repo plus Pages deploy.
+
+---
 
 ## Session log
 

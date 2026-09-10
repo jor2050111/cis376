@@ -1,0 +1,99 @@
+Execution log: chapter-12.md
+SQL blocks found: 9
+Databases: copperwind_ops, sandwash_clinic, harquahala_academy
+
+--- block 1/9 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+    CREATE SCHEMA
+    CREATE TABLE
+    INSERT 0 2
+             migration_id         | applied_on |  applied_by   
+    ------------------------------+------------+---------------
+     0007-index-tickets-opened-at | 2026-03-02 | data_services
+     0008-reporting-role          | 2026-04-13 | data_services
+    (2 rows)
+
+--- block 2/9 --- [OK]
+    >>> \connect sandwash_clinic
+    You are now connected to database "sandwash_clinic" as user "postgres".
+       table_name   | classification | row_count |  decides_access   
+    ----------------+----------------+-----------+-------------------
+     providers      | Internal       |        12 | Tomas Reyes
+     appointments   | PHI            |      6000 | Dr. Elena Vasquez
+     patients       | PHI            |       600 | Dr. Elena Vasquez
+     visit_notes    | PHI            |      4486 | Dr. Elena Vasquez
+     staff_accounts | Restricted     |        20 | Naomi Redhouse
+    (5 rows)
+
+--- block 3/9 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+    CREATE INDEX
+    ANALYZE
+                 QUERY PLAN              
+    -------------------------------------
+     Seq Scan on tickets
+       Filter: (status = 'Closed'::text)
+    (2 rows)
+    
+                       QUERY PLAN                   
+    ------------------------------------------------
+     Index Scan using idx_tickets_status on tickets
+       Index Cond: (status = 'Open'::text)
+    (2 rows)
+
+--- block 4/9 --- [OK]
+    >>> SELECT COUNT(*) FILTER (WHERE to_tsvector('english', summary)
+     matches_password | matches_locked_out | accounts_tickets 
+    ------------------+--------------------+------------------
+                  781 |                  0 |             2655
+    (1 row)
+
+--- block 5/9 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+     students_described | distinct_combinations | groups_of_one 
+    --------------------+-----------------------+---------------
+                    800 |                   714 |           638
+    (1 row)
+
+--- block 6/9 --- [OK]
+    >>> WITH candidate (technology, benefit_score, cost_score, risk_score) AS (
+               technology            | benefit_score | cost_score | risk_score | net_score 
+    ---------------------------------+---------------+------------+------------+-----------
+     Managed cloud database          |             4 |          3 |          2 |         3
+     Vector search for ticket triage |             3 |          2 |          3 |         1
+     Confidential computing host     |             2 |          5 |          4 |        -5
+    (3 rows)
+
+--- block 7/9 --- [OK]
+    >>> \connect copperwind_ops
+    You are now connected to database "copperwind_ops" as user "postgres".
+     database_name  | server_version | total_size | table_count 
+    ----------------+----------------+------------+-------------
+     copperwind_ops | 17.11          | 15 MB      |           5
+    (1 row)
+
+--- block 8/9 --- [OK]
+    >>> CREATE ROLE copperwind_reporting NOLOGIN;
+    CREATE ROLE
+    GRANT
+           grantee        | table_name | privilege_type 
+    ----------------------+------------+----------------
+     copperwind_reporting | clients    | SELECT
+     copperwind_reporting | tickets    | SELECT
+    (2 rows)
+
+--- block 9/9 --- [OK]
+    >>> SELECT c.sector,
+       sector   | ticket_count | client_count 
+    ------------+--------------+--------------
+     Retail     |         4170 |            9
+     Healthcare |         4124 |            9
+     Nonprofit  |         4084 |            9
+     Education  |         3208 |            7
+     Legal      |         2654 |            6
+    (5 rows)
+
+Failures: 0

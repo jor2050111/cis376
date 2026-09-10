@@ -1,0 +1,105 @@
+Execution log: chapter-10.md
+SQL blocks found: 8
+Databases: sandwash_clinic, harquahala_academy
+
+--- block 1/8 --- [OK]
+    >>> \connect harquahala_academy
+    You are now connected to database "harquahala_academy" as user "postgres".
+    SET
+    DROP TABLE
+    CREATE TABLE
+    COPY 141
+     audit_rows |      first_change      |      last_change       
+    ------------+------------------------+------------------------
+            141 | 2026-08-13 03:43:10-07 | 2026-09-01 17:42:01-07
+    (1 row)
+
+--- block 2/8 --- [OK]
+    >>> DROP TABLE IF EXISTS server_log_raw, server_log;
+    DROP TABLE
+    CREATE TABLE
+    COPY 301
+    SELECT 301
+     severity | log_lines |       first_line       |       last_line        
+    ----------+-----------+------------------------+------------------------
+     FATAL    |        35 | 2026-09-02 23:48:00-07 | 2026-09-02 23:53:06-07
+     LOG      |       266 | 2026-09-02 07:04:50-07 | 2026-09-03 02:15:29-07
+    (2 rows)
+
+--- block 3/8 --- [OK]
+    >>> SELECT role_name,
+        role_name    | failed_logins |     first_attempt      |      last_attempt      | seconds_apart 
+    -----------------+---------------+------------------------+------------------------+---------------
+     academy_reports |            35 | 2026-09-02 23:48:00-07 | 2026-09-02 23:53:06-07 |             9
+    (1 row)
+    
+      pid  | source_address |     session_start      |      session_end       | statements_run 
+    -------+----------------+------------------------+------------------------+----------------
+     51296 | 198.51.100.23  | 2026-09-03 02:09:41-07 | 2026-09-03 02:15:29-07 |              3
+    (1 row)
+    
+     at_time  | action |       first_source        |                      columns_named                       
+    ----------+--------+---------------------------+----------------------------------------------------------
+     02:10:53 | read   | information_schema.tables | table_name
+     02:13:11 | export | guardians                 | full_name, phone, email
+     02:13:43 | export | students                  | s.first_name, s.last_name, s.date_of_birth, g.term_grade
+    (3 rows)
+
+--- block 4/8 --- [OK]
+    >>> SELECT changed_at, db_user, table_name, operation, row_summary
+           changed_at       |  db_user   | table_name | operation |                          row_summary                           
+    ------------------------+------------+------------+-----------+----------------------------------------------------------------
+     2026-08-30 15:00:00-07 | dwhitfield | pg_authid  | GRANT     | GRANT SELECT ON ALL TABLES IN SCHEMA public TO academy_reports
+    (1 row)
+    
+          occurred_at       |   source    |                      event                       
+    ------------------------+-------------+--------------------------------------------------
+     2026-08-30 15:00:00-07 | audit trail | SELECT on every table granted to academy_reports
+     2026-09-02 23:48:00-07 | server log  | 35 failed logins for academy_reports
+     2026-09-03 02:09:41-07 | server log  | session opened from 198.51.100.23
+     2026-09-03 02:10:53-07 | server log  | table list read
+     2026-09-03 02:13:11-07 | server log  | export from guardians
+     2026-09-03 02:13:43-07 | server log  | export from students
+     2026-09-03 02:15:29-07 | server log  | session closed
+    (7 rows)
+
+--- block 5/8 --- [OK]
+    >>> SET TimeZone = 'America/Phoenix';
+    SET
+       report_zone   | events_in_window | failed_logins |      first_event       |       last_event       
+    -----------------+------------------+---------------+------------------------+------------------------
+     America/Phoenix |               41 |            35 | 2026-09-02 23:48:00-07 | 2026-09-03 02:15:29-07
+    (1 row)
+
+--- block 6/8 --- [OK]
+    >>> WITH incident AS (
+     authority |                notify                 |          deadline          |    citation     | triggered 
+    -----------+---------------------------------------+----------------------------+-----------------+-----------
+     FERPA     | record the disclosure for the student | at the time of disclosure  | 34 CFR 99.32    | t
+     Arizona   | individuals and the Attorney General  | 45 days from determination | A.R.S. 18-552   | f
+     GDPR      | the supervisory authority             | 72 hours from awareness    | GDPR Article 33 | f
+     HIPAA     | individuals, HHS, media above 500     | 60 days from discovery     | 45 CFR 164.404  | f
+    (4 rows)
+
+--- block 7/8 --- [OK]
+    >>> SELECT COUNT(*) FILTER (WHERE message ~ '^statement: (INSERT|UPDATE|DELETE|ALTER|DROP)')
+     write_statements | statements_logged 
+    ------------------+-------------------
+                    0 |                 3
+    (1 row)
+    
+     trail_rows_by_reporting_role 
+    ------------------------------
+                                0
+    (1 row)
+
+--- block 8/8 --- [OK]
+    >>> REVOKE SELECT ON ALL TABLES IN SCHEMA public FROM academy_reports;
+    REVOKE
+        role_name    | can_log_in | table_privileges 
+    -----------------+------------+------------------
+     academy_app     | t          |                9
+     academy_reports | t          |                0
+    (2 rows)
+
+Failures: 0

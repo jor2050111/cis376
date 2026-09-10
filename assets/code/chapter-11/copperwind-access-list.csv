@@ -1,0 +1,7 @@
+role_name,table_name,privilege
+copperwind_app,tickets,SELECT
+copperwind_app,tickets,INSERT
+copperwind_app,ticket_notes,SELECT
+copperwind_app,ticket_notes,INSERT
+copperwind_reports,clients,SELECT
+copperwind_reports,tickets,SELECT
