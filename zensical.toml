@@ -27,6 +27,8 @@ copyright = "Copyright &copy; 2026 Jorge Vega, Phoenix College. All rights reser
 # colors.css defines the design tokens (source of truth). brand.css maps
 # them to Zensical theme vars. Never hand-edit the synced copies here.
 extra_css = ["stylesheets/colors.css", "stylesheets/brand.css"]
+# Accessibility repairs for the theme (synced from ../shared/javascripts/).
+extra_javascript = ["javascripts/a11y.js"]
 
 # Explicit navigation mirrors the Part structure of the course.
 nav = [

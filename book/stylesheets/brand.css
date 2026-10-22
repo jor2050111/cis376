@@ -137,6 +137,31 @@
 .md-footer a:hover {
   color: var(--text-on-dark-strong);
 }
+/* The modern theme paints the copyright links (the license deed, the
+   "Made with" link) with the page link color, which is navy on the navy
+   footer: 1.28:1, a WCAG failure axe reported on every page of every book
+   (2026-07 and 2026-10-22 evaluations). The theme's rule is
+   "html .md-footer-meta.md-typeset a:not(:focus, :hover)" (0,3,2), so
+   these selectors are written at 0,4,2 to win in both schemes. */
+html .md-footer .md-footer-meta.md-typeset a,
+html .md-footer .md-footer-meta.md-typeset .md-copyright,
+html .md-footer .md-footer-meta.md-typeset .md-copyright__highlight {
+  color: var(--text-on-dark-strong);                 /* 14+:1 on navy 900 */
+}
+html .md-footer .md-footer-meta.md-typeset a:hover,
+html .md-footer .md-footer-meta.md-typeset a:focus {
+  color: var(--phoenix-gold);
+  text-decoration: underline;
+}
+
+/* 4b. Keyboard access added by javascripts/a11y.js ---------------------- */
+/* a11y.js makes wide-table scroll regions and the header's label buttons
+   focusable. These rules give them a visible focus ring. */
+.md-typeset__scrollwrap:focus-visible,
+.md-header__button[role="button"]:focus-visible {
+  outline: 3px solid var(--phoenix-gold);
+  outline-offset: 2px;
+}
 
 /* 5. Headings -- Twilight Blue (light), Phoenix Gold (dark) -------------- */
 /* h4-h6 included so the slate palette cannot force them white and the two
@@ -183,6 +208,20 @@
    the stronger edge; the pre > code rule above wins on specificity. */
 [data-md-color-scheme="default"] .md-typeset code {
   border: 0.05rem solid var(--border-subtle);
+}
+
+/* 7b. Links on tinted surfaces ------------------------------------------ */
+/* Canvas Blue (#0374b5) reaches 5.0:1 on white but only 4.1:1 on the tinted
+   admonition bodies, which axe flagged (2026-10-22). Inside admonitions and
+   details, light scheme, links use the darker Canvas Blue hover tone
+   (6.0:1 on the tint) and hover to navy 700. */
+[data-md-color-scheme="default"] .md-typeset .admonition a:not(.md-button),
+[data-md-color-scheme="default"] .md-typeset details a:not(.md-button) {
+  color: var(--canvas-blue-hover);
+}
+[data-md-color-scheme="default"] .md-typeset .admonition a:not(.md-button):hover,
+[data-md-color-scheme="default"] .md-typeset details a:not(.md-button):hover {
+  color: var(--navy-700);
 }
 
 /* 8. Admonitions --------------------------------------------------------- */
